@@ -33,17 +33,6 @@
     
     
     <entry>
-      <title>分类index</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>关于about</title>
       <link href="/about/index.html"/>
       <url>/about/index.html</url>
@@ -66,6 +55,17 @@
     
     
     <entry>
+      <title>音乐music</title>
+      <link href="/music/index.html"/>
+      <url>/music/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>电影movie</title>
       <link href="/movie/index.html"/>
       <url>/movie/index.html</url>
@@ -77,9 +77,9 @@
     
     
     <entry>
-      <title>tags</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
+      <title>分类index</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -88,9 +88,9 @@
     
     
     <entry>
-      <title>音乐music</title>
-      <link href="/music/index.html"/>
-      <url>/music/index.html</url>
+      <title>tags</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
