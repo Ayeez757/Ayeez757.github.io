@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>Hello my blog 用于测试代码效果</title>
+      <link href="/2025/09/15/Hello%20myBlog%20%E7%94%A8%E4%BA%8E%E6%B5%8B%E8%AF%95%E4%BB%A3%E7%A0%81/"/>
+      <url>/2025/09/15/Hello%20myBlog%20%E7%94%A8%E4%BA%8E%E6%B5%8B%E8%AF%95%E4%BB%A3%E7%A0%81/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Hello-my-blog-用于测试代码效果"><a href="#Hello-my-blog-用于测试代码效果" class="headerlink" title="Hello my blog 用于测试代码效果"></a>Hello my blog 用于测试代码效果</h1><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">helloMyBlog</span>&#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        <span class="comment">//打印</span></span><br><span class="line">        System.out.println(<span class="string">&quot;Hello my blog!!!!&quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello my blog!!!!&quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello my blog!!!!&quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello my blog!!!!&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>第一篇文章(测试)</title>
+      <link href="/2025/09/14/2025-9-14%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0test/"/>
+      <url>/2025/09/14/2025-9-14%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0test/</url>
+      
+        <content type="html"><![CDATA[<h2 id="这是我的第一篇文章"><a href="#这是我的第一篇文章" class="headerlink" title="这是我的第一篇文章"></a>这是我的第一篇文章</h2>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+    
+    
+    <entry>
+      <title></title>
+      <link href="/css/suiyi.css"/>
+      <url>/css/suiyi.css</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>link</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>关于about</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>电影movie</title>
+      <link href="/movie/index.html"/>
+      <url>/movie/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>音乐music</title>
+      <link href="/music/index.html"/>
+      <url>/music/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>tags</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+  
+</search>
