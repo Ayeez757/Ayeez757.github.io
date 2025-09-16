@@ -3,7 +3,7 @@
     margin-bottom: 0 !important;
 }
 #post-comment .utterances {
-    min-height: 300px;
+    min-height: 100px;
     width: 100% !important;
 }
 #post-comment iframe.utterances-frame {
