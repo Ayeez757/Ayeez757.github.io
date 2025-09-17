@@ -90,6 +90,17 @@
     
     
     <entry>
+      <title>分类categories</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>关于about</title>
       <link href="/about/index.html"/>
       <url>/about/index.html</url>
@@ -104,6 +115,28 @@
       <title>留言板 comments</title>
       <link href="/comments/old_index.html"/>
       <url>/comments/old_index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>电影movie</title>
+      <link href="/movie/index.html"/>
+      <url>/movie/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>音乐music</title>
+      <link href="/music/index.html"/>
+      <url>/music/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -134,9 +167,9 @@
     
     
     <entry>
-      <title></title>
-      <link href="/css/suiyi.css"/>
-      <url>/css/suiyi.css</url>
+      <title>tags</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -145,9 +178,9 @@
     
     
     <entry>
-      <title>分类categories</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
+      <title></title>
+      <link href="/css/suiyi.css"/>
+      <url>/css/suiyi.css</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -167,44 +200,11 @@
     
     
     <entry>
-      <title>电影movie</title>
-      <link href="/movie/index.html"/>
-      <url>/movie/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title></title>
       <link href="/comments/css/styles.css"/>
       <url>/comments/css/styles.css</url>
       
         <content type="html"><![CDATA[/* 修复Utterances评论框不显示的问题 */#post-comment .comment-head {    margin-bottom: 0 !important;}#post-comment .utterances {    min-height: 100px;    width: 100% !important;}#post-comment iframe.utterances-frame {    width: 100% !important;    height: 100% !important;    min-height: 300px;    border: none;    display: block;}]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>音乐music</title>
-      <link href="/music/index.html"/>
-      <url>/music/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>tags</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
