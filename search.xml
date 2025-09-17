@@ -11,6 +11,22 @@
         <content type="html"><![CDATA[<h1 id="Hello-my-blog-用于测试代码效果"><a href="#Hello-my-blog-用于测试代码效果" class="headerlink" title="Hello my blog 用于测试代码效果"></a>Hello my blog 用于测试代码效果</h1><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">helloMyBlog</span>&#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        <span class="comment">//打印</span></span><br><span class="line">        System.out.println(<span class="string">&quot;Hello my blog!!!!&quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello my blog!!!!&quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello my blog!!!!&quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello my blog!!!!&quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello my blog!!!!&quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello my blog!!!!&quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello my blog!!!!&quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello my blog!!!!&quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello my blog!!!!&quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello my blog!!!!&quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello my blog!!!!&quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello my blog!!!!&quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello my blog!!!!&quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello my blog!!!!&quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello my blog!!!!&quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello my blog!!!!&quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello my blog!!!!&quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello my blog!!!!&quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello my blog!!!!&quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello my blog!!!!&quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello my blog!!!!&quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello my blog!!!!&quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello my blog!!!!&quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello my blog!!!!&quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello my blog!!!!&quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello my blog!!!!&quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello my blog!!!!&quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello my blog!!!!&quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello my blog!!!!&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
       
       
+      <categories>
+          
+          <category> test </category>
+          
+          <category> java </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> test </tag>
+            
+            <tag> java </tag>
+            
+        </tags>
       
     </entry>
     
@@ -24,6 +40,18 @@
         <content type="html"><![CDATA[<h2 id="这是我的第一篇文章"><a href="#这是我的第一篇文章" class="headerlink" title="这是我的第一篇文章"></a>这是我的第一篇文章</h2>]]></content>
       
       
+      <categories>
+          
+          <category> test </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> test </tag>
+            
+        </tags>
       
     </entry>
     
@@ -37,23 +65,28 @@
         <content type="html"><![CDATA[<h1 id="25级软件工程大一学生个人计算机学习历程"><a href="#25级软件工程大一学生个人计算机学习历程" class="headerlink" title="25级软件工程大一学生个人计算机学习历程"></a>25级软件工程大一学生个人计算机学习历程</h1><p>一个25级大一的软件工程新生，对计算机感兴趣，对未来有规划并且有一定的执行力，但是由于自己的认知仍然有限，我会一边执行计划，一边对未来的计划进行修改。</p><h3 id="写这个博客的目的"><a href="#写这个博客的目的" class="headerlink" title="写这个博客的目的"></a>写这个博客的目的</h3><ul><li>一是希望大家看到我的博客后，如果对我的学习或者其他未来规划有什么建议，可以对我提出，我会十分感激。</li><li>二是希望能将自己日后的学习历程进行总结规划。</li><li>三是希望我的博客可以帮助到大家，希望后来的学弟学妹们在感到些许迷茫的时候，看到我的博客可以有所收获。</li></ul><h3 id="个人学历及专业情况"><a href="#个人学历及专业情况" class="headerlink" title="个人学历及专业情况"></a>个人学历及专业情况</h3><p>高考失利，一个二本院校(但是经过几天的相处，我很喜欢这个学校)，所在院校为广东金融学院，所在院系为大数据与人工智能学院，所在专业为软件工程。</p><h3 id="学习情况"><a href="#学习情况" class="headerlink" title="学习情况"></a>学习情况</h3><p>目前为刚刚开学的状态，还没有发教材，没有选课，没有上过正课，只是刚刚开完新生大会，但是由于自己的兴趣爱好，在高一的时候就自学Java基础，过完了一门语言的基础，并且将python作为自己的工具在使用中。但是当时由于是爱好，学习的程度不深，不足挂齿。现在软件工程成为了自己的专业后，正在重新过一遍Java基础(大部分时间)，并同时在学习高数(一点时间)，以及过四级词汇(一点时间)，虽然学习的内容暂且十分少，但是开学到现在的几天时间都花了大量的时间在图书馆学习，相信自己很快能把进度提上来</p><h3 id="后续计划"><a href="#后续计划" class="headerlink" title="后续计划"></a>后续计划</h3><ul><li>学习公共课内容，如大英高数和大物</li><li>学习完Java基础后学习Javaweb，mysql，springboot等技术。</li><li>一边学习的过程一边做一些练习的项目，可以学习前人做过的项目来练手，可以发挥自己的想法自己做一些实用性或者娱乐性的项目，哪怕不堪入目。或许我能在巩固知识的同时收获些许启发</li></ul><h3 id="更长远的规划"><a href="#更长远的规划" class="headerlink" title="更长远的规划"></a>更长远的规划</h3><p>目前来看，我还存在一些困惑，想考研走人工智能的方向，但是又怕自己的学历层次不够高，资源不足以支撑我这么走下去，想走开发岗又觉得不太甘心。目前的打算仍然是考研。据我了解，考研和实习其实在一定程度上不是冲突的，我打算两个都干，所以我得在大一大二把握好时间，多充实自己的学习，争取在大一大二学习更多的内容。</p><h1 id="PersonalComputerLearningExperience"><a href="#PersonalComputerLearningExperience" class="headerlink" title="PersonalComputerLearningExperience"></a>PersonalComputerLearningExperience</h1><p>As a freshman in software engineering of the 25th grade,I am interested in computers,have plans for the future and possess certain execution ability.However,due to my limited understanding,I will carry out the plan while modifying the future plan.</p><h3 id="The-purpose-of-writing-this-blog"><a href="#The-purpose-of-writing-this-blog" class="headerlink" title="The purpose of writing this blog"></a>The purpose of writing this blog</h3><ul><li>First of all,I hope that after you read my blog,if you hava any suggestions for my study or other future plans,you can put them forward to me.I would be very grateful.</li><li>Secondly,I hope to summarize and plan my future learning journey.</li><li>Thirdly,I hope my blog can be of help to everyone.I hope that when the younger students feel a little confused later on,they can gain something from my blog.</li></ul><h3 id="Personal-educational-background-and-major-information"><a href="#Personal-educational-background-and-major-information" class="headerlink" title="Personal educational background and major information"></a>Personal educational background and major information</h3><p>I failed the college entrance examination.I went to a second-tier university,Guangdong University Of Finance ,and my department was the School of Big Data and Artificial Intelligence.My major was Software Engineering.</p><h3 id="Learning-situation"><a href="#Learning-situation" class="headerlink" title="Learning situation"></a>Learning situation</h3><p>At present,it is just the beginning of the school term.No textbooks have been distributed yet,no courses have been selected,and no regular classes have been attended.Only the freshmen meeting was just held.However,due to my own interests and hobbies,I started to teach myself the basics of Java in my first year of high school.I have passed the basics of a language and am currently using python as my tool.But at that time,since it was just a hobby,I didn<code>t study it deeply enough and it was not worth mentioning.Now that software engineering has become my major,I am going over the basics of Java again(most of the time),and at the same time,I</code>m learning advanced mathematics(for a little time)and passing the vocabulary test for CET-4(for a little time).Although the content I am learning is very limited for the time being,I have spent a lot of time in the library studying in the few days since the start of the term.I believe I can catch up with the progress very soon</p><h3 id="Follow-up-plans"><a href="#Follow-up-plans" class="headerlink" title="Follow-up plans"></a>Follow-up plans</h3><ul><li>Study public course contents such as English Advanced Mathematics and Physics.</li><li>After learning the basics of Java,I will study technologies such as mysql,javaweb,springboot and so on.</li><li>While learning,I can also do some practice projects.I can learn from the projedts that predecessors have done to practice your skills,or I can use my own ideas to do some practical or entertaining projects,even if they are unappealing.Perhaps I can gain some inspiration while consolidating my knowledge</li></ul><h3 id="Longer-term-planning"><a href="#Longer-term-planning" class="headerlink" title="Longer-term planning"></a>Longer-term planning</h3><p>At present,I still have some confusion.I want to take the postgraduate entrance examination in the direction of arificial intelligence,but I&#96;m afraid that my educational level is not high enough and the resources are insufficient to support me to go this way.I also want to take the development position,but I feel reluctant.My current plan is still to take the postgraduate entrance examination.As far as I know,taking the postgraduate entrance examination and doing an internship are not in conflict to a certain extent.I plan to do both,so I need to make good use of my time during my first two years of college,enrich my studies,and strive to learn more content during my first two years.</p><p>(ps:上面英文为机翻手抄，只是因为我假期脱离了英语环境，现在语感不咋地，今早刷了一下GitHub看的有点难受，所以手抄了一下英文，估计也不会有歪果仁看到。我感觉最合适在GitHub的时间不是现在大一刚开学，毕竟还没拿出什么成果，没有任何说服力，我选择在这个时候发布还有一些其他的目的，比如说学学GitHub咋用……emmmmm就这么多，我以后会一周进行一次总结。)<br>特别感谢：wpz学长，一位姓欧的学长，yjw学长，知乎上名为“爱敲代码的小趴菜”的学长，感谢以上学长对我的帮助。</p>]]></content>
       
       
+      <categories>
+          
+          <category> 计算机学习历程 </category>
+          
+          <category> 学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 计算机学习历程 </tag>
+            
+            <tag> 学习 </tag>
+            
+        </tags>
       
     </entry>
     
     
   
   
-    
-    
-    <entry>
-      <title>关于about</title>
-      <link href="/about/index.html"/>
-      <url>/about/index.html</url>
-      
-        <content type="html"><![CDATA[<h2 id="关于我"><a href="#关于我" class="headerlink" title="关于我"></a>关于我</h2><ul><li>25级软件工程在读大学生(大一)</li><li>热爱计算机，记录自己的学习历程</li><li>喜欢瞎折腾的小趴菜，有众多自己的业余爱好</li><li>例如：画画，弹钢琴，做饭，中长跑，排球，骑行，国际象棋，魔方，摄影，手工木作等</li><li>IP:广东</li></ul><h2 id="关于我的个人网站"><a href="#关于我的个人网站" class="headerlink" title="关于我的个人网站"></a>关于我的个人网站</h2><p>作者在开始捣鼓这个个人网站的时候才大一刚开学第二周，并没有学习前端，web等知识，在网上苦苦寻找教程，依葫芦画瓢地折腾着，导致网站并不完善，这也加重了作者急切想要学习的心情<br>等后续作者学习了相关知识，会好好地整理这个网站。 -2025.9.15 1:24</p>]]></content>
-      
-    </entry>
-    
     
     
     <entry>
@@ -68,9 +101,42 @@
     
     
     <entry>
-      <title>link</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
+      <title>关于about</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="关于我"><a href="#关于我" class="headerlink" title="关于我"></a>关于我</h2><ul><li>25级软件工程在读大学生(大一)</li><li>热爱计算机，记录自己的学习历程</li><li>喜欢瞎折腾的小趴菜，有众多自己的业余爱好</li><li>例如：画画，弹钢琴，做饭，中长跑，排球，骑行，国际象棋，魔方，摄影，手工木作等</li><li>IP:广东</li></ul><h2 id="关于我的个人网站"><a href="#关于我的个人网站" class="headerlink" title="关于我的个人网站"></a>关于我的个人网站</h2><p>作者在开始捣鼓这个个人网站的时候才大一刚开学第二周，并没有学习前端，web等知识，在网上苦苦寻找教程，依葫芦画瓢地折腾着，导致网站并不完善，这也加重了作者急切想要学习的心情<br>等后续作者学习了相关知识，会好好地整理这个网站。 -2025.9.15 1:24</p>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>留言板</title>
+      <link href="/comments/index.html"/>
+      <url>/comments/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>分类categories</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>留言板 comments</title>
+      <link href="/comments/old_index.html"/>
+      <url>/comments/old_index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -90,20 +156,9 @@
     
     
     <entry>
-      <title>分类index</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>tags</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
+      <title></title>
+      <link href="/css/suiyi.css"/>
+      <url>/css/suiyi.css</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -123,9 +178,9 @@
     
     
     <entry>
-      <title></title>
-      <link href="/css/suiyi.css"/>
-      <url>/css/suiyi.css</url>
+      <title>link</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -134,20 +189,9 @@
     
     
     <entry>
-      <title>留言板</title>
-      <link href="/comments/index.html"/>
-      <url>/comments/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>留言板 comments</title>
-      <link href="/comments/old_index.html"/>
-      <url>/comments/old_index.html</url>
+      <title>tags</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
