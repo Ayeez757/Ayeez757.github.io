@@ -101,28 +101,6 @@
     
     
     <entry>
-      <title>留言板 comments</title>
-      <link href="/comments/old_index.html"/>
-      <url>/comments/old_index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>分类categories</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>留言板</title>
       <link href="/comments/index.html"/>
       <url>/comments/index.html</url>
@@ -134,9 +112,9 @@
     
     
     <entry>
-      <title>link</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
+      <title>留言板 comments</title>
+      <link href="/comments/old_index.html"/>
+      <url>/comments/old_index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -156,6 +134,17 @@
     
     
     <entry>
+      <title>分类categories</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>电影movie</title>
       <link href="/movie/index.html"/>
       <url>/movie/index.html</url>
@@ -167,9 +156,20 @@
     
     
     <entry>
-      <title></title>
-      <link href="/css/suiyi.css"/>
-      <url>/css/suiyi.css</url>
+      <title>tags</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>link</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -189,9 +189,9 @@
     
     
     <entry>
-      <title>tags</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
+      <title></title>
+      <link href="/css/suiyi.css"/>
+      <url>/css/suiyi.css</url>
       
         <content type="html"><![CDATA[]]></content>
       
