@@ -90,17 +90,6 @@
     
     
     <entry>
-      <title>分类categories</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>关于about</title>
       <link href="/about/index.html"/>
       <url>/about/index.html</url>
@@ -123,20 +112,9 @@
     
     
     <entry>
-      <title>电影movie</title>
-      <link href="/movie/index.html"/>
-      <url>/movie/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>音乐music</title>
-      <link href="/music/index.html"/>
-      <url>/music/index.html</url>
+      <title>分类categories</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -156,6 +134,17 @@
     
     
     <entry>
+      <title>link</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title></title>
       <link href="/css/styles.css"/>
       <url>/css/styles.css</url>
@@ -167,9 +156,9 @@
     
     
     <entry>
-      <title>tags</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
+      <title>电影movie</title>
+      <link href="/movie/index.html"/>
+      <url>/movie/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -189,9 +178,20 @@
     
     
     <entry>
-      <title>link</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
+      <title>音乐music</title>
+      <link href="/music/index.html"/>
+      <url>/music/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>tags</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
