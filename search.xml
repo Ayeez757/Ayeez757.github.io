@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>画画记录</title>
+      <link href="/2025/09/18/%E7%94%BB%E7%94%BB%E8%AE%B0%E5%BD%95/"/>
+      <url>/2025/09/18/%E7%94%BB%E7%94%BB%E8%AE%B0%E5%BD%95/</url>
+      
+        <content type="html"><![CDATA[<h1 id="画画记录"><a href="#画画记录" class="headerlink" title="画画记录"></a>画画记录</h1><h3 id="阿尔托莉雅·潘德拉贡saber"><a href="#阿尔托莉雅·潘德拉贡saber" class="headerlink" title="阿尔托莉雅·潘德拉贡saber"></a>阿尔托莉雅·潘德拉贡saber</h3><p><video scr="blog-demo/source/video/darwSaber 1.mp4" controls width="100%"></video></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 画画 </category>
+          
+          <category> 视频 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 画画 </tag>
+            
+            <tag> 视频 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello my blog 用于测试代码效果</title>
       <link href="/2025/09/15/Hello%20myBlog%20%E7%94%A8%E4%BA%8E%E6%B5%8B%E8%AF%95%E4%BB%A3%E7%A0%81/"/>
       <url>/2025/09/15/Hello%20myBlog%20%E7%94%A8%E4%BA%8E%E6%B5%8B%E8%AF%95%E4%BB%A3%E7%A0%81/</url>
@@ -101,9 +130,20 @@
     
     
     <entry>
-      <title>分类categories</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
+      <title></title>
+      <link href="/css/styles.css"/>
+      <url>/css/styles.css</url>
+      
+        <content type="html"><![CDATA[/* 修复Utterances评论框不显示的问题 */#post-comment .comment-head {    margin-bottom: 0 !important;}#post-comment .utterances {    min-height: 100px;    width: 100% !important;}#post-comment iframe.utterances-frame {    width: 100% !important;    height: 100% !important;    min-height: 300px;    border: none;    display: block;}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>音乐music</title>
+      <link href="/music/index.html"/>
+      <url>/music/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -112,11 +152,11 @@
     
     
     <entry>
-      <title></title>
-      <link href="/css/styles.css"/>
-      <url>/css/styles.css</url>
+      <title>分类categories</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
       
-        <content type="html"><![CDATA[/* 修复Utterances评论框不显示的问题 */#post-comment .comment-head {    margin-bottom: 0 !important;}#post-comment .utterances {    min-height: 100px;    width: 100% !important;}#post-comment iframe.utterances-frame {    width: 100% !important;    height: 100% !important;    min-height: 300px;    border: none;    display: block;}]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
@@ -145,20 +185,9 @@
     
     
     <entry>
-      <title>电影movie</title>
-      <link href="/movie/index.html"/>
-      <url>/movie/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>tags</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
+      <title></title>
+      <link href="/css/suiyi.css"/>
+      <url>/css/suiyi.css</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -178,9 +207,9 @@
     
     
     <entry>
-      <title>音乐music</title>
-      <link href="/music/index.html"/>
-      <url>/music/index.html</url>
+      <title>电影movie</title>
+      <link href="/movie/index.html"/>
+      <url>/movie/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -200,9 +229,9 @@
     
     
     <entry>
-      <title></title>
-      <link href="/css/suiyi.css"/>
-      <url>/css/suiyi.css</url>
+      <title>tags</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
