@@ -4,6 +4,27 @@
   
     
     <entry>
+      <title>大一软工第四周学习总结（正课第二周）</title>
+      <link href="/2025/09/28/%E5%A4%A7%E4%B8%80%E8%BD%AF%E5%B7%A5%E7%AC%AC%E5%9B%9B%E5%91%A8%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93%EF%BC%88%E6%AD%A3%E8%AF%BE%E7%AC%AC%E4%BA%8C%E5%91%A8%EF%BC%89/"/>
+      <url>/2025/09/28/%E5%A4%A7%E4%B8%80%E8%BD%AF%E5%B7%A5%E7%AC%AC%E5%9B%9B%E5%91%A8%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93%EF%BC%88%E6%AD%A3%E8%AF%BE%E7%AC%AC%E4%BA%8C%E5%91%A8%EF%BC%89/</url>
+      
+        <content type="html"><![CDATA[<h1 id="大一软工第四周学习总结（正课第二周）"><a href="#大一软工第四周学习总结（正课第二周）" class="headerlink" title="大一软工第四周学习总结（正课第二周）"></a>大一软工第四周学习总结（正课第二周）</h1><h3 id="正课内容"><a href="#正课内容" class="headerlink" title="正课内容"></a>正课内容</h3><p>高数课：</p><ul><li>无穷小和无穷大</li><li>极限运算法则</li><li>极限存在准则</li><li>两个重要极限</li><li>无穷小的比较</li><li>函数的连续性和间断点<br>计算机导论：一些python基础代码，上机课就自己敲<br>程序设计基础：一些c语言基础代码，上机课就自己敲，有些简单算法题写了些<br>这周课程内容已经步入正轨了，只是刚开始学，内容非常简单。</li></ul><h3 id="课外内容"><a href="#课外内容" class="headerlink" title="课外内容"></a>课外内容</h3><ul><li>继续复习Java基础，学习了面向对象相关知识：<ul><li>static</li><li>继承</li><li>多态</li><li>包</li><li>final</li><li>权限修饰符</li><li>代码块</li><li>抽象类</li><li>接口</li><li>内部类</li></ul></li><li>每天都听了一些英语听力</li><li>一个朋友推荐了计算机导论的cs50课程，我其他东西学累了就看看，感觉很有意思</li></ul><h3 id="总结与想法"><a href="#总结与想法" class="headerlink" title="总结与想法"></a>总结与想法</h3><p>我的学习和生活的节奏稳定了下来，学习效率变高了</p><h3 id="后续计划"><a href="#后续计划" class="headerlink" title="后续计划"></a>后续计划</h3><p>我们学校有ACM校队和爪哇部落算法部招新，考核有五轮，但是要求c++，我有意愿想要加入，所以打算阶段性的中断我的Java学习计划，同步搞一下c&#x2F;c++和算法。<br>招新那边的学长学姐推荐了一本书，C语言慕课版的。<br>好在只是计划有点中断，并没有打乱，后续我任然打算在下个学期开始前学完Java大部分的技术栈</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 计算机学习历程 </category>
+          
+          <category> 学习 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>大一软工第三周学习总结（正课第一周）</title>
       <link href="/2025/09/20/%E5%A4%A7%E4%B8%80%E8%BD%AF%E5%B7%A5%E7%AC%AC%E4%B8%89%E5%91%A8%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93%EF%BC%88%E6%AD%A3%E8%AF%BE%E7%AC%AC%E4%B8%80%E5%91%A8%EF%BC%89/"/>
       <url>/2025/09/20/%E5%A4%A7%E4%B8%80%E8%BD%AF%E5%B7%A5%E7%AC%AC%E4%B8%89%E5%91%A8%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93%EF%BC%88%E6%AD%A3%E8%AF%BE%E7%AC%AC%E4%B8%80%E5%91%A8%EF%BC%89/</url>
@@ -46,60 +67,6 @@
             <tag> 画画 </tag>
             
             <tag> 视频 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello my blog 用于测试代码效果</title>
-      <link href="/2025/09/15/Hello%20myBlog%20%E7%94%A8%E4%BA%8E%E6%B5%8B%E8%AF%95%E4%BB%A3%E7%A0%81/"/>
-      <url>/2025/09/15/Hello%20myBlog%20%E7%94%A8%E4%BA%8E%E6%B5%8B%E8%AF%95%E4%BB%A3%E7%A0%81/</url>
-      
-        <content type="html"><![CDATA[<h1 id="Hello-my-blog-用于测试代码效果"><a href="#Hello-my-blog-用于测试代码效果" class="headerlink" title="Hello my blog 用于测试代码效果"></a>Hello my blog 用于测试代码效果</h1><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">helloMyBlog</span>&#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        <span class="comment">//打印</span></span><br><span class="line">        System.out.println(<span class="string">&quot;Hello my blog!!!!&quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello my blog!!!!&quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello my blog!!!!&quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello my blog!!!!&quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello my blog!!!!&quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello my blog!!!!&quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello my blog!!!!&quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello my blog!!!!&quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello my blog!!!!&quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello my blog!!!!&quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello my blog!!!!&quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello my blog!!!!&quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello my blog!!!!&quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello my blog!!!!&quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello my blog!!!!&quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello my blog!!!!&quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello my blog!!!!&quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello my blog!!!!&quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello my blog!!!!&quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello my blog!!!!&quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello my blog!!!!&quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello my blog!!!!&quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello my blog!!!!&quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello my blog!!!!&quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello my blog!!!!&quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello my blog!!!!&quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello my blog!!!!&quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello my blog!!!!&quot;</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello my blog!!!!&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
-      
-      
-      <categories>
-          
-          <category> test </category>
-          
-          <category> java </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> test </tag>
-            
-            <tag> java </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>第一篇文章(测试)</title>
-      <link href="/2025/09/14/2025-9-14%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0test/"/>
-      <url>/2025/09/14/2025-9-14%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0test/</url>
-      
-        <content type="html"><![CDATA[<h2 id="这是我的第一篇文章"><a href="#这是我的第一篇文章" class="headerlink" title="这是我的第一篇文章"></a>这是我的第一篇文章</h2>]]></content>
-      
-      
-      <categories>
-          
-          <category> test </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> test </tag>
             
         </tags>
       
@@ -173,9 +140,9 @@
     
     
     <entry>
-      <title></title>
-      <link href="/css/suiyi.css"/>
-      <url>/css/suiyi.css</url>
+      <title>留言板</title>
+      <link href="/comments/index.html"/>
+      <url>/comments/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -184,9 +151,9 @@
     
     
     <entry>
-      <title>电影movie</title>
-      <link href="/movie/index.html"/>
-      <url>/movie/index.html</url>
+      <title></title>
+      <link href="/css/suiyi.css"/>
+      <url>/css/suiyi.css</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -206,9 +173,9 @@
     
     
     <entry>
-      <title>留言板</title>
-      <link href="/comments/index.html"/>
-      <url>/comments/index.html</url>
+      <title>电影movie</title>
+      <link href="/movie/index.html"/>
+      <url>/movie/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -239,22 +206,22 @@
     
     
     <entry>
-      <title></title>
-      <link href="/comments/css/styles.css"/>
-      <url>/comments/css/styles.css</url>
+      <title>tags</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
       
-        <content type="html"><![CDATA[/* 修复Utterances评论框不显示的问题 */#post-comment .comment-head {    margin-bottom: 0 !important;}#post-comment .utterances {    min-height: 100px;    width: 100% !important;}#post-comment iframe.utterances-frame {    width: 100% !important;    height: 100% !important;    min-height: 300px;    border: none;    display: block;}]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
     
     
     <entry>
-      <title>tags</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
+      <title></title>
+      <link href="/comments/css/styles.css"/>
+      <url>/comments/css/styles.css</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[/* 修复Utterances评论框不显示的问题 */#post-comment .comment-head {    margin-bottom: 0 !important;}#post-comment .utterances {    min-height: 100px;    width: 100% !important;}#post-comment iframe.utterances-frame {    width: 100% !important;    height: 100% !important;    min-height: 300px;    border: none;    display: block;}]]></content>
       
     </entry>
     
