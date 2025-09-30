@@ -111,40 +111,7 @@
       <link href="/about/index.html"/>
       <url>/about/index.html</url>
       
-        <content type="html"><![CDATA[<h2 id="关于我"><a href="#关于我" class="headerlink" title="关于我"></a>关于我</h2><ul><li>25级软件工程在读大学生(大一)</li><li>热爱计算机，记录自己的学习历程</li><li>喜欢瞎折腾的小趴菜，有众多自己的业余爱好</li><li>例如：画画，弹钢琴，做饭，中长跑，排球，骑行，国际象棋，魔方，摄影，手工木作等</li><li>IP:广东</li></ul><h2 id="关于我的个人网站"><a href="#关于我的个人网站" class="headerlink" title="关于我的个人网站"></a>关于我的个人网站</h2><p>作者在开始捣鼓这个个人网站的时候才大一刚开学第二周，并没有学习前端，web等知识，在网上苦苦寻找教程，依葫芦画瓢地折腾着，导致网站并不完善，这也加重了作者急切想要学习的心情<br>等后续作者学习了相关知识，会好好地整理这个网站。 -2025.9.15 1:24</p><!-- GitCalendar容器 --><div id="gitZone"></div>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>分类categories</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/css/styles.css"/>
-      <url>/css/styles.css</url>
-      
-        <content type="html"><![CDATA[/* 修复Utterances评论框不显示的问题 */#post-comment .comment-head {    margin-bottom: 0 !important;}#post-comment .utterances {    min-height: 100px;    width: 100% !important;}#post-comment iframe.utterances-frame {    width: 100% !important;    height: 100% !important;    min-height: 300px;    border: none;    display: block;}]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>link</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h2 id="关于我"><a href="#关于我" class="headerlink" title="关于我"></a>关于我</h2><ul><li>25级软件工程在读大学生(大一)</li><li>热爱计算机，记录自己的学习历程</li><li>喜欢瞎折腾的小趴菜，有众多自己的业余爱好</li><li>例如：画画，弹钢琴，做饭，中长跑，排球，骑行，国际象棋，魔方，摄影，手工木作等</li><li>IP:广东</li></ul><h2 id="关于我的个人网站"><a href="#关于我的个人网站" class="headerlink" title="关于我的个人网站"></a>关于我的个人网站</h2><p>作者在开始捣鼓这个个人网站的时候才大一刚开学第二周，并没有学习前端，web等知识，在网上苦苦寻找教程，依葫芦画瓢地折腾着，导致网站并不完善，这也加重了作者急切想要学习的心情<br>等后续作者学习了相关知识，会好好地整理这个网站。 -2025.9.15 13:24</p><p>好吧，说是等后续学习了相关知识再修理我的网站，但是还是非常心急，<br>学习学累了就来我的网站修修补补，没学过的就去查一下，搞不定的就ai,<br>过程虽然挺头疼的，但是每次实现一个新功能就会感觉非常开心 -2025.9.30 23:29</p><!-- GitCalendar容器 --><div id="gitZone"></div>]]></content>
       
     </entry>
     
@@ -173,17 +140,6 @@
     
     
     <entry>
-      <title></title>
-      <link href="/css/suiyi.css"/>
-      <url>/css/suiyi.css</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>电影movie</title>
       <link href="/movie/index.html"/>
       <url>/movie/index.html</url>
@@ -195,9 +151,42 @@
     
     
     <entry>
+      <title>分类categories</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/css/styles.css"/>
+      <url>/css/styles.css</url>
+      
+        <content type="html"><![CDATA[/* 修复Utterances评论框不显示的问题 */#post-comment .comment-head {    margin-bottom: 0 !important;}#post-comment .utterances {    min-height: 100px;    width: 100% !important;}#post-comment iframe.utterances-frame {    width: 100% !important;    height: 100% !important;    min-height: 300px;    border: none;    display: block;}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>tags</title>
       <link href="/tags/index.html"/>
       <url>/tags/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/css/suiyi.css"/>
+      <url>/css/suiyi.css</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -222,6 +211,17 @@
       <url>/comments/css/styles.css</url>
       
         <content type="html"><![CDATA[/* 修复Utterances评论框不显示的问题 */#post-comment .comment-head {    margin-bottom: 0 !important;}#post-comment .utterances {    min-height: 100px;    width: 100% !important;}#post-comment iframe.utterances-frame {    width: 100% !important;    height: 100% !important;    min-height: 300px;    border: none;    display: block;}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>link</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
