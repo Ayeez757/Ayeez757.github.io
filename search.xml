@@ -255,9 +255,20 @@
     
     
     <entry>
-      <title>分类categories</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
+      <title>关于about</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="关于我"><a href="#关于我" class="headerlink" title="关于我"></a>关于我</h2><ul><li>25级软件工程在读大学生(大一)</li><li>热爱计算机，记录自己的学习历程</li><li>喜欢瞎折腾的小趴菜，有众多自己的业余爱好</li><li>例如：画画，弹钢琴，做饭，乒乓球，中长跑，排球，我的世界（游戏），中式建筑，生电（我的世界），魔方，骑行，桌球，国际象棋，摄影，手工木作等</li><li>一些奇怪的技能：双手都能写字……</li><li>IP:广东</li></ul><h2 id="关于我的个人网站"><a href="#关于我的个人网站" class="headerlink" title="关于我的个人网站"></a>关于我的个人网站</h2><p>作者在开始捣鼓这个个人网站的时候才大一刚开学第二周，并没有学习前端，web等知识，在网上苦苦寻找教程，依葫芦画瓢地折腾着，导致网站并不完善，这也加重了作者急切想要学习的心情<br>等后续作者学习了相关知识，会好好地整理这个网站。 -2025.9.15 13:24</p><p>好吧，说是等后续学习了相关知识再修理我的网站，但是还是非常心急，<br>学习学累了就来我的网站修修补补，没学过的就去查一下，搞不定的就ai,<br>过程虽然挺头疼的，但是每次实现一个新功能就会感觉非常开心 -2025.9.30 23:29</p><!-- GitCalendar容器 --><div id="gitZone"></div>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>留言板</title>
+      <link href="/comments/index.html"/>
+      <url>/comments/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -277,20 +288,9 @@
     
     
     <entry>
-      <title>留言板</title>
-      <link href="/comments/index.html"/>
-      <url>/comments/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>音乐music</title>
-      <link href="/music/index.html"/>
-      <url>/music/index.html</url>
+      <title>分类categories</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -321,17 +321,6 @@
     
     
     <entry>
-      <title>电影movie</title>
-      <link href="/movie/index.html"/>
-      <url>/movie/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title></title>
       <link href="/js/hexo_githubcalendar.js"/>
       <url>/js/hexo_githubcalendar.js</url>
@@ -343,20 +332,9 @@
     
     
     <entry>
-      <title>关于about</title>
-      <link href="/about/index.html"/>
-      <url>/about/index.html</url>
-      
-        <content type="html"><![CDATA[<h2 id="关于我"><a href="#关于我" class="headerlink" title="关于我"></a>关于我</h2><ul><li>25级软件工程在读大学生(大一)</li><li>热爱计算机，记录自己的学习历程</li><li>喜欢瞎折腾的小趴菜，有众多自己的业余爱好</li><li>例如：画画，弹钢琴，做饭，乒乓球，中长跑，排球，我的世界（游戏），中式建筑，生电（我的世界），魔方，骑行，桌球，国际象棋，摄影，手工木作等</li><li>一些奇怪的技能：双手都能写字……</li><li>IP:广东</li></ul><h2 id="关于我的个人网站"><a href="#关于我的个人网站" class="headerlink" title="关于我的个人网站"></a>关于我的个人网站</h2><p>作者在开始捣鼓这个个人网站的时候才大一刚开学第二周，并没有学习前端，web等知识，在网上苦苦寻找教程，依葫芦画瓢地折腾着，导致网站并不完善，这也加重了作者急切想要学习的心情<br>等后续作者学习了相关知识，会好好地整理这个网站。 -2025.9.15 13:24</p><p>好吧，说是等后续学习了相关知识再修理我的网站，但是还是非常心急，<br>学习学累了就来我的网站修修补补，没学过的就去查一下，搞不定的就ai,<br>过程虽然挺头疼的，但是每次实现一个新功能就会感觉非常开心 -2025.9.30 23:29</p><!-- GitCalendar容器 --><div id="gitZone"></div>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>tags</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
+      <title>电影movie</title>
+      <link href="/movie/index.html"/>
+      <url>/movie/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -376,11 +354,44 @@
     
     
     <entry>
+      <title>音乐music</title>
+      <link href="/music/index.html"/>
+      <url>/music/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>tags</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title></title>
       <link href="/comments/css/styles.css"/>
       <url>/comments/css/styles.css</url>
       
         <content type="html"><![CDATA[/* 修复Utterances评论框不显示的问题 */#post-comment .comment-head {    margin-bottom: 0 !important;}#post-comment .utterances {    min-height: 100px;    width: 100% !important;}#post-comment iframe.utterances-frame {    width: 100% !important;    height: 100% !important;    min-height: 300px;    border: none;    display: block;}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>c语言的基础代码</title>
+      <link href="/projects/languages/c/index.html"/>
+      <url>/projects/languages/c/index.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="我的c语言基础代码仓库"><a href="#我的c语言基础代码仓库" class="headerlink" title="我的c语言基础代码仓库"></a>我的c语言基础代码仓库</h1><ul><li>这是我学习c语言基础时留下的杂七杂八的代码</li><li>教程：c语言（慕课版）电子书</li><li><a href="https://github.com/Ayeez757/learnBasicCodeOfClanguage">我的代码仓库链接</a></li></ul>]]></content>
       
     </entry>
     
@@ -414,17 +425,6 @@
       <url>/projects/languages/cpp/index.html</url>
       
         <content type="html"><![CDATA[<h1 id="我的c-语言基础代码仓库-正在学"><a href="#我的c-语言基础代码仓库-正在学" class="headerlink" title="我的c++语言基础代码仓库(正在学)"></a>我的c++语言基础代码仓库(正在学)</h1><ul><li>这是我学习c++基础时留下的杂七杂八的代码</li><li>目前我将重心放在深入c++和数据结构与算法上</li><li>教程：c++ Primer第五版（电子版和实体书都有在用）</li><li><a href="https://github.com/Ayeez757/learnBasicCodeOfCpp">我的代码仓库链接</a></li></ul>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>c语言的基础代码</title>
-      <link href="/projects/languages/c/index.html"/>
-      <url>/projects/languages/c/index.html</url>
-      
-        <content type="html"><![CDATA[<h1 id="我的c语言基础代码仓库"><a href="#我的c语言基础代码仓库" class="headerlink" title="我的c语言基础代码仓库"></a>我的c语言基础代码仓库</h1><ul><li>这是我学习c语言基础时留下的杂七杂八的代码</li><li>教程：c语言（慕课版）电子书</li><li><a href="https://github.com/Ayeez757/learnBasicCodeOfClanguage">我的代码仓库链接</a></li></ul>]]></content>
       
     </entry>
     
