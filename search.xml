@@ -4,6 +4,41 @@
   
     
     <entry>
+      <title></title>
+      <link href="/2025/10/06/%E4%B8%80%E7%BB%B4%E5%B7%AE%E5%88%86/"/>
+      <url>/2025/10/06/%E4%B8%80%E7%BB%B4%E5%B7%AE%E5%88%86/</url>
+      
+        <content type="html"><![CDATA[<h1 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h1><p>当你有一个数组，你要频繁地向里面的不同区间的数字进行加减的操作，<br>比如说{3，1，4，1，5，9}，你要向[0,2]减去二,<br>变成{1，-1，2，1，5，9}，然后向[1,3]加上2，<br>变成{1，1，4，3，5，9}，然后向[4,5]减去4<br>变成{1，1，4，3，1，4}，然后向[3,3]减去2……??????<br>当这种操作数量足够多，需要频繁的区间更新，如果我们使用简单的遍历，对这些数字进行加减，那速度会非常慢。</p><h1 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h1><p>使用一维差分</p><h2 id="差分数组："><a href="#差分数组：" class="headerlink" title="差分数组："></a>差分数组：</h2><p>对于一个给定的原始数组 <code>nums</code>，我们构造一个相同长度的差分数组 <code>diff</code>，其中：<br>对要操作的区间开始的数字进行操作，对操作结束后的数字进行反向操作。<br>作为一个差分数组<code>diff</code>，记录区间更新，在全部操作结束后，我们只需要对原数组进行一次遍历，让<code>diff</code>的后一位,累加到原数组里面，那么在区间内所有的数都会受到diff影响，在区间后，由于<code>diff</code>的反向操作，会抵消掉区间更新。</p><h1 id="例题"><a href="#例题" class="headerlink" title="例题"></a>例题</h1><h1 id="洛谷-P2367-语文成绩"><a href="#洛谷-P2367-语文成绩" class="headerlink" title="洛谷 P2367 语文成绩"></a>洛谷 P2367 语文成绩</h1><h2 id="题目背景"><a href="#题目背景" class="headerlink" title="题目背景"></a>题目背景</h2><p>语文考试结束了，成绩还是一如既往地有问题。</p><h2 id="题目描述"><a href="#题目描述" class="headerlink" title="题目描述"></a>题目描述</h2><p>语文老师总是写错成绩，所以当她修改成绩的时候，总是累得不行。她总是要一遍遍地给某些同学增加分数，又要注意最低分是多少。你能帮帮她吗？</p><h2 id="输入格式"><a href="#输入格式" class="headerlink" title="输入格式"></a>输入格式</h2><p>第一行有两个整数 $n$，$p$，代表学生数与增加分数的次数。</p><p>第二行有 $n$ 个数，$a_1 \sim a_n$，代表各个学生的初始成绩。</p><p>接下来 $p$ 行，每行有三个数，$x$，$y$，$z$，代表给第 $x$ 个到第 $y$ 个学生每人增加 $z$ 分。</p><h2 id="输出格式"><a href="#输出格式" class="headerlink" title="输出格式"></a>输出格式</h2><p>输出仅一行，代表更改分数后，全班的最低分。</p><h2 id="输入输出样例-1"><a href="#输入输出样例-1" class="headerlink" title="输入输出样例 #1"></a>输入输出样例 #1</h2><h3 id="输入-1"><a href="#输入-1" class="headerlink" title="输入 #1"></a>输入 #1</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">3 2</span><br><span class="line">1 1 1</span><br><span class="line">1 2 1</span><br><span class="line">2 3 1</span><br></pre></td></tr></table></figure><h3 id="输出-1"><a href="#输出-1" class="headerlink" title="输出 #1"></a>输出 #1</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">2</span><br></pre></td></tr></table></figure><h2 id="说明-提示"><a href="#说明-提示" class="headerlink" title="说明&#x2F;提示"></a>说明&#x2F;提示</h2><p>对于 $40%$ 的数据，有 $n \le 10^3$。</p><p>对于 $60%$ 的数据，有 $n \le 10^4$。</p><p>对于 $80%$ 的数据，有 $n \le 10^5$。</p><p>对于 $100%$ 的数据，有 $n \le 5\times 10^6$，$p \le n$，学生初始成绩 $ \le 100$，$z \le 100$。</p><h2 id="我的答案"><a href="#我的答案" class="headerlink" title="我的答案"></a>我的答案</h2><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span>  </span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;algorithm&gt;</span>  </span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span> &#123;  </span><br><span class="line"><span class="type">int</span> n = <span class="number">0</span>, p = <span class="number">0</span>;  </span><br><span class="line"><span class="built_in">std</span>::<span class="built_in">cin</span> &gt;&gt; n &gt;&gt; p;  </span><br><span class="line"><span class="type">int</span> arr[n];  </span><br><span class="line"><span class="type">int</span> diff[n+<span class="number">2</span>];  </span><br><span class="line"><span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>;i &lt; n;i++) &#123;  </span><br><span class="line"><span class="built_in">std</span>::<span class="built_in">cin</span> &gt;&gt; arr[i];  </span><br><span class="line">&#125;  </span><br><span class="line"><span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>;i&lt;n+<span class="number">2</span>;i++)&#123;  </span><br><span class="line">diff[i]=<span class="number">0</span>;  </span><br><span class="line">&#125;  </span><br><span class="line"><span class="keyword">for</span>(<span class="type">int</span> i =<span class="number">0</span>;i&lt;p;i++)&#123;  </span><br><span class="line"><span class="type">int</span> start=<span class="number">0</span>;  </span><br><span class="line"><span class="type">int</span> end=<span class="number">0</span>;  </span><br><span class="line"><span class="type">int</span> plus=<span class="number">0</span>;  </span><br><span class="line"><span class="built_in">std</span>::<span class="built_in">cin</span>&gt;&gt;start&gt;&gt;end&gt;&gt;plus;  </span><br><span class="line"><span class="type">int</span> left=start<span class="number">-1</span>;  </span><br><span class="line"><span class="type">int</span> right=end;  </span><br><span class="line">diff[left]+=plus;  </span><br><span class="line">diff[right]-=plus;  </span><br><span class="line">&#125;  </span><br><span class="line"><span class="comment">// for (int i = 0;i &lt; p;i++) &#123;  </span></span><br><span class="line"><span class="comment">//     int start = 0, end = 0, plus = 0;  </span></span><br><span class="line"><span class="comment">//     std::cin &gt;&gt; start &gt;&gt; end &gt;&gt; plus;  </span></span><br><span class="line"><span class="comment">//     for (int j = start - 1;j &lt; end;j+=2) &#123;  </span></span><br><span class="line"><span class="comment">//         arr[j] += plus;  </span></span><br><span class="line"><span class="comment">//         arr[j+1]+=plus;  </span></span><br><span class="line"><span class="comment">//     &#125;  </span></span><br><span class="line"><span class="comment">// &#125;  </span></span><br><span class="line"><span class="type">int</span> sum=<span class="number">0</span>;  </span><br><span class="line"><span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>;i&lt;n;i++)&#123;  </span><br><span class="line">sum+=diff[i];  </span><br><span class="line">arr[i]+=sum;  </span><br><span class="line">&#125;  </span><br><span class="line"><span class="type">int</span> min = arr[<span class="number">0</span>];  </span><br><span class="line"><span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>;i &lt; n;i++) &#123;  </span><br><span class="line">min = <span class="built_in">std</span>::min(arr[i], min);  </span><br><span class="line">&#125;  </span><br><span class="line"><span class="built_in">std</span>::<span class="built_in">cout</span> &lt;&lt; min &lt;&lt; <span class="built_in">std</span>::<span class="built_in">endl</span>;  </span><br><span class="line"><span class="keyword">return</span> <span class="number">0</span>;  </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>（PS：第一次写知识点总结和题解，感觉有点水，而且代码有屎，算了，自己看懂就行，嘻嘻）</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习 </category>
+          
+          <category> 数据结构与算法 </category>
+          
+          <category> 笔记与题解 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 题解 </tag>
+            
+            <tag> 笔记 </tag>
+            
+            <tag> 学习 </tag>
+            
+            <tag> 数据结构与算法 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>大一软工第五周学习总结（国庆周）</title>
       <link href="/2025/10/05/%E5%A4%A7%E4%B8%80%E8%BD%AF%E5%B7%A5%E7%AC%AC%E4%BA%94%E5%91%A8%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93%EF%BC%88%E5%9B%BD%E5%BA%86%E5%91%A8%EF%BC%89/"/>
       <url>/2025/10/05/%E5%A4%A7%E4%B8%80%E8%BD%AF%E5%B7%A5%E7%AC%AC%E4%BA%94%E5%91%A8%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93%EF%BC%88%E5%9B%BD%E5%BA%86%E5%91%A8%EF%BC%89/</url>
@@ -22,9 +57,9 @@
       
         <tags>
             
-            <tag> 计算机学习历程 </tag>
-            
             <tag> 学习 </tag>
+            
+            <tag> 计算机学习历程 </tag>
             
             <tag> 博客 </tag>
             
@@ -113,9 +148,9 @@
       
         <tags>
             
-            <tag> 计算机学习历程 </tag>
-            
             <tag> 学习 </tag>
+            
+            <tag> 计算机学习历程 </tag>
             
             <tag> 博客 </tag>
             
@@ -144,9 +179,9 @@
       
         <tags>
             
-            <tag> 计算机学习历程 </tag>
-            
             <tag> 学习 </tag>
+            
+            <tag> 计算机学习历程 </tag>
             
             <tag> 博客 </tag>
             
@@ -204,9 +239,9 @@
       
         <tags>
             
-            <tag> 计算机学习历程 </tag>
-            
             <tag> 学习 </tag>
+            
+            <tag> 计算机学习历程 </tag>
             
             <tag> 博客 </tag>
             
@@ -231,17 +266,6 @@
     
     
     <entry>
-      <title>分类categories</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>关于about</title>
       <link href="/about/index.html"/>
       <url>/about/index.html</url>
@@ -253,9 +277,9 @@
     
     
     <entry>
-      <title>link</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
+      <title>分类categories</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -275,42 +299,9 @@
     
     
     <entry>
-      <title>tags</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/js/hexo_githubcalendar.js"/>
-      <url>/js/hexo_githubcalendar.js</url>
-      
-        <content type="html"><![CDATA[function GitCalendarInit(git_gitapiurl, git_color, git_user) {  if (document.getElementById('git_container')) {    var git_canlendar = (git_user, git_gitapiurl, git_color) => {      var git_fixed = 'fixed';      var git_px = 'px';      var git_month = ['一月', '二月', '三月', '四月', '五月', '六月', '七月', '八月', '九月', '十月', '十一月', '十二月'];      var git_monthchange = [];      var git_oneyearbeforeday = '';      var git_thisday = '';      var git_amonthago = '';      var git_aweekago = '';      var git_weekdatacore = 0;      var git_datacore = 0;      var git_total = 0;      var git_datadate = '';      var git_git_data = [];      var git_positionplusdata = [];      var git_firstweek = [];      var git_lastweek = [];      var git_beforeweek = [];      var git_thisweekdatacore = 0;      var git_mounthbeforeday = 0;      var git_mounthfirstindex = 0;      var git_crispedges = 'crispedges';      var git_thisdayindex = 0;      var git_amonthagoindex = 0;      var git_amonthagoweek = [];      var git_firstdate = [];      var git_first2date = [];      var git_montharrbefore = [];      var git_monthindex = 0;      var retinaCanvas = (canvas, context, ratio) => {        if (ratio > 1) {          var canvasWidth = canvas.width;          var canvasHeight = canvas.height;          canvas.width = canvasWidth * ratio;          canvas.height = canvasHeight * ratio;          canvas.style.width = '100%';          canvas.style.height = canvasHeight + 'px';          context.scale(ratio, ratio);        }      }      var responsiveChart = () => {        if (document.getElementById("gitcanvas")) {          var git_tooltip_container = document.getElementById('git_tooltip_container');          var ratio = window.devicePixelRatio || 1          var git_x = '';          var git_y = '';          var git_span1 = '';          var git_span2 = '';          var git_calendar_c = document.getElementById("gitcanvas");          git_calendar_c.style.width = '100%';          git_calendar_c.style.height = '';          var cmessage = document.getElementById("gitmessage");          var git_calendar_ctx = git_calendar_c.getContext("2d");          width = git_calendar_c.width = document.getElementById("gitcalendarcanvasbox").offsetWidth;          height = git_calendar_c.height = 9 * 0.96 * git_calendar_c.width / git_data.length;          retinaCanvas(git_calendar_c, git_calendar_ctx, ratio)          var linemaxwitdh = height / 9;          var lineminwitdh = 0.8 * linemaxwitdh;          var setposition = {            x: 0.02 * width,            y: 0.025 * width          };          for (var week in git_data) {            weekdata = git_data[week];            for (var day in weekdata) {              var dataitem = {                date: "",                count: "",                x: 0,                y: 0              };              git_positionplusdata.push(dataitem);              git_calendar_ctx.fillStyle = git_thiscolor(git_color, weekdata[day].count);              setposition.y = Math.round(setposition.y * 100) / 100;              dataitem.date = weekdata[day].date;              dataitem.count = weekdata[day].count;              dataitem.x = setposition.x;              dataitem.y = setposition.y;              git_calendar_ctx.fillRect(setposition.x, setposition.y, lineminwitdh, lineminwitdh);              setposition.y = setposition.y + linemaxwitdh            }            setposition.y = 0.025 * width;            setposition.x = setposition.x + linemaxwitdh;          }          if (document.body.clientWidth > 700) {            git_calendar_ctx.font = "600  Arial";            git_calendar_ctx.fillStyle = '#aaa';            git_calendar_ctx.fillText("日", 0, 1.9 * linemaxwitdh);            git_calendar_ctx.fillText("二", 0, 3.9 * linemaxwitdh);            git_calendar_ctx.fillText("四", 0, 5.9 * linemaxwitdh);            git_calendar_ctx.fillText("六", 0, 7.9 * linemaxwitdh);            var monthindexlist = git_calendar_c.width / 24;            for (var index in git_monthchange) {              git_calendar_ctx.fillText(git_monthchange[index], monthindexlist, 0.7 * linemaxwitdh);              monthindexlist = monthindexlist + git_calendar_c.width / 12            }          }          git_calendar_c.onmousemove = function(event) {            if (document.querySelector('.gitmessage')) {              git_tooltip_container.innerHTML = ""            }            getMousePos(git_calendar_c, event)          };          git_tooltip_container.onmousemove = function(event) {            if (document.querySelector('.gitmessage')) {              git_tooltip_container.innerHTML = ""            }          };          var getMousePos = (canvas, event) => {            var rect = canvas.getBoundingClientRect();            var x = event.clientX - rect.left * (canvas.width / rect.width);            var y = event.clientY - rect.top * (canvas.height / rect.height);            for (var item of git_positionplusdata) {              var lenthx = x - item.x;              var lenthy = y - item.y;              if (0 < lenthx && lenthx < lineminwitdh) {                if (0 < lenthy && lenthy < lineminwitdh) {                  git_span1 = item.date;                  git_span2 = item.count;                  git_x = event.clientX - 100;                  git_y = event.clientY - 60;                  html = tooltip_html(git_x, git_y, git_span1, git_span2);                  append_div_gitcalendar(git_tooltip_container, html)                }              }            }          }        }      }      var addlastmonth = () => {        if (git_thisdayindex === 0) {          thisweekcore(52);          thisweekcore(51);          thisweekcore(50);          thisweekcore(49);          thisweekcore(48);          git_thisweekdatacore += git_firstdate[6].count;          git_amonthago = git_firstdate[6].date        } else {          thisweekcore(52);          thisweekcore(51);          thisweekcore(50);          thisweekcore(49);          thisweek2core();          git_amonthago = git_first2date[git_thisdayindex - 1].date        }      }      var thisweek2core = () => {        for (var i = git_thisdayindex - 1; i < git_first2date.length; i++) {          git_thisweekdatacore += git_first2date[i].count        }      }      var thisweekcore = (index) => {        for (var item of git_data[index]) {          git_thisweekdatacore += item.count        }      }      var addlastweek = () => {        for (var item of git_lastweek) {          git_weekdatacore += item.count        }      }      var addbeforeweek = () => {        for (var i = git_thisdayindex; i < git_beforeweek.length; i++) {          git_weekdatacore += git_beforeweek[i].count        }      }      var addweek = (data) => {        if (git_thisdayindex === 6) {          git_aweekago = git_lastweek[0].date;          addlastweek()        } else {          lastweek = data.contributions[51];          git_aweekago = lastweek[git_thisdayindex + 1].date;          addlastweek();          addbeforeweek()        }      }      fetch(git_gitapiurl).then(data => data.json()).then(data => {        if (document.getElementById('git_loading')) {          document.getElementById('git_loading').remove()        };        git_data = data.contributions;        git_total = data.total;        git_first2date = git_data[48];        git_firstdate = git_data[47];        git_firstweek = data.contributions[0];        git_lastweek = data.contributions[52];        git_beforeweek = data.contributions[51];        git_thisdayindex = git_lastweek.length - 1;        git_thisday = git_lastweek[git_thisdayindex].date;        git_oneyearbeforeday = git_firstweek[0].date;        git_monthindex = git_thisday.substring(5, 7) * 1;        git_montharrbefore = git_month.splice(git_monthindex, 12 - git_monthindex);        git_monthchange = git_montharrbefore.concat(git_month);        addweek(data);        addlastmonth();        var html = git_main_box(git_monthchange, git_data, git_user, git_color, git_total, git_thisweekdatacore, git_weekdatacore, git_oneyearbeforeday, git_thisday, git_aweekago, git_amonthago);        append_div_gitcalendar(git_container, html);        responsiveChart()      }).catch(function(error) {        console.log(error)      });      window.onresize = function() {        responsiveChart()      };      window.onscroll = function() {        if (document.querySelector('.gitmessage')) {          git_tooltip_container.innerHTML = ""        }      };      var git_thiscolor = (color, x) => {        if (x === 0) {          var i = parseInt(x / 2);          return color[0]        } else if (x < 2) {          return color[1]        } else if (x < 20) {          var i = parseInt(x / 2);          return color[i]        } else {          return color[9]        }      };      var tooltip_html = (x, y, span1, span2) => {        var html = '';        html += `<div class="gitmessage" style="top:${y}px;left: ${x}px;position: fixed;z-index:9999">                          <div class="angle-wrapper" style="display:block;">                            <span>${span1}&nbsp;</span>                            <span>${span2}次上传</span>                          </div>                        </div>`;        return html      };      var git_canvas_box = () => {        var html = `<div id="gitcalendarcanvasbox">                              <canvas id="gitcanvas" style="animation: none;">                              </canvas>                            </div>`;        return html      };      var git_info_box = (user, color) => {        var html = '';        html += `<div id="git_tooltip_container"></div>                        <div class="contrib-footer clearfix mt-1 mx-3 px-3 pb-1">                          <div class="float-left text-gray">数据来源                            <a href="https://github.com/${user}" target="blank">@${user}</a>                          </div>                          <div class="contrib-legend text-gray">Less                            <ul class="legend">                            <li style="background-color:${color[0]}"></li>                            <li style="background-color:${color[2]}"></li>                            <li style="background-color:${color[4]}"></li>                            <li style="background-color:${color[6]}"></li>                            <li style="background-color:${color[8]}"></li>                            </ul>More                          </div>                        </div>`;        return html      };      var git_main_box = (monthchange, git_data, user, color, total, thisweekdatacore, weekdatacore, oneyearbeforeday, thisday, aweekago, amonthago) => {        var html = '';        var canvasbox = git_canvas_box();        var infobox = git_info_box(user, color);        html += `<div class="position-relative">                          <div class="border py-2 graph-before-activity-overview">                            <div class="js-gitcalendar-graph mx-md-2 mx-3 d-flex flex-column flex-items-end flex-xl-items-center overflow-hidden pt-1 is-graph-loading graph-canvas gitcalendar-graph height-full text-center">                              ${canvasbox}                            </div>                            ${infobox}                          </div>                        </div>`;        html += `<div style="display:flex;width:100%">                          <div class="contrib-column contrib-column-first table-column">                            <span class="text-muted">过去一年提交</span>                            <span class="contrib-number">${total}</span>                            <span class="text-muted">${oneyearbeforeday}&nbsp;-&nbsp;${thisday}</span>                          </div>                          <div class="contrib-column table-column">                            <span class="text-muted">最近一月提交</span>                            <span class="contrib-number">${thisweekdatacore}</span>                            <span class="text-muted">${amonthago}&nbsp;-&nbsp;${thisday}</span>                          </div>                          <div class="contrib-column table-column">                            <span class="text-muted">最近一周提交</span>                            <span class="contrib-number">${weekdatacore}</span>                            <span class="text-muted">${aweekago}&nbsp;-&nbsp;${thisday}</span>                          </div>                        </div>`;        return html      };    };    var append_div_gitcalendar = (parent, text) => {      if (typeof text === 'string') {        var temp = document.createElement('div');        temp.innerHTML = text;        var frag = document.createDocumentFragment();        while (temp.firstChild) {          frag.appendChild(temp.firstChild)        }        parent.appendChild(frag)      } else {        parent.appendChild(text)      }    };    var git_container = document.getElementById('git_container');    var git_loading = document.getElementById('git_loading');    git_canlendar(git_user, git_gitapiurl, git_color)  }}]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>留言板 comments</title>
-      <link href="/comments/old_index.html"/>
-      <url>/comments/old_index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>留言板</title>
-      <link href="/comments/index.html"/>
-      <url>/comments/index.html</url>
+      <title>link</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -330,9 +321,42 @@
     
     
     <entry>
+      <title>留言板</title>
+      <link href="/comments/index.html"/>
+      <url>/comments/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/js/hexo_githubcalendar.js"/>
+      <url>/js/hexo_githubcalendar.js</url>
+      
+        <content type="html"><![CDATA[function GitCalendarInit(git_gitapiurl, git_color, git_user) {  if (document.getElementById('git_container')) {    var git_canlendar = (git_user, git_gitapiurl, git_color) => {      var git_fixed = 'fixed';      var git_px = 'px';      var git_month = ['一月', '二月', '三月', '四月', '五月', '六月', '七月', '八月', '九月', '十月', '十一月', '十二月'];      var git_monthchange = [];      var git_oneyearbeforeday = '';      var git_thisday = '';      var git_amonthago = '';      var git_aweekago = '';      var git_weekdatacore = 0;      var git_datacore = 0;      var git_total = 0;      var git_datadate = '';      var git_git_data = [];      var git_positionplusdata = [];      var git_firstweek = [];      var git_lastweek = [];      var git_beforeweek = [];      var git_thisweekdatacore = 0;      var git_mounthbeforeday = 0;      var git_mounthfirstindex = 0;      var git_crispedges = 'crispedges';      var git_thisdayindex = 0;      var git_amonthagoindex = 0;      var git_amonthagoweek = [];      var git_firstdate = [];      var git_first2date = [];      var git_montharrbefore = [];      var git_monthindex = 0;      var retinaCanvas = (canvas, context, ratio) => {        if (ratio > 1) {          var canvasWidth = canvas.width;          var canvasHeight = canvas.height;          canvas.width = canvasWidth * ratio;          canvas.height = canvasHeight * ratio;          canvas.style.width = '100%';          canvas.style.height = canvasHeight + 'px';          context.scale(ratio, ratio);        }      }      var responsiveChart = () => {        if (document.getElementById("gitcanvas")) {          var git_tooltip_container = document.getElementById('git_tooltip_container');          var ratio = window.devicePixelRatio || 1          var git_x = '';          var git_y = '';          var git_span1 = '';          var git_span2 = '';          var git_calendar_c = document.getElementById("gitcanvas");          git_calendar_c.style.width = '100%';          git_calendar_c.style.height = '';          var cmessage = document.getElementById("gitmessage");          var git_calendar_ctx = git_calendar_c.getContext("2d");          width = git_calendar_c.width = document.getElementById("gitcalendarcanvasbox").offsetWidth;          height = git_calendar_c.height = 9 * 0.96 * git_calendar_c.width / git_data.length;          retinaCanvas(git_calendar_c, git_calendar_ctx, ratio)          var linemaxwitdh = height / 9;          var lineminwitdh = 0.8 * linemaxwitdh;          var setposition = {            x: 0.02 * width,            y: 0.025 * width          };          for (var week in git_data) {            weekdata = git_data[week];            for (var day in weekdata) {              var dataitem = {                date: "",                count: "",                x: 0,                y: 0              };              git_positionplusdata.push(dataitem);              git_calendar_ctx.fillStyle = git_thiscolor(git_color, weekdata[day].count);              setposition.y = Math.round(setposition.y * 100) / 100;              dataitem.date = weekdata[day].date;              dataitem.count = weekdata[day].count;              dataitem.x = setposition.x;              dataitem.y = setposition.y;              git_calendar_ctx.fillRect(setposition.x, setposition.y, lineminwitdh, lineminwitdh);              setposition.y = setposition.y + linemaxwitdh            }            setposition.y = 0.025 * width;            setposition.x = setposition.x + linemaxwitdh;          }          if (document.body.clientWidth > 700) {            git_calendar_ctx.font = "600  Arial";            git_calendar_ctx.fillStyle = '#aaa';            git_calendar_ctx.fillText("日", 0, 1.9 * linemaxwitdh);            git_calendar_ctx.fillText("二", 0, 3.9 * linemaxwitdh);            git_calendar_ctx.fillText("四", 0, 5.9 * linemaxwitdh);            git_calendar_ctx.fillText("六", 0, 7.9 * linemaxwitdh);            var monthindexlist = git_calendar_c.width / 24;            for (var index in git_monthchange) {              git_calendar_ctx.fillText(git_monthchange[index], monthindexlist, 0.7 * linemaxwitdh);              monthindexlist = monthindexlist + git_calendar_c.width / 12            }          }          git_calendar_c.onmousemove = function(event) {            if (document.querySelector('.gitmessage')) {              git_tooltip_container.innerHTML = ""            }            getMousePos(git_calendar_c, event)          };          git_tooltip_container.onmousemove = function(event) {            if (document.querySelector('.gitmessage')) {              git_tooltip_container.innerHTML = ""            }          };          var getMousePos = (canvas, event) => {            var rect = canvas.getBoundingClientRect();            var x = event.clientX - rect.left * (canvas.width / rect.width);            var y = event.clientY - rect.top * (canvas.height / rect.height);            for (var item of git_positionplusdata) {              var lenthx = x - item.x;              var lenthy = y - item.y;              if (0 < lenthx && lenthx < lineminwitdh) {                if (0 < lenthy && lenthy < lineminwitdh) {                  git_span1 = item.date;                  git_span2 = item.count;                  git_x = event.clientX - 100;                  git_y = event.clientY - 60;                  html = tooltip_html(git_x, git_y, git_span1, git_span2);                  append_div_gitcalendar(git_tooltip_container, html)                }              }            }          }        }      }      var addlastmonth = () => {        if (git_thisdayindex === 0) {          thisweekcore(52);          thisweekcore(51);          thisweekcore(50);          thisweekcore(49);          thisweekcore(48);          git_thisweekdatacore += git_firstdate[6].count;          git_amonthago = git_firstdate[6].date        } else {          thisweekcore(52);          thisweekcore(51);          thisweekcore(50);          thisweekcore(49);          thisweek2core();          git_amonthago = git_first2date[git_thisdayindex - 1].date        }      }      var thisweek2core = () => {        for (var i = git_thisdayindex - 1; i < git_first2date.length; i++) {          git_thisweekdatacore += git_first2date[i].count        }      }      var thisweekcore = (index) => {        for (var item of git_data[index]) {          git_thisweekdatacore += item.count        }      }      var addlastweek = () => {        for (var item of git_lastweek) {          git_weekdatacore += item.count        }      }      var addbeforeweek = () => {        for (var i = git_thisdayindex; i < git_beforeweek.length; i++) {          git_weekdatacore += git_beforeweek[i].count        }      }      var addweek = (data) => {        if (git_thisdayindex === 6) {          git_aweekago = git_lastweek[0].date;          addlastweek()        } else {          lastweek = data.contributions[51];          git_aweekago = lastweek[git_thisdayindex + 1].date;          addlastweek();          addbeforeweek()        }      }      fetch(git_gitapiurl).then(data => data.json()).then(data => {        if (document.getElementById('git_loading')) {          document.getElementById('git_loading').remove()        };        git_data = data.contributions;        git_total = data.total;        git_first2date = git_data[48];        git_firstdate = git_data[47];        git_firstweek = data.contributions[0];        git_lastweek = data.contributions[52];        git_beforeweek = data.contributions[51];        git_thisdayindex = git_lastweek.length - 1;        git_thisday = git_lastweek[git_thisdayindex].date;        git_oneyearbeforeday = git_firstweek[0].date;        git_monthindex = git_thisday.substring(5, 7) * 1;        git_montharrbefore = git_month.splice(git_monthindex, 12 - git_monthindex);        git_monthchange = git_montharrbefore.concat(git_month);        addweek(data);        addlastmonth();        var html = git_main_box(git_monthchange, git_data, git_user, git_color, git_total, git_thisweekdatacore, git_weekdatacore, git_oneyearbeforeday, git_thisday, git_aweekago, git_amonthago);        append_div_gitcalendar(git_container, html);        responsiveChart()      }).catch(function(error) {        console.log(error)      });      window.onresize = function() {        responsiveChart()      };      window.onscroll = function() {        if (document.querySelector('.gitmessage')) {          git_tooltip_container.innerHTML = ""        }      };      var git_thiscolor = (color, x) => {        if (x === 0) {          var i = parseInt(x / 2);          return color[0]        } else if (x < 2) {          return color[1]        } else if (x < 20) {          var i = parseInt(x / 2);          return color[i]        } else {          return color[9]        }      };      var tooltip_html = (x, y, span1, span2) => {        var html = '';        html += `<div class="gitmessage" style="top:${y}px;left: ${x}px;position: fixed;z-index:9999">                          <div class="angle-wrapper" style="display:block;">                            <span>${span1}&nbsp;</span>                            <span>${span2}次上传</span>                          </div>                        </div>`;        return html      };      var git_canvas_box = () => {        var html = `<div id="gitcalendarcanvasbox">                              <canvas id="gitcanvas" style="animation: none;">                              </canvas>                            </div>`;        return html      };      var git_info_box = (user, color) => {        var html = '';        html += `<div id="git_tooltip_container"></div>                        <div class="contrib-footer clearfix mt-1 mx-3 px-3 pb-1">                          <div class="float-left text-gray">数据来源                            <a href="https://github.com/${user}" target="blank">@${user}</a>                          </div>                          <div class="contrib-legend text-gray">Less                            <ul class="legend">                            <li style="background-color:${color[0]}"></li>                            <li style="background-color:${color[2]}"></li>                            <li style="background-color:${color[4]}"></li>                            <li style="background-color:${color[6]}"></li>                            <li style="background-color:${color[8]}"></li>                            </ul>More                          </div>                        </div>`;        return html      };      var git_main_box = (monthchange, git_data, user, color, total, thisweekdatacore, weekdatacore, oneyearbeforeday, thisday, aweekago, amonthago) => {        var html = '';        var canvasbox = git_canvas_box();        var infobox = git_info_box(user, color);        html += `<div class="position-relative">                          <div class="border py-2 graph-before-activity-overview">                            <div class="js-gitcalendar-graph mx-md-2 mx-3 d-flex flex-column flex-items-end flex-xl-items-center overflow-hidden pt-1 is-graph-loading graph-canvas gitcalendar-graph height-full text-center">                              ${canvasbox}                            </div>                            ${infobox}                          </div>                        </div>`;        html += `<div style="display:flex;width:100%">                          <div class="contrib-column contrib-column-first table-column">                            <span class="text-muted">过去一年提交</span>                            <span class="contrib-number">${total}</span>                            <span class="text-muted">${oneyearbeforeday}&nbsp;-&nbsp;${thisday}</span>                          </div>                          <div class="contrib-column table-column">                            <span class="text-muted">最近一月提交</span>                            <span class="contrib-number">${thisweekdatacore}</span>                            <span class="text-muted">${amonthago}&nbsp;-&nbsp;${thisday}</span>                          </div>                          <div class="contrib-column table-column">                            <span class="text-muted">最近一周提交</span>                            <span class="contrib-number">${weekdatacore}</span>                            <span class="text-muted">${aweekago}&nbsp;-&nbsp;${thisday}</span>                          </div>                        </div>`;        return html      };    };    var append_div_gitcalendar = (parent, text) => {      if (typeof text === 'string') {        var temp = document.createElement('div');        temp.innerHTML = text;        var frag = document.createDocumentFragment();        while (temp.firstChild) {          frag.appendChild(temp.firstChild)        }        parent.appendChild(frag)      } else {        parent.appendChild(text)      }    };    var git_container = document.getElementById('git_container');    var git_loading = document.getElementById('git_loading');    git_canlendar(git_user, git_gitapiurl, git_color)  }}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>电影movie</title>
       <link href="/movie/index.html"/>
       <url>/movie/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>tags</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -346,6 +370,17 @@
       <url>/comments/css/styles.css</url>
       
         <content type="html"><![CDATA[/* 修复Utterances评论框不显示的问题 */#post-comment .comment-head {    margin-bottom: 0 !important;}#post-comment .utterances {    min-height: 100px;    width: 100% !important;}#post-comment iframe.utterances-frame {    width: 100% !important;    height: 100% !important;    min-height: 300px;    border: none;    display: block;}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>留言板 comments</title>
+      <link href="/comments/old_index.html"/>
+      <url>/comments/old_index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
