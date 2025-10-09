@@ -305,11 +305,11 @@
     
     
     <entry>
-      <title>分类categories</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
+      <title>留言板</title>
+      <link href="/comments/index.html"/>
+      <url>/comments/index.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<p>欢迎来到我的留言板</p>]]></content>
       
     </entry>
     
@@ -327,6 +327,17 @@
     
     
     <entry>
+      <title>留言板 comments</title>
+      <link href="/comments/old_index.html"/>
+      <url>/comments/old_index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title></title>
       <link href="/css/suiyi.css"/>
       <url>/css/suiyi.css</url>
@@ -338,9 +349,9 @@
     
     
     <entry>
-      <title>留言板 comments</title>
-      <link href="/comments/old_index.html"/>
-      <url>/comments/old_index.html</url>
+      <title>link</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -360,11 +371,22 @@
     
     
     <entry>
-      <title>留言板</title>
-      <link href="/commentss/index.html"/>
-      <url>/commentss/index.html</url>
+      <title>分类categories</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
       
-        <content type="html"><![CDATA[<p>欢迎来到我的留言板</p>]]></content>
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>电影movie</title>
+      <link href="/movie/index.html"/>
+      <url>/movie/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
@@ -383,8 +405,8 @@
     
     <entry>
       <title>留言板</title>
-      <link href="/comments/index.html"/>
-      <url>/comments/index.html</url>
+      <link href="/commentss/index.html"/>
+      <url>/commentss/index.html</url>
       
         <content type="html"><![CDATA[<p>欢迎来到我的留言板</p>]]></content>
       
@@ -415,11 +437,11 @@
     
     
     <entry>
-      <title>java的基础代码</title>
-      <link href="/projects/languages/java/index.html"/>
-      <url>/projects/languages/java/index.html</url>
+      <title>语言基础代码</title>
+      <link href="/projects/languages/index.html"/>
+      <url>/projects/languages/index.html</url>
       
-        <content type="html"><![CDATA[<h1 id="我的Java基础代码仓库-目前最精通的语言"><a href="#我的Java基础代码仓库-目前最精通的语言" class="headerlink" title="我的Java基础代码仓库(目前最精通的语言)"></a>我的Java基础代码仓库(目前最精通的语言)</h1><ul><li>这是我学习Java基础时留下的杂七杂八的代码</li><li>教程：黑马程序员</li><li>【黑马程序员Java零基础视频教程_上部(Java入门，含斯坦福大学练习题+力扣算法题和大厂java面试题）】 </li><li><a href="https://www.bilibili.com/video/BV17F411T7Ao/?share_source=copy_web&vd_source=3022b2e061a547745ae82fbd91f0db03">黑马程序员网课视频链接</a></li><li><a href="https://github.com/Ayeez757/learnBasicCodeOfJava">我的代码仓库链接</a></li></ul><h1 id="项目展示："><a href="#项目展示：" class="headerlink" title="项目展示："></a>项目展示：</h1><p>emmmm…..这属于项目，我只是将代码仓库归到这个板块而已，那放个idea的截图吧<br><img src="/../../imgs/java/JavaIdea.png" alt="java代码截图"></p>]]></content>
+        <content type="html"><![CDATA[<h1 id="以下是我学习各个语言基础时留下的代码仓库"><a href="#以下是我学习各个语言基础时留下的代码仓库" class="headerlink" title="以下是我学习各个语言基础时留下的代码仓库"></a>以下是我学习各个语言基础时留下的代码仓库</h1><p>emmmm…..这不属于项目，我只是为了方便管理，将代码仓库归到这个板块而已……</p><h2 id="我的Java基础代码仓库-目前最精通的语言"><a href="#我的Java基础代码仓库-目前最精通的语言" class="headerlink" title="我的Java基础代码仓库(目前最精通的语言)"></a>我的Java基础代码仓库(目前最精通的语言)</h2><blockquote><ul><li><h3 id="这是我学习Java基础时留下的杂七杂八的代码"><a href="#这是我学习Java基础时留下的杂七杂八的代码" class="headerlink" title="这是我学习Java基础时留下的杂七杂八的代码"></a>这是我学习Java基础时留下的杂七杂八的代码</h3></li><li>教程：黑马程序员</li><li>【黑马程序员Java零基础视频教程_上部(Java入门，含斯坦福大学练习题+力扣算法题和大厂java面试题）】 </li><li><a href="https://www.bilibili.com/video/BV17F411T7Ao/?share_source=copy_web&vd_source=3022b2e061a547745ae82fbd91f0db03">黑马程序员网课视频链接</a></li><li><a href="https://github.com/Ayeez757/learnBasicCodeOfJava">我的代码仓库链接</a></li></ul><h3 id="项目展示："><a href="#项目展示：" class="headerlink" title="项目展示："></a>项目展示：</h3><p>那放个idea的截图吧。<br><img src="/../imgs/java/JavaIdea.png" alt="java代码截图"></p></blockquote><h2 id="我的c-语言基础代码仓库-正在学"><a href="#我的c-语言基础代码仓库-正在学" class="headerlink" title="我的c++语言基础代码仓库(正在学)"></a>我的c++语言基础代码仓库(正在学)</h2><blockquote><ul><li><h3 id="这是我学习c-基础时留下的杂七杂八的代码"><a href="#这是我学习c-基础时留下的杂七杂八的代码" class="headerlink" title="这是我学习c++基础时留下的杂七杂八的代码"></a>这是我学习c++基础时留下的杂七杂八的代码</h3></li><li>目前我将重心放在深入c++和数据结构与算法上</li><li>教程：c++ Primer第五版（电子版和实体书都有在用）</li><li><a href="https://github.com/Ayeez757/learnBasicCodeOfCpp">我的代码仓库链接</a></li></ul></blockquote><h2 id="我的c语言基础代码仓库"><a href="#我的c语言基础代码仓库" class="headerlink" title="我的c语言基础代码仓库"></a>我的c语言基础代码仓库</h2><blockquote><ul><li><h3 id="这是我学习c语言基础时留下的杂七杂八的代码"><a href="#这是我学习c语言基础时留下的杂七杂八的代码" class="headerlink" title="这是我学习c语言基础时留下的杂七杂八的代码"></a>这是我学习c语言基础时留下的杂七杂八的代码</h3></li><li>教程：c语言（慕课版）电子书</li><li><a href="https://github.com/Ayeez757/learnBasicCodeOfClanguage">我的代码仓库链接</a></li></ul></blockquote><h2 id="我的python基础代码仓库-最近用的最少的语言"><a href="#我的python基础代码仓库-最近用的最少的语言" class="headerlink" title="我的python基础代码仓库(最近用的最少的语言)"></a>我的python基础代码仓库(最近用的最少的语言)</h2><blockquote><ul><li><h3 id="这是我学习Python基础时留下的杂七杂八的代码"><a href="#这是我学习Python基础时留下的杂七杂八的代码" class="headerlink" title="这是我学习Python基础时留下的杂七杂八的代码"></a>这是我学习Python基础时留下的杂七杂八的代码</h3></li><li><a href="https://github.com/Ayeez757/learnBasicCodeOfPython">我的代码仓库链接</a></li></ul></blockquote>]]></content>
       
     </entry>
     
@@ -437,22 +459,11 @@
     
     
     <entry>
-      <title>电影movie</title>
-      <link href="/movie/index.html"/>
-      <url>/movie/index.html</url>
+      <title>java的基础代码</title>
+      <link href="/projects/languages/java/index.html"/>
+      <url>/projects/languages/java/index.html</url>
       
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>link</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h1 id="我的Java基础代码仓库-目前最精通的语言"><a href="#我的Java基础代码仓库-目前最精通的语言" class="headerlink" title="我的Java基础代码仓库(目前最精通的语言)"></a>我的Java基础代码仓库(目前最精通的语言)</h1><ul><li>这是我学习Java基础时留下的杂七杂八的代码</li><li>教程：黑马程序员</li><li>【黑马程序员Java零基础视频教程_上部(Java入门，含斯坦福大学练习题+力扣算法题和大厂java面试题）】 </li><li><a href="https://www.bilibili.com/video/BV17F411T7Ao/?share_source=copy_web&vd_source=3022b2e061a547745ae82fbd91f0db03">黑马程序员网课视频链接</a></li><li><a href="https://github.com/Ayeez757/learnBasicCodeOfJava">我的代码仓库链接</a></li></ul><h1 id="项目展示："><a href="#项目展示：" class="headerlink" title="项目展示："></a>项目展示：</h1><p>emmmm…..这属于项目，我只是将代码仓库归到这个板块而已，那放个idea的截图吧<br><img src="/../../imgs/java/JavaIdea.png" alt="java代码截图"></p>]]></content>
       
     </entry>
     
@@ -475,17 +486,6 @@
       <url>/projects/languages/python/index.html</url>
       
         <content type="html"><![CDATA[<h1 id="我的python基础代码仓库-最近用的最少的语言"><a href="#我的python基础代码仓库-最近用的最少的语言" class="headerlink" title="我的python基础代码仓库(最近用的最少的语言)"></a>我的python基础代码仓库(最近用的最少的语言)</h1><ul><li>这是我学习Python基础时留下的杂七杂八的代码</li><li><a href="https://github.com/Ayeez757/learnBasicCodeOfPython">我的代码仓库链接</a></li></ul>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>语言基础代码</title>
-      <link href="/projects/languages/index.html"/>
-      <url>/projects/languages/index.html</url>
-      
-        <content type="html"><![CDATA[<h1 id="以下是我学习各个语言基础时留下的代码仓库"><a href="#以下是我学习各个语言基础时留下的代码仓库" class="headerlink" title="以下是我学习各个语言基础时留下的代码仓库"></a>以下是我学习各个语言基础时留下的代码仓库</h1><p>emmmm…..这不属于项目，我只是为了方便管理，将代码仓库归到这个板块而已……</p><h2 id="我的Java基础代码仓库-目前最精通的语言"><a href="#我的Java基础代码仓库-目前最精通的语言" class="headerlink" title="我的Java基础代码仓库(目前最精通的语言)"></a>我的Java基础代码仓库(目前最精通的语言)</h2><blockquote><ul><li><h3 id="这是我学习Java基础时留下的杂七杂八的代码"><a href="#这是我学习Java基础时留下的杂七杂八的代码" class="headerlink" title="这是我学习Java基础时留下的杂七杂八的代码"></a>这是我学习Java基础时留下的杂七杂八的代码</h3></li><li>教程：黑马程序员</li><li>【黑马程序员Java零基础视频教程_上部(Java入门，含斯坦福大学练习题+力扣算法题和大厂java面试题）】 </li><li><a href="https://www.bilibili.com/video/BV17F411T7Ao/?share_source=copy_web&vd_source=3022b2e061a547745ae82fbd91f0db03">黑马程序员网课视频链接</a></li><li><a href="https://github.com/Ayeez757/learnBasicCodeOfJava">我的代码仓库链接</a></li></ul><h3 id="项目展示："><a href="#项目展示：" class="headerlink" title="项目展示："></a>项目展示：</h3><p>那放个idea的截图吧。<br><img src="/../imgs/java/JavaIdea.png" alt="java代码截图"></p></blockquote><h2 id="我的c-语言基础代码仓库-正在学"><a href="#我的c-语言基础代码仓库-正在学" class="headerlink" title="我的c++语言基础代码仓库(正在学)"></a>我的c++语言基础代码仓库(正在学)</h2><blockquote><ul><li><h3 id="这是我学习c-基础时留下的杂七杂八的代码"><a href="#这是我学习c-基础时留下的杂七杂八的代码" class="headerlink" title="这是我学习c++基础时留下的杂七杂八的代码"></a>这是我学习c++基础时留下的杂七杂八的代码</h3></li><li>目前我将重心放在深入c++和数据结构与算法上</li><li>教程：c++ Primer第五版（电子版和实体书都有在用）</li><li><a href="https://github.com/Ayeez757/learnBasicCodeOfCpp">我的代码仓库链接</a></li></ul></blockquote><h2 id="我的c语言基础代码仓库"><a href="#我的c语言基础代码仓库" class="headerlink" title="我的c语言基础代码仓库"></a>我的c语言基础代码仓库</h2><blockquote><ul><li><h3 id="这是我学习c语言基础时留下的杂七杂八的代码"><a href="#这是我学习c语言基础时留下的杂七杂八的代码" class="headerlink" title="这是我学习c语言基础时留下的杂七杂八的代码"></a>这是我学习c语言基础时留下的杂七杂八的代码</h3></li><li>教程：c语言（慕课版）电子书</li><li><a href="https://github.com/Ayeez757/learnBasicCodeOfClanguage">我的代码仓库链接</a></li></ul></blockquote><h2 id="我的python基础代码仓库-最近用的最少的语言"><a href="#我的python基础代码仓库-最近用的最少的语言" class="headerlink" title="我的python基础代码仓库(最近用的最少的语言)"></a>我的python基础代码仓库(最近用的最少的语言)</h2><blockquote><ul><li><h3 id="这是我学习Python基础时留下的杂七杂八的代码"><a href="#这是我学习Python基础时留下的杂七杂八的代码" class="headerlink" title="这是我学习Python基础时留下的杂七杂八的代码"></a>这是我学习Python基础时留下的杂七杂八的代码</h3></li><li><a href="https://github.com/Ayeez757/learnBasicCodeOfPython">我的代码仓库链接</a></li></ul></blockquote>]]></content>
       
     </entry>
     
