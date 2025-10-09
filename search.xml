@@ -294,55 +294,22 @@
     
     
     <entry>
+      <title>关于about</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="关于我"><a href="#关于我" class="headerlink" title="关于我"></a>关于我</h2><ul><li>25级软件工程在读大学生(大一)</li><li>热爱计算机，记录自己的学习历程</li><li>喜欢瞎折腾的小趴菜，有众多自己的业余爱好</li><li>例如：画画，弹钢琴，做饭，乒乓球，中长跑，排球，我的世界（游戏），中式建筑，生电（我的世界），魔方，骑行，桌球，国际象棋，摄影，手工木作等</li><li>一些奇怪的技能：双手都能写字……</li><li>IP:广东</li></ul><h2 id="关于我的个人网站"><a href="#关于我的个人网站" class="headerlink" title="关于我的个人网站"></a>关于我的个人网站</h2><p>作者在开始捣鼓这个个人网站的时候才大一刚开学第二周，并没有学习前端，web等知识，在网上苦苦寻找教程，依葫芦画瓢地折腾着，导致网站并不完善，这也加重了作者急切想要学习的心情<br>等后续作者学习了相关知识，会好好地整理这个网站。 -2025.9.15 13:24</p><p>好吧，说是等后续学习了相关知识再修理我的网站，但是还是非常心急，<br>学习学累了就来我的网站修修补补，没学过的就去查一下，搞不定的就ai,<br>过程虽然挺头疼的，但是每次实现一个新功能就会感觉非常开心 -2025.9.30 23:29</p><p>太好了兄弟们，我今天为了解决某些插件可能由于与nodejs版本不兼容的问题，安装了nvm来管理不同版本，结果没有删干净原来的版本，造成了版本冲突……<br>hexo一下就没了 ，重删重装了好几次，搞了好久，才把node,npm,hexo都搞回来，结果发现utterance的评论莫名其妙跑不起来，这时候真的太崩溃了，又搞了一段时间，决定放弃utterance，<br>现在用的是twikoo，更好用，原来一定要有GitHub账号才能评论，对我的亲朋好友极其的不友好，现在不需要了，只需要拿你qq邮箱，还自动关联你头像。<br>等我搞个图床，还能发表情包和图片，耶！！！受伤的心灵一下就好了，嘻嘻… -2025.10.07</p><h2 id="版本历史"><a href="#版本历史" class="headerlink" title="版本历史"></a>版本历史</h2><blockquote><h3 id="1-99-99-————25-10-08"><a href="#1-99-99-————25-10-08" class="headerlink" title="1.99.99 ————25.10.08"></a>1.99.99 ————25.10.08</h3><ul><li>不出意外，这个是第一代版本最后一次更新，经过一段时间的频繁更新修补，网站基本功能已经完成了。</li><li>目前已经实现的功能:  分类、标签、留言板、友链、关于、项目仓库、作者关联账号、公告、文章评论、网站信息、ive2D，并且已经发布了各个类型一定的文章数目，网站的已经正常运作一段时间</li><li>昨天我的错误操作让原本的评论崩掉了，现在我用vercel重新部署了twikoo的评论，但是由于没有域名，这个东西居然要挂梯子才能访问，于是我决定购买一个域名，解决评论的问题，顺便提升网站的访问速度，</li><li>于是决定将我购买域名重新部署网站的这一次更新作为2.0版本的开始。</li></ul><h3 id="2-0-0-————25-10-09"><a href="#2-0-0-————25-10-09" class="headerlink" title="2.0.0 ————25.10.09"></a>2.0.0 ————25.10.09</h3><ul><li>购买了自己的域名(目前是十年),更新了网址：<a href="https://blog.ayeez.cn/">https://blog.ayeez.cn/</a></li><li>大幅提高了网站的访问速度。</li><li>解决了评论功能要梯子才能访问的问题。</li></ul></blockquote><!-- GitCalendar容器 --><div id="gitZone"></div>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>分类categories</title>
       <link href="/categories/index.html"/>
       <url>/categories/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>关于about</title>
-      <link href="/about/index.html"/>
-      <url>/about/index.html</url>
-      
-        <content type="html"><![CDATA[<h2 id="关于我"><a href="#关于我" class="headerlink" title="关于我"></a>关于我</h2><ul><li>25级软件工程在读大学生(大一)</li><li>热爱计算机，记录自己的学习历程</li><li>喜欢瞎折腾的小趴菜，有众多自己的业余爱好</li><li>例如：画画，弹钢琴，做饭，乒乓球，中长跑，排球，我的世界（游戏），中式建筑，生电（我的世界），魔方，骑行，桌球，国际象棋，摄影，手工木作等</li><li>一些奇怪的技能：双手都能写字……</li><li>IP:广东</li></ul><h2 id="关于我的个人网站"><a href="#关于我的个人网站" class="headerlink" title="关于我的个人网站"></a>关于我的个人网站</h2><p>作者在开始捣鼓这个个人网站的时候才大一刚开学第二周，并没有学习前端，web等知识，在网上苦苦寻找教程，依葫芦画瓢地折腾着，导致网站并不完善，这也加重了作者急切想要学习的心情<br>等后续作者学习了相关知识，会好好地整理这个网站。 -2025.9.15 13:24</p><p>好吧，说是等后续学习了相关知识再修理我的网站，但是还是非常心急，<br>学习学累了就来我的网站修修补补，没学过的就去查一下，搞不定的就ai,<br>过程虽然挺头疼的，但是每次实现一个新功能就会感觉非常开心 -2025.9.30 23:29</p><p>太好了兄弟们，我今天为了解决某些插件可能由于与nodejs版本不兼容的问题，安装了nvm来管理不同版本，结果没有删干净原来的版本，造成了版本冲突……<br>hexo一下就没了 ，重删重装了好几次，搞了好久，才把node,npm,hexo都搞回来，结果发现utterance的评论莫名其妙跑不起来，这时候真的太崩溃了，又搞了一段时间，决定放弃utterance，<br>现在用的是twikoo，更好用，原来一定要有GitHub账号才能评论，对我的亲朋好友极其的不友好，现在不需要了，只需要拿你qq邮箱，还自动关联你头像。<br>等我搞个图床，还能发表情包和图片，耶！！！受伤的心灵一下就好了，嘻嘻… -2025.10.07</p><h2 id="版本历史"><a href="#版本历史" class="headerlink" title="版本历史"></a>版本历史</h2><blockquote><h4 id="1-99-99-————25-10-08"><a href="#1-99-99-————25-10-08" class="headerlink" title="1.99.99 ————25.10.08"></a>1.99.99 ————25.10.08</h4><ul><li>不出意外，这个是第一代版本最后一次更新，经过一段时间的频繁更新修补，网站基本功能已经完成了。</li><li>目前已经实现的功能:  分类、标签、留言板、友链、关于、项目仓库、作者关联账号、公告、文章评论、网站信息、ive2D，并且已经发布了各个类型一定的文章数目，网站的已经正常运作一段时间</li><li>昨天我的错误操作让原本的评论崩掉了，现在我用vercel重新部署了twikoo的评论，但是由于没有域名，这个东西居然要挂梯子才能访问，于是我决定购买一个域名，解决评论的问题，顺便提升网站的访问速度，</li><li>于是决定将我购买域名重新部署网站的这一次更新作为2.0版本的开始。</li></ul><h4 id="2-0-0-————25-10-09"><a href="#2-0-0-————25-10-09" class="headerlink" title="2.0.0 ————25.10.09"></a>2.0.0 ————25.10.09</h4><ul><li>购买了自己的域名(目前是十年),更新了网址：<a href="https://blog.ayeez.cn/">https://blog.ayeez.cn/</a></li><li>大幅提高了网站的访问速度。</li><li>解决了评论功能要梯子才能访问的问题。</li></ul></blockquote><!-- GitCalendar容器 --><div id="gitZone"></div>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>留言板 comments</title>
-      <link href="/comments/old_index.html"/>
-      <url>/comments/old_index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>留言板</title>
-      <link href="/comments/index.html"/>
-      <url>/comments/index.html</url>
-      
-        <content type="html"><![CDATA[<p>欢迎来到我的留言板</p>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>留言板</title>
-      <link href="/commentss/index.html"/>
-      <url>/commentss/index.html</url>
-      
-        <content type="html"><![CDATA[<p>欢迎来到我的留言板</p>]]></content>
       
     </entry>
     
@@ -360,9 +327,9 @@
     
     
     <entry>
-      <title>link</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
+      <title></title>
+      <link href="/css/suiyi.css"/>
+      <url>/css/suiyi.css</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -371,9 +338,9 @@
     
     
     <entry>
-      <title>电影movie</title>
-      <link href="/movie/index.html"/>
-      <url>/movie/index.html</url>
+      <title>留言板 comments</title>
+      <link href="/comments/old_index.html"/>
+      <url>/comments/old_index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -393,11 +360,11 @@
     
     
     <entry>
-      <title>tags</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
+      <title>留言板</title>
+      <link href="/commentss/index.html"/>
+      <url>/commentss/index.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<p>欢迎来到我的留言板</p>]]></content>
       
     </entry>
     
@@ -415,9 +382,20 @@
     
     
     <entry>
-      <title></title>
-      <link href="/css/suiyi.css"/>
-      <url>/css/suiyi.css</url>
+      <title>留言板</title>
+      <link href="/comments/index.html"/>
+      <url>/comments/index.html</url>
+      
+        <content type="html"><![CDATA[<p>欢迎来到我的留言板</p>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>tags</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -437,22 +415,11 @@
     
     
     <entry>
-      <title>语言基础代码</title>
-      <link href="/projects/languages/index.html"/>
-      <url>/projects/languages/index.html</url>
+      <title>java的基础代码</title>
+      <link href="/projects/languages/java/index.html"/>
+      <url>/projects/languages/java/index.html</url>
       
-        <content type="html"><![CDATA[<h1 id="以下是我学习各个语言基础时留下的代码仓库"><a href="#以下是我学习各个语言基础时留下的代码仓库" class="headerlink" title="以下是我学习各个语言基础时留下的代码仓库"></a>以下是我学习各个语言基础时留下的代码仓库</h1><p>emmmm…..这不属于项目，我只是为了方便管理，将代码仓库归到这个板块而已……</p><h2 id="我的Java基础代码仓库-目前最精通的语言"><a href="#我的Java基础代码仓库-目前最精通的语言" class="headerlink" title="我的Java基础代码仓库(目前最精通的语言)"></a>我的Java基础代码仓库(目前最精通的语言)</h2><blockquote><ul><li><h3 id="这是我学习Java基础时留下的杂七杂八的代码"><a href="#这是我学习Java基础时留下的杂七杂八的代码" class="headerlink" title="这是我学习Java基础时留下的杂七杂八的代码"></a>这是我学习Java基础时留下的杂七杂八的代码</h3></li><li>教程：黑马程序员</li><li>【黑马程序员Java零基础视频教程_上部(Java入门，含斯坦福大学练习题+力扣算法题和大厂java面试题）】 </li><li><a href="https://www.bilibili.com/video/BV17F411T7Ao/?share_source=copy_web&vd_source=3022b2e061a547745ae82fbd91f0db03">黑马程序员网课视频链接</a></li><li><a href="https://github.com/Ayeez757/learnBasicCodeOfJava">我的代码仓库链接</a></li></ul><h3 id="项目展示："><a href="#项目展示：" class="headerlink" title="项目展示："></a>项目展示：</h3><p>那放个idea的截图吧。<br><img src="/../imgs/java/JavaIdea.png" alt="java代码截图"></p></blockquote><h2 id="我的c-语言基础代码仓库-正在学"><a href="#我的c-语言基础代码仓库-正在学" class="headerlink" title="我的c++语言基础代码仓库(正在学)"></a>我的c++语言基础代码仓库(正在学)</h2><blockquote><ul><li><h3 id="这是我学习c-基础时留下的杂七杂八的代码"><a href="#这是我学习c-基础时留下的杂七杂八的代码" class="headerlink" title="这是我学习c++基础时留下的杂七杂八的代码"></a>这是我学习c++基础时留下的杂七杂八的代码</h3></li><li>目前我将重心放在深入c++和数据结构与算法上</li><li>教程：c++ Primer第五版（电子版和实体书都有在用）</li><li><a href="https://github.com/Ayeez757/learnBasicCodeOfCpp">我的代码仓库链接</a></li></ul></blockquote><h2 id="我的c语言基础代码仓库"><a href="#我的c语言基础代码仓库" class="headerlink" title="我的c语言基础代码仓库"></a>我的c语言基础代码仓库</h2><blockquote><ul><li><h3 id="这是我学习c语言基础时留下的杂七杂八的代码"><a href="#这是我学习c语言基础时留下的杂七杂八的代码" class="headerlink" title="这是我学习c语言基础时留下的杂七杂八的代码"></a>这是我学习c语言基础时留下的杂七杂八的代码</h3></li><li>教程：c语言（慕课版）电子书</li><li><a href="https://github.com/Ayeez757/learnBasicCodeOfClanguage">我的代码仓库链接</a></li></ul></blockquote><h2 id="我的python基础代码仓库-最近用的最少的语言"><a href="#我的python基础代码仓库-最近用的最少的语言" class="headerlink" title="我的python基础代码仓库(最近用的最少的语言)"></a>我的python基础代码仓库(最近用的最少的语言)</h2><blockquote><ul><li><h3 id="这是我学习Python基础时留下的杂七杂八的代码"><a href="#这是我学习Python基础时留下的杂七杂八的代码" class="headerlink" title="这是我学习Python基础时留下的杂七杂八的代码"></a>这是我学习Python基础时留下的杂七杂八的代码</h3></li><li><a href="https://github.com/Ayeez757/learnBasicCodeOfPython">我的代码仓库链接</a></li></ul></blockquote>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>c语言的基础代码</title>
-      <link href="/projects/languages/c/index.html"/>
-      <url>/projects/languages/c/index.html</url>
-      
-        <content type="html"><![CDATA[<h1 id="我的c语言基础代码仓库"><a href="#我的c语言基础代码仓库" class="headerlink" title="我的c语言基础代码仓库"></a>我的c语言基础代码仓库</h1><ul><li>这是我学习c语言基础时留下的杂七杂八的代码</li><li>教程：c语言（慕课版）电子书</li><li><a href="https://github.com/Ayeez757/learnBasicCodeOfClanguage">我的代码仓库链接</a></li></ul>]]></content>
+        <content type="html"><![CDATA[<h1 id="我的Java基础代码仓库-目前最精通的语言"><a href="#我的Java基础代码仓库-目前最精通的语言" class="headerlink" title="我的Java基础代码仓库(目前最精通的语言)"></a>我的Java基础代码仓库(目前最精通的语言)</h1><ul><li>这是我学习Java基础时留下的杂七杂八的代码</li><li>教程：黑马程序员</li><li>【黑马程序员Java零基础视频教程_上部(Java入门，含斯坦福大学练习题+力扣算法题和大厂java面试题）】 </li><li><a href="https://www.bilibili.com/video/BV17F411T7Ao/?share_source=copy_web&vd_source=3022b2e061a547745ae82fbd91f0db03">黑马程序员网课视频链接</a></li><li><a href="https://github.com/Ayeez757/learnBasicCodeOfJava">我的代码仓库链接</a></li></ul><h1 id="项目展示："><a href="#项目展示：" class="headerlink" title="项目展示："></a>项目展示：</h1><p>emmmm…..这属于项目，我只是将代码仓库归到这个板块而已，那放个idea的截图吧<br><img src="/../../imgs/java/JavaIdea.png" alt="java代码截图"></p>]]></content>
       
     </entry>
     
@@ -470,6 +437,39 @@
     
     
     <entry>
+      <title>电影movie</title>
+      <link href="/movie/index.html"/>
+      <url>/movie/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>link</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>c语言的基础代码</title>
+      <link href="/projects/languages/c/index.html"/>
+      <url>/projects/languages/c/index.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="我的c语言基础代码仓库"><a href="#我的c语言基础代码仓库" class="headerlink" title="我的c语言基础代码仓库"></a>我的c语言基础代码仓库</h1><ul><li>这是我学习c语言基础时留下的杂七杂八的代码</li><li>教程：c语言（慕课版）电子书</li><li><a href="https://github.com/Ayeez757/learnBasicCodeOfClanguage">我的代码仓库链接</a></li></ul>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>python的基础代码</title>
       <link href="/projects/languages/python/index.html"/>
       <url>/projects/languages/python/index.html</url>
@@ -481,11 +481,11 @@
     
     
     <entry>
-      <title>java的基础代码</title>
-      <link href="/projects/languages/java/index.html"/>
-      <url>/projects/languages/java/index.html</url>
+      <title>语言基础代码</title>
+      <link href="/projects/languages/index.html"/>
+      <url>/projects/languages/index.html</url>
       
-        <content type="html"><![CDATA[<h1 id="我的Java基础代码仓库-目前最精通的语言"><a href="#我的Java基础代码仓库-目前最精通的语言" class="headerlink" title="我的Java基础代码仓库(目前最精通的语言)"></a>我的Java基础代码仓库(目前最精通的语言)</h1><ul><li>这是我学习Java基础时留下的杂七杂八的代码</li><li>教程：黑马程序员</li><li>【黑马程序员Java零基础视频教程_上部(Java入门，含斯坦福大学练习题+力扣算法题和大厂java面试题）】 </li><li><a href="https://www.bilibili.com/video/BV17F411T7Ao/?share_source=copy_web&vd_source=3022b2e061a547745ae82fbd91f0db03">黑马程序员网课视频链接</a></li><li><a href="https://github.com/Ayeez757/learnBasicCodeOfJava">我的代码仓库链接</a></li></ul><h1 id="项目展示："><a href="#项目展示：" class="headerlink" title="项目展示："></a>项目展示：</h1><p>emmmm…..这属于项目，我只是将代码仓库归到这个板块而已，那放个idea的截图吧<br><img src="/../../imgs/java/JavaIdea.png" alt="java代码截图"></p>]]></content>
+        <content type="html"><![CDATA[<h1 id="以下是我学习各个语言基础时留下的代码仓库"><a href="#以下是我学习各个语言基础时留下的代码仓库" class="headerlink" title="以下是我学习各个语言基础时留下的代码仓库"></a>以下是我学习各个语言基础时留下的代码仓库</h1><p>emmmm…..这不属于项目，我只是为了方便管理，将代码仓库归到这个板块而已……</p><h2 id="我的Java基础代码仓库-目前最精通的语言"><a href="#我的Java基础代码仓库-目前最精通的语言" class="headerlink" title="我的Java基础代码仓库(目前最精通的语言)"></a>我的Java基础代码仓库(目前最精通的语言)</h2><blockquote><ul><li><h3 id="这是我学习Java基础时留下的杂七杂八的代码"><a href="#这是我学习Java基础时留下的杂七杂八的代码" class="headerlink" title="这是我学习Java基础时留下的杂七杂八的代码"></a>这是我学习Java基础时留下的杂七杂八的代码</h3></li><li>教程：黑马程序员</li><li>【黑马程序员Java零基础视频教程_上部(Java入门，含斯坦福大学练习题+力扣算法题和大厂java面试题）】 </li><li><a href="https://www.bilibili.com/video/BV17F411T7Ao/?share_source=copy_web&vd_source=3022b2e061a547745ae82fbd91f0db03">黑马程序员网课视频链接</a></li><li><a href="https://github.com/Ayeez757/learnBasicCodeOfJava">我的代码仓库链接</a></li></ul><h3 id="项目展示："><a href="#项目展示：" class="headerlink" title="项目展示："></a>项目展示：</h3><p>那放个idea的截图吧。<br><img src="/../imgs/java/JavaIdea.png" alt="java代码截图"></p></blockquote><h2 id="我的c-语言基础代码仓库-正在学"><a href="#我的c-语言基础代码仓库-正在学" class="headerlink" title="我的c++语言基础代码仓库(正在学)"></a>我的c++语言基础代码仓库(正在学)</h2><blockquote><ul><li><h3 id="这是我学习c-基础时留下的杂七杂八的代码"><a href="#这是我学习c-基础时留下的杂七杂八的代码" class="headerlink" title="这是我学习c++基础时留下的杂七杂八的代码"></a>这是我学习c++基础时留下的杂七杂八的代码</h3></li><li>目前我将重心放在深入c++和数据结构与算法上</li><li>教程：c++ Primer第五版（电子版和实体书都有在用）</li><li><a href="https://github.com/Ayeez757/learnBasicCodeOfCpp">我的代码仓库链接</a></li></ul></blockquote><h2 id="我的c语言基础代码仓库"><a href="#我的c语言基础代码仓库" class="headerlink" title="我的c语言基础代码仓库"></a>我的c语言基础代码仓库</h2><blockquote><ul><li><h3 id="这是我学习c语言基础时留下的杂七杂八的代码"><a href="#这是我学习c语言基础时留下的杂七杂八的代码" class="headerlink" title="这是我学习c语言基础时留下的杂七杂八的代码"></a>这是我学习c语言基础时留下的杂七杂八的代码</h3></li><li>教程：c语言（慕课版）电子书</li><li><a href="https://github.com/Ayeez757/learnBasicCodeOfClanguage">我的代码仓库链接</a></li></ul></blockquote><h2 id="我的python基础代码仓库-最近用的最少的语言"><a href="#我的python基础代码仓库-最近用的最少的语言" class="headerlink" title="我的python基础代码仓库(最近用的最少的语言)"></a>我的python基础代码仓库(最近用的最少的语言)</h2><blockquote><ul><li><h3 id="这是我学习Python基础时留下的杂七杂八的代码"><a href="#这是我学习Python基础时留下的杂七杂八的代码" class="headerlink" title="这是我学习Python基础时留下的杂七杂八的代码"></a>这是我学习Python基础时留下的杂七杂八的代码</h3></li><li><a href="https://github.com/Ayeez757/learnBasicCodeOfPython">我的代码仓库链接</a></li></ul></blockquote>]]></content>
       
     </entry>
     
