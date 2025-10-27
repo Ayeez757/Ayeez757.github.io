@@ -30,14 +30,3 @@
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2) !important;
 }
 
-#commentSave::before {
-    content: "发布";
-}
-
-#atPreview::before {
-    content: "预览";
-}
-
-#loadEmoji::before {
-    content: "表情";
-}
