@@ -38,8 +38,3 @@
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2) !important;
 }
 
-#atSave {
-    display: none !important;
-    pointer-events: none !important;
-    visibility: hidden !important;
-}
