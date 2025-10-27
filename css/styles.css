@@ -37,8 +37,11 @@
     transform: translateY(0) !important;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2) !important;
 }
+#atSave::after{
+    content:"评论";
+}
 
-#atSave::before{
-    content:"管理";
+#atSave::after{
+    content:"说说";
 }
 
