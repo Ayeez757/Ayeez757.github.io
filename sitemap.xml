@@ -236,7 +236,7 @@
   </url>
   
   <url>
-    <loc>https://blog.ayeez.cn/commentss/index.html</loc>
+    <loc>https://blog.ayeez.cn/comments/index.html</loc>
     
     <lastmod>2025-10-07</lastmod>
     
@@ -245,7 +245,7 @@
   </url>
   
   <url>
-    <loc>https://blog.ayeez.cn/comments/index.html</loc>
+    <loc>https://blog.ayeez.cn/commentss/index.html</loc>
     
     <lastmod>2025-10-07</lastmod>
     
@@ -450,6 +450,13 @@
   </url>
   
   <url>
+    <loc>https://blog.ayeez.cn/tags/%E5%90%88%E9%9B%86/</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.ayeez.cn/tags/%E9%9A%8F%E8%AE%B0/</loc>
     <lastmod>2025-10-27</lastmod>
     <changefreq>weekly</changefreq>
@@ -464,7 +471,7 @@
   </url>
   
   <url>
-    <loc>https://blog.ayeez.cn/tags/%E5%90%88%E9%9B%86/</loc>
+    <loc>https://blog.ayeez.cn/tags/cpp/</loc>
     <lastmod>2025-10-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -514,13 +521,6 @@
   
   <url>
     <loc>https://blog.ayeez.cn/tags/python/</loc>
-    <lastmod>2025-10-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ayeez.cn/tags/cpp/</loc>
     <lastmod>2025-10-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -592,6 +592,13 @@
   </url>
   
   <url>
+    <loc>https://blog.ayeez.cn/categories/%E6%96%87%E7%AB%A0/%E9%9A%8F%E8%AE%B0/</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.ayeez.cn/categories/%E5%B0%84%E5%87%BB/</loc>
     <lastmod>2025-10-27</lastmod>
     <changefreq>weekly</changefreq>
@@ -600,13 +607,6 @@
   
   <url>
     <loc>https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/python/</loc>
-    <lastmod>2025-10-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ayeez.cn/categories/%E6%96%87%E7%AB%A0/%E9%9A%8F%E8%AE%B0/</loc>
     <lastmod>2025-10-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
