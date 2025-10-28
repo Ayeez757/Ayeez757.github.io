@@ -45,3 +45,4 @@
     content:"说说";
 }
 
+<button id="decrypt-btn" onclick="decryptArticle()">解密文章</button>
