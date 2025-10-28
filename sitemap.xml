@@ -615,14 +615,14 @@
   </url>
   
   <url>
-    <loc>https://blog.ayeez.cn/categories/%E6%96%87%E7%AB%A0/</loc>
+    <loc>https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/%E6%B4%9B%E8%B0%B7%E5%81%9A%E9%A2%98%E8%AE%B0%E5%BD%95/</loc>
     <lastmod>2025-10-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/%E6%B4%9B%E8%B0%B7%E5%81%9A%E9%A2%98%E8%AE%B0%E5%BD%95/</loc>
+    <loc>https://blog.ayeez.cn/categories/%E6%96%87%E7%AB%A0/</loc>
     <lastmod>2025-10-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -636,13 +636,6 @@
   </url>
   
   <url>
-    <loc>https://blog.ayeez.cn/categories/%E6%96%87%E7%AB%A0/%E9%9A%8F%E8%AE%B0/</loc>
-    <lastmod>2025-10-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/%E6%8A%95%E8%B5%84/</loc>
     <lastmod>2025-10-28</lastmod>
     <changefreq>weekly</changefreq>
@@ -650,14 +643,21 @@
   </url>
   
   <url>
-    <loc>https://blog.ayeez.cn/categories/%E5%B0%84%E5%87%BB/%E5%B0%84%E5%87%BB%E4%BD%93%E7%B3%BB/</loc>
+    <loc>https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/python/</loc>
     <lastmod>2025-10-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/python/</loc>
+    <loc>https://blog.ayeez.cn/categories/%E6%96%87%E7%AB%A0/%E9%9A%8F%E8%AE%B0/</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ayeez.cn/categories/%E5%B0%84%E5%87%BB/%E5%B0%84%E5%87%BB%E4%BD%93%E7%B3%BB/</loc>
     <lastmod>2025-10-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
