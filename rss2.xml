@@ -15,8 +15,43 @@
     <atom:link href="https://blog.ayeez.cn/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Wed, 29 Oct 2025 13:50:00 GMT</pubDate>
+    <pubDate>Thu, 30 Oct 2025 03:29:00 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Java集合之List（常用方法及五种遍历方式）</title>
+      <link>https://blog.ayeez.cn/posts/3241cf21/</link>
+      <guid>https://blog.ayeez.cn/posts/3241cf21/</guid>
+      <pubDate>Thu, 30 Oct 2025 03:29:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot;</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/">学习</category>
+      
+      <category domain="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/java/">java</category>
+      
+      <category domain="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/java/%E7%AC%94%E8%AE%B0/">笔记</category>
+      
+      
+      <category domain="https://blog.ayeez.cn/tags/%E7%AC%94%E8%AE%B0/">笔记</category>
+      
+      <category domain="https://blog.ayeez.cn/tags/%E5%AD%A6%E4%B9%A0/">学习</category>
+      
+      <category domain="https://blog.ayeez.cn/tags/java/">java</category>
+      
+      
+      <comments>https://blog.ayeez.cn/posts/3241cf21/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>Java集合之Collection</title>
@@ -155,9 +190,9 @@
       
       <category domain="https://blog.ayeez.cn/tags/%E5%AD%A6%E4%B9%A0/">学习</category>
       
-      <category domain="https://blog.ayeez.cn/tags/java/">java</category>
-      
       <category domain="https://blog.ayeez.cn/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/">数据结构与算法</category>
+      
+      <category domain="https://blog.ayeez.cn/tags/java/">java</category>
       
       
       <comments>https://blog.ayeez.cn/posts/ff8068c0/#disqus_thread</comments>
@@ -559,11 +594,11 @@
       <category domain="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E7%AC%94%E8%AE%B0%E4%B8%8E%E9%A2%98%E8%A7%A3/">笔记与题解</category>
       
       
+      <category domain="https://blog.ayeez.cn/tags/%E9%A2%98%E8%A7%A3/">题解</category>
+      
       <category domain="https://blog.ayeez.cn/tags/%E7%AC%94%E8%AE%B0/">笔记</category>
       
       <category domain="https://blog.ayeez.cn/tags/%E5%AD%A6%E4%B9%A0/">学习</category>
-      
-      <category domain="https://blog.ayeez.cn/tags/%E9%A2%98%E8%A7%A3/">题解</category>
       
       <category domain="https://blog.ayeez.cn/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/">数据结构与算法</category>
       
@@ -598,11 +633,11 @@
       <category domain="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E7%AC%94%E8%AE%B0%E4%B8%8E%E9%A2%98%E8%A7%A3/">笔记与题解</category>
       
       
+      <category domain="https://blog.ayeez.cn/tags/%E9%A2%98%E8%A7%A3/">题解</category>
+      
       <category domain="https://blog.ayeez.cn/tags/%E7%AC%94%E8%AE%B0/">笔记</category>
       
       <category domain="https://blog.ayeez.cn/tags/%E5%AD%A6%E4%B9%A0/">学习</category>
-      
-      <category domain="https://blog.ayeez.cn/tags/%E9%A2%98%E8%A7%A3/">题解</category>
       
       <category domain="https://blog.ayeez.cn/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/">数据结构与算法</category>
       
@@ -674,39 +709,6 @@
       
       
       <comments>https://blog.ayeez.cn/posts/26268/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>洛谷做题记录</title>
-      <link>https://blog.ayeez.cn/posts/57195/</link>
-      <guid>https://blog.ayeez.cn/posts/57195/</guid>
-      <pubDate>Thu, 02 Oct 2025 16:00:00 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot;</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/">学习</category>
-      
-      <category domain="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/%E6%B4%9B%E8%B0%B7%E5%81%9A%E9%A2%98%E8%AE%B0%E5%BD%95/">洛谷做题记录</category>
-      
-      
-      <category domain="https://blog.ayeez.cn/tags/%E5%AD%A6%E4%B9%A0/">学习</category>
-      
-      <category domain="https://blog.ayeez.cn/tags/%E6%B4%9B%E8%B0%B7%E5%81%9A%E9%A2%98%E8%AE%B0%E5%BD%95/">洛谷做题记录</category>
-      
-      <category domain="https://blog.ayeez.cn/tags/%E5%90%88%E9%9B%86/">合集</category>
-      
-      
-      <comments>https://blog.ayeez.cn/posts/57195/#disqus_thread</comments>
       
     </item>
     
