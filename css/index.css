@@ -4062,6 +4062,14 @@ figure.highlight pre .javascript .function {
   -ms-flex-direction: column;
   flex-direction: column;
 }
+.page .card-webinfo {
+  -webkit-box-ordinal-group: Formal '9/14/2025 18:31:57';
+  -moz-box-ordinal-group: Formal '9/14/2025 18:31:57';
+  -o-box-ordinal-group: Formal '9/14/2025 18:31:57';
+  -ms-flex-order: Formal '9/14/2025 18:31:57';
+  -webkit-order: Formal '9/14/2025 18:31:57';
+  order: Formal '9/14/2025 18:31:57';
+}
 @-moz-keyframes more-btn-move {
   0%, 100% {
     -webkit-transform: translateX(0);
