@@ -1,42 +1,70 @@
-function enhanceArtitalkImages() {
-    const artitalkImages = document.querySelectorAll('#artitalk_main img:not(.atemoji)');
-    
-    artitalkImages.forEach((img, index) => {
-        if (img.classList.contains('atemoji')) return;
-        
-        // Fancybox
-        img.setAttribute('data-fancybox', 'artitalk-gallery');
-        img.setAttribute('data-src', img.src);
-        img.style.cursor = 'pointer';
-        
-        img.addEventListener('click', function() {
-            if (typeof Fancybox !== 'undefined') {
-                Fancybox.show([{
-                    src: this.src,
-                    type: 'image'
-                }]);
+function initArtitalkFancybox() {
+    if (typeof Fancybox !== 'undefined') {
+        Fancybox.unbind('[data-fancybox]');
+        Fancybox.unbind('.gallery-group-img');
+
+        Fancybox.bind('[data-fancybox]', {});
+        Fancybox.bind('#artitalk_main img', {
+            groupAll: true,
+            on: {
+                reveal: (fancybox, slide) => {
+                    console.log('Artitalk image opened');
+                }
             }
         });
-    });
+    }
 }
 
-// 监听Artitalk
-const artitalkObserver = new MutationObserver(function(mutations) {
-    mutations.forEach(function(mutation) {
-        if (mutation.addedNodes.length) {
-            setTimeout(enhanceArtitalkImages, 100);
-        }
-    });
-});
+function observeArtitalkChanges() {
+    const artitalkContainer = document.getElementById('artitalk_main');
+    if (artitalkContainer) {
+        const observer = new MutationObserver(function(mutations) {
+            mutations.forEach(function(mutation) {
+                if (mutation.addedNodes.length > 0) {
+                    setTimeout(() => {
+                        initArtitalkFancybox();
+                    }, 100);
+                }
+            });
+        });
 
-// 启动监听
-document.addEventListener('DOMContentLoaded', function() {
-    const artitalkMain = document.getElementById('artitalk_main');
-    if (artitalkMain) {
-        artitalkObserver.observe(artitalkMain, {
+        observer.observe(artitalkContainer, {
             childList: true,
             subtree: true
         });
-        enhanceArtitalkImages();
+    }
+}
+
+function addArtitalkImageClick() {
+    document.addEventListener('click', function(e) {
+        if (e.target.matches('#artitalk_main img') && typeof Fancybox !== 'undefined') {
+            e.preventDefault();
+
+            const images = Array.from(document.querySelectorAll('#artitalk_main img'));
+            const currentIndex = images.indexOf(e.target);
+
+            Fancybox.show(images.map(img => ({
+                src: img.src,
+                type: 'image'
+            })), {
+                startIndex: currentIndex
+            });
+        }
+    });
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    setTimeout(() => {
+        initArtitalkFancybox();
+        observeArtitalkChanges();
+        addArtitalkImageClick();
+    }, 1000);
+});
+
+document.addEventListener('click', function(e) {
+    if (e.target.matches('#readmore') || e.target.closest('#readmore')) {
+        setTimeout(() => {
+            initArtitalkFancybox();
+        }, 500);
     }
 });
