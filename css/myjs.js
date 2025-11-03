@@ -72,7 +72,6 @@ diffDate(date, more = false) {
       if (years > 0 && days > 0) {
         return `${years} 年 ${days} 天`
       } else if (years > 0) {
-        return `${years} 年`
       } else {
         return `${days} 天`
       }
