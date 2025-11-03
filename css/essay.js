@@ -27,7 +27,7 @@ function observeArtitalkChanges() {
                 }
             });
         });
-
+        
         observer.observe(artitalkContainer, {
             childList: true,
             subtree: true
@@ -35,29 +35,10 @@ function observeArtitalkChanges() {
     }
 }
 
-function addArtitalkImageClick() {
-    document.addEventListener('click', function(e) {
-        if (e.target.matches('#artitalk_main img') && typeof Fancybox !== 'undefined') {
-            e.preventDefault();
-
-            const images = Array.from(document.querySelectorAll('#artitalk_main img'));
-            const currentIndex = images.indexOf(e.target);
-
-            Fancybox.show(images.map(img => ({
-                src: img.src,
-                type: 'image'
-            })), {
-                startIndex: currentIndex
-            });
-        }
-    });
-}
-
 document.addEventListener('DOMContentLoaded', function() {
     setTimeout(() => {
         initArtitalkFancybox();
         observeArtitalkChanges();
-        addArtitalkImageClick();
     }, 1000);
 });
 
