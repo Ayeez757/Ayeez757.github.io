@@ -37,8 +37,8 @@ https://blog.ayeez.cn/posts/22828/
 https://blog.ayeez.cn/posts/59503/
 https://blog.ayeez.cn/posts/64319/
 https://blog.ayeez.cn/posts/59567/
-https://blog.ayeez.cn/commentss/index.html
 https://blog.ayeez.cn/comments/index.html
+https://blog.ayeez.cn/commentss/index.html
 https://blog.ayeez.cn/projects/languages/python/index.html
 https://blog.ayeez.cn/projects/languages/cpp/index.html
 https://blog.ayeez.cn/projects/languages/c/index.html
@@ -90,6 +90,6 @@ https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/%E6%B4%9B%E8%B0%B7%E5%81%9A%
 https://blog.ayeez.cn/categories/%E6%96%87%E7%AB%A0/
 https://blog.ayeez.cn/categories/%E5%B0%84%E5%87%BB/
 https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/%E6%8A%95%E8%B5%84/
+https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/python/
 https://blog.ayeez.cn/categories/%E6%96%87%E7%AB%A0/%E9%9A%8F%E8%AE%B0/
 https://blog.ayeez.cn/categories/%E5%B0%84%E5%87%BB/%E5%B0%84%E5%87%BB%E4%BD%93%E7%B3%BB/
-https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/python/
