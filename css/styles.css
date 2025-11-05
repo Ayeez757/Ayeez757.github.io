@@ -271,7 +271,7 @@ div#archive {
     flex-direction: row; /* 改为行布局 */
     flex-wrap: wrap; /* 允许换行 */
     gap: 10px;
-    max-width: 300px; /* 限制最大宽度防止溢出 */
+    max-width: 500px; /* 限制最大宽度防止溢出 */
 }
 .about-tag {
     background: linear-gradient(45deg, rgba(109,208,242,0.75), rgba(245,154,190,0.75));
