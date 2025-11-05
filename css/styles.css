@@ -167,6 +167,25 @@ div#archive {
     animation: slide2 30s infinite linear;
 }
 
+
+
+
+@keyframes slide {
+    0% {
+        transform: translateX(-50%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+@keyframes slide2 {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(-50%);
+            }
+        }
 .tech-icon {
     width: 6.9vw; /* 原 50px */
     height: 6.9vw; /* 原 50px */
@@ -179,53 +198,27 @@ div#archive {
     transition: transform 0.3s ease;
     flex-shrink: 0;
 }
-
+.tech-icon:hover {
+    transform: scale(1.1);
+}
 .tech-icon img {
     width: 4.2vw; /* 原 30px */
     height: 4.2vw; /* 原 30px */
     margin: 0px;
     object-fit: contain;
 }
-        @keyframes slide {
-            0% {
-                transform: translateX(-50%);
-            }
-            100% {
-                transform: translateX(0);
-            }
-        }
 
-        @keyframes slide2 {
-                    0% {
-                        transform: translateX(0);
-                    }
-                    100% {
-                        transform: translateX(-50%);
-                    }
-                }
-
-        .tech-icon {
-            width: 50px;
-            height: 50px;
-            border-radius: 10px;
-            background: rgba(255, 255, 255, 0.7);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            transition: transform 0.3s ease;
-            flex-shrink: 0; /* 防止图标压缩 */
-        }
-
-        .tech-icon:hover {
-            transform: scale(1.1);
-        }
-
-        .tech-icon img {
-            width: 30px;
-            height: 30px;
-            object-fit: contain;
-        }
+@media (max-width: 768px) { 
+    .tech-icon {
+        margin: 0.5vw;
+        height: 11vw;
+        width: 11vw;
+    }
+    .tech-icon img {
+        width: 7vw;
+        height: 7vw;
+    }
+}
 
 #about-avatar {
     position: relative;
@@ -243,7 +236,7 @@ div#archive {
 
 @keyframes rollAcrossScreen {
     from {
-        right: -200%;
+        right: -700%;
     }
     to {
         right: 0;
@@ -568,3 +561,4 @@ div#archive {
     .subtitle .subtitle-char:nth-child(19) { animation-delay: 2.6s; }
 
 }
+
