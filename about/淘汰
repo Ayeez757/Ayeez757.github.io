@@ -13,3 +13,42 @@
 这是公告淘汰的内容
       <font color=green>想持续关注网站内容的人可以关注我的公众号哦！！！<br>我会在公众号公告我的网站更新内容<br>↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓</font>
       <img src="https://blog.ayeez.cn/imgs/infoOfMe/gongzhonghao.jpg" title="关注我的公众号！持续公告网站更新内容！" width="200" height="200">
+
+
+
+      @keyframes rollAcrossScreen {
+          from {
+            right: -100%;
+          }
+          to {
+            right: 20vw;
+          }
+        }
+
+        # butterfly主页动画
+wowjs:
+  enable: true #控制动画开关。true是打开，false是关闭
+  priority: 10 #过滤器优先级
+  mobile: true #移动端是否启用，默认移动端禁用
+  animateitem:
+    - class: recent-post-item #必填项，需要添加动画的元素的class
+      style: animate__zoomIn #必填项，需要添加的动画
+      duration: 1500ms #选填项，动画持续时间，单位可以是ms也可以是s。例如3s，700ms。
+      delay: 0ms #选填项，动画开始的延迟时间，单位可以是ms也可以是s。例如3s，700ms。
+      offset: 0 #选填项，开始动画的距离（相对浏览器底部）
+      iteration: 1 #选填项，动画重复的次数
+    - class: card-widget
+      style: animate__zoomIn
+      duration: 1500ms #选填项，动画持续时间，单位可以是ms也可以是s。例如3s，700ms。
+      delay: 0ms #选填项，动画开始的延迟时间，单位可以是ms也可以是s。例如3s，700ms。
+      offset: 0 #选填项，开始动画的距离（相对浏览器底部）
+      iteration: 1 #选填项，动画重复的次数
+    - class: container
+      style: animate__zoomIn
+      duration: 1500ms #选填项，动画持续时间，单位可以是ms也可以是s。例如3s，700ms。
+      delay: 0ms #选填项，动画开始的延迟时间，单位可以是ms也可以是s。例如3s，700ms。
+      offset: 0 #选填项，开始动画的距离（相对浏览器底部）
+      iteration: 1 #选填项，动画重复的次数
+  animate_css: https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/animate.min.css
+  wow_js: https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/wow.min.js
+  wow_init_js: https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/wow_init.js
