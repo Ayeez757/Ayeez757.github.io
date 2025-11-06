@@ -170,8 +170,8 @@ div#archive {
 
 /* 页脚与头图透明 */
 #footer {
-  background: transparent !important;
-  z-index: 1;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: -1;
 }
 #page-header {
   background: transparent !important;
@@ -191,4 +191,17 @@ div#archive {
 }
 [data-theme="dark"] #page-header::before {
   background: transparent !important;
+}
+
+/* 消除默认间距 */
+#footer-wrap .footer-separator {
+  display: none;
+}
+
+/* 时间显示样式 */
+#realtime_duration {
+  font-size: 0.9em;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+  white-space: nowrap; /* 防止换行 */
 }
