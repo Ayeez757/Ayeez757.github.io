@@ -562,3 +562,91 @@ div#archive {
 
 }
 
+.box-father{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    background-color: #efefef6c;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.box{
+    position: relative;
+    display: flex;
+}
+.box .box-item{
+    position: absolute;
+    top:calc(50% - 150px);
+    left:calc(50% - 100px);
+    background-color: transparent;
+    width:200px;
+    height: fit-content;
+    transition: 0.25s;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+    user-select: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5em;
+    font-family: consolas;
+    font-weight: 800;
+    opacity: 0;
+}
+/* 为图片添加样式以消除白边 */
+.box .box-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* 保持图片比例并填充容器 */
+    display: block; /* 消除图片下方的空白 */
+    border-radius: inherit;
+}
+
+.box .box-item:nth-child(1){
+    transform: translate3d(-250px,0,0)  scale(0.8);
+    opacity: 1;
+    z-index: 1;
+    background-color: #d8d8d800;
+}
+.box .box-item:nth-child(2){
+    transform: translate3d(-250px,0,0)  scale(0.8);
+    opacity: 1;
+    z-index: 2;
+    background-color: #d8d8d800;
+}
+.box .box-item:nth-child(3){
+    transform: translate3d(-150px,0,0)  scale(0.9);
+    opacity: 1;
+    z-index: 3;
+    background-color: #d8d8d800;
+    font-size: 6em;
+}
+.box .box-item:nth-child(4){
+    transform: translate3d(0px,0,0)  scale(1);
+    opacity: 1;
+    z-index: 4;
+    background-color: #d8d8d800;
+    font-size: 8em;
+}
+.box .box-item:nth-child(5){
+    transform: translate3d(150px,0,0)  scale(0.9);
+    opacity: 1;
+    z-index: 3;
+    background-color:   #d8d8d800;
+    font-size: 6em;
+}
+.box .box-item:nth-child(6){
+    transform: translate3d(250px,0,0)  scale(0.8);
+    opacity: 1;
+    z-index: 2;
+    background-color:   #d8d8d800;
+}
+.box .box-item:nth-child(7){
+    transform: translate3d(250px,0,0)  scale(0.8);
+    opacity: 1;
+    z-index: 1;
+    background-color: #d8d8d800;
+}
+
