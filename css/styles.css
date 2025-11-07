@@ -176,6 +176,7 @@ div#archive {
 #page-header {
   background: transparent !important;
 }
+
 /* 白天模式遮罩透明 */
 #footer::before {
   background: transparent !important;
