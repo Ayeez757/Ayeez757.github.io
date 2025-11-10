@@ -15,8 +15,41 @@
     <atom:link href="https://blog.ayeez.cn/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Fri, 07 Nov 2025 15:59:59 GMT</pubDate>
+    <pubDate>Mon, 10 Nov 2025 03:28:00 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>大一软工第十周学习总结</title>
+      <link>https://blog.ayeez.cn/posts/ad84763/</link>
+      <guid>https://blog.ayeez.cn/posts/ad84763/</guid>
+      <pubDate>Mon, 10 Nov 2025 03:28:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot;</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/">学习</category>
+      
+      <category domain="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E4%B9%A0%E5%8E%86%E7%A8%8B/">计算机学习历程</category>
+      
+      
+      <category domain="https://blog.ayeez.cn/tags/%E5%AD%A6%E4%B9%A0/">学习</category>
+      
+      <category domain="https://blog.ayeez.cn/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E4%B9%A0%E5%8E%86%E7%A8%8B/">计算机学习历程</category>
+      
+      <category domain="https://blog.ayeez.cn/tags/%E5%8D%9A%E5%AE%A2/">博客</category>
+      
+      
+      <comments>https://blog.ayeez.cn/posts/ad84763/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>广金跑步协会破冰活动！</title>
@@ -79,9 +112,9 @@
       
       <category domain="https://blog.ayeez.cn/tags/%E5%AD%A6%E4%B9%A0/">学习</category>
       
-      <category domain="https://blog.ayeez.cn/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/">数据结构与算法</category>
-      
       <category domain="https://blog.ayeez.cn/tags/java/">java</category>
+      
+      <category domain="https://blog.ayeez.cn/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/">数据结构与算法</category>
       
       
       <comments>https://blog.ayeez.cn/posts/9d29ac89/#disqus_thread</comments>
@@ -361,9 +394,9 @@
       
       <category domain="https://blog.ayeez.cn/tags/%E5%AD%A6%E4%B9%A0/">学习</category>
       
-      <category domain="https://blog.ayeez.cn/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/">数据结构与算法</category>
-      
       <category domain="https://blog.ayeez.cn/tags/java/">java</category>
+      
+      <category domain="https://blog.ayeez.cn/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/">数据结构与算法</category>
       
       
       <comments>https://blog.ayeez.cn/posts/ff8068c0/#disqus_thread</comments>
@@ -670,39 +703,6 @@
       
       
       <comments>https://blog.ayeez.cn/posts/22828/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>大一软工第六周学习总结</title>
-      <link>https://blog.ayeez.cn/posts/59503/</link>
-      <guid>https://blog.ayeez.cn/posts/59503/</guid>
-      <pubDate>Sat, 11 Oct 2025 10:34:00 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot;</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/">学习</category>
-      
-      <category domain="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E4%B9%A0%E5%8E%86%E7%A8%8B/">计算机学习历程</category>
-      
-      
-      <category domain="https://blog.ayeez.cn/tags/%E5%AD%A6%E4%B9%A0/">学习</category>
-      
-      <category domain="https://blog.ayeez.cn/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E4%B9%A0%E5%8E%86%E7%A8%8B/">计算机学习历程</category>
-      
-      <category domain="https://blog.ayeez.cn/tags/%E5%8D%9A%E5%AE%A2/">博客</category>
-      
-      
-      <comments>https://blog.ayeez.cn/posts/59503/#disqus_thread</comments>
       
     </item>
     
