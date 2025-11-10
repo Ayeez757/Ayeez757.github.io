@@ -6,7 +6,7 @@
   <link href="https://blog.ayeez.cn/atom.xml" rel="self"/>
   
   <link href="https://blog.ayeez.cn/"/>
-  <updated>2025-11-10T03:28:00.000Z</updated>
+  <updated>2025-11-10T11:40:00.000Z</updated>
   <id>https://blog.ayeez.cn/</id>
   
   <author>
@@ -15,6 +15,39 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Java集合之Map（常用方法及遍历方式）</title>
+    <link href="https://blog.ayeez.cn/posts/b32f5289/"/>
+    <id>https://blog.ayeez.cn/posts/b32f5289/</id>
+    <published>2025-11-10T11:40:00.000Z</published>
+    <updated>2025-11-10T11:40:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="学习" scheme="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="java" scheme="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/java/"/>
+    
+    <category term="笔记" scheme="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/java/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="笔记" scheme="https://blog.ayeez.cn/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="学习" scheme="https://blog.ayeez.cn/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="java" scheme="https://blog.ayeez.cn/tags/java/"/>
+    
+  </entry>
   
   <entry>
     <title>大一软工第十周学习总结</title>
@@ -623,37 +656,6 @@
     <category term="java" scheme="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/java/"/>
     
     <category term="笔记" scheme="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/java/%E7%AC%94%E8%AE%B0/"/>
-    
-    
-    <category term="笔记" scheme="https://blog.ayeez.cn/tags/%E7%AC%94%E8%AE%B0/"/>
-    
-    <category term="学习" scheme="https://blog.ayeez.cn/tags/%E5%AD%A6%E4%B9%A0/"/>
-    
-    <category term="java" scheme="https://blog.ayeez.cn/tags/java/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>常用api(System,Runtime,Object)</title>
-    <link href="https://blog.ayeez.cn/posts/22828/"/>
-    <id>https://blog.ayeez.cn/posts/22828/</id>
-    <published>2025-10-13T16:00:00.000Z</published>
-    <updated>2025-10-14T08:00:00.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="学习" scheme="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/"/>
-    
-    <category term="java" scheme="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/java/"/>
     
     
     <category term="笔记" scheme="https://blog.ayeez.cn/tags/%E7%AC%94%E8%AE%B0/"/>
