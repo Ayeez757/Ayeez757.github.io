@@ -15,8 +15,43 @@
     <atom:link href="https://blog.ayeez.cn/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Mon, 17 Nov 2025 02:05:00 GMT</pubDate>
+    <pubDate>Mon, 17 Nov 2025 14:06:00 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Java之Stream流</title>
+      <link>https://blog.ayeez.cn/posts/febc618f/</link>
+      <guid>https://blog.ayeez.cn/posts/febc618f/</guid>
+      <pubDate>Mon, 17 Nov 2025 14:06:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot;</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/">学习</category>
+      
+      <category domain="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/java/">java</category>
+      
+      <category domain="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/java/%E7%AC%94%E8%AE%B0/">笔记</category>
+      
+      
+      <category domain="https://blog.ayeez.cn/tags/%E7%AC%94%E8%AE%B0/">笔记</category>
+      
+      <category domain="https://blog.ayeez.cn/tags/%E5%AD%A6%E4%B9%A0/">学习</category>
+      
+      <category domain="https://blog.ayeez.cn/tags/java/">java</category>
+      
+      
+      <comments>https://blog.ayeez.cn/posts/febc618f/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>大一软工第十一周学习总结</title>
@@ -141,11 +176,11 @@
       
       <category domain="https://blog.ayeez.cn/tags/%E9%9A%8F%E8%AE%B0/">随记</category>
       
+      <category domain="https://blog.ayeez.cn/tags/%E6%96%87%E7%AB%A0/">文章</category>
+      
       <category domain="https://blog.ayeez.cn/tags/%E5%9B%A2%E5%BB%BA/">团建</category>
       
       <category domain="https://blog.ayeez.cn/tags/%E8%B7%91%E6%AD%A5/">跑步</category>
-      
-      <category domain="https://blog.ayeez.cn/tags/%E6%96%87%E7%AB%A0/">文章</category>
       
       
       <comments>https://blog.ayeez.cn/posts/7571fc47/#disqus_thread</comments>
@@ -310,11 +345,11 @@
       
       <category domain="https://blog.ayeez.cn/tags/%E7%AC%94%E8%AE%B0/">笔记</category>
       
-      <category domain="https://blog.ayeez.cn/tags/%E7%82%92%E8%82%A1/">炒股</category>
+      <category domain="https://blog.ayeez.cn/tags/%E8%82%A1%E7%A5%A8%E6%8A%95%E8%B5%84%E5%AD%A6%E4%B9%A0/">股票投资学习</category>
       
       <category domain="https://blog.ayeez.cn/tags/%E6%8A%95%E8%B5%84/">投资</category>
       
-      <category domain="https://blog.ayeez.cn/tags/%E8%82%A1%E7%A5%A8%E6%8A%95%E8%B5%84%E5%AD%A6%E4%B9%A0/">股票投资学习</category>
+      <category domain="https://blog.ayeez.cn/tags/%E7%82%92%E8%82%A1/">炒股</category>
       
       <category domain="https://blog.ayeez.cn/tags/%E4%BB%B7%E5%80%BC%E6%8A%95%E8%B5%84/">价值投资</category>
       
@@ -670,39 +705,6 @@
       
       
       <comments>https://blog.ayeez.cn/posts/57687/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>Python基础知识学习笔记(基于其他语言基础)</title>
-      <link>https://blog.ayeez.cn/posts/23540/</link>
-      <guid>https://blog.ayeez.cn/posts/23540/</guid>
-      <pubDate>Thu, 16 Oct 2025 16:00:00 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot;</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/">学习</category>
-      
-      <category domain="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/python/">python</category>
-      
-      
-      <category domain="https://blog.ayeez.cn/tags/%E7%AC%94%E8%AE%B0/">笔记</category>
-      
-      <category domain="https://blog.ayeez.cn/tags/%E5%9F%BA%E7%A1%80%E4%BB%A3%E7%A0%81%E5%AD%A6%E4%B9%A0/">基础代码学习</category>
-      
-      <category domain="https://blog.ayeez.cn/tags/python/">python</category>
-      
-      
-      <comments>https://blog.ayeez.cn/posts/23540/#disqus_thread</comments>
       
     </item>
     
