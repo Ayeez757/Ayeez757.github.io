@@ -61,8 +61,8 @@
 
 /* 亚克力模糊 */
 :root {
-  --trans-light: rgba(255, 255, 255, 0.88);
-  --trans-dark: rgba(25, 25, 25, 0.88);
+  --trans-light: rgba(255, 255, 255, 0.93);
+  --trans-dark: rgba(25, 25, 25, 0.93);
   --border-style: 1px solid rgb(169, 169, 169);
   --backdrop-filter: blur(5px) saturate(150%);
 }
