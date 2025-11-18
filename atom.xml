@@ -6,7 +6,7 @@
   <link href="https://blog.ayeez.cn/atom.xml" rel="self"/>
   
   <link href="https://blog.ayeez.cn/"/>
-  <updated>2025-11-18T17:40:00.000Z</updated>
+  <updated>2025-11-18T18:09:00.000Z</updated>
   <id>https://blog.ayeez.cn/</id>
   
   <author>
@@ -20,8 +20,8 @@
     <title>Git使用指南:入门到团队协作规范</title>
     <link href="https://blog.ayeez.cn/posts/6af1f79/"/>
     <id>https://blog.ayeez.cn/posts/6af1f79/</id>
-    <published>2025-11-18T17:40:00.000Z</published>
-    <updated>2025-11-18T17:40:00.000Z</updated>
+    <published>2025-11-18T18:09:00.000Z</published>
+    <updated>2025-11-18T18:09:00.000Z</updated>
     
     
     <summary type="html">更新知识同时给我们小团队写一个使用指南,详细程度介于快速入门和超详细git文档之间。并包含团队开发建议与规范。</summary>
@@ -231,9 +231,9 @@
     
     <category term="学习" scheme="https://blog.ayeez.cn/tags/%E5%AD%A6%E4%B9%A0/"/>
     
-    <category term="数据结构与算法" scheme="https://blog.ayeez.cn/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
-    
     <category term="java" scheme="https://blog.ayeez.cn/tags/java/"/>
+    
+    <category term="数据结构与算法" scheme="https://blog.ayeez.cn/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
     
   </entry>
   
@@ -353,11 +353,11 @@
     
     <category term="笔记" scheme="https://blog.ayeez.cn/tags/%E7%AC%94%E8%AE%B0/"/>
     
-    <category term="股票投资学习" scheme="https://blog.ayeez.cn/tags/%E8%82%A1%E7%A5%A8%E6%8A%95%E8%B5%84%E5%AD%A6%E4%B9%A0/"/>
+    <category term="炒股" scheme="https://blog.ayeez.cn/tags/%E7%82%92%E8%82%A1/"/>
     
     <category term="投资" scheme="https://blog.ayeez.cn/tags/%E6%8A%95%E8%B5%84/"/>
     
-    <category term="炒股" scheme="https://blog.ayeez.cn/tags/%E7%82%92%E8%82%A1/"/>
+    <category term="股票投资学习" scheme="https://blog.ayeez.cn/tags/%E8%82%A1%E7%A5%A8%E6%8A%95%E8%B5%84%E5%AD%A6%E4%B9%A0/"/>
     
     <category term="价值投资" scheme="https://blog.ayeez.cn/tags/%E4%BB%B7%E5%80%BC%E6%8A%95%E8%B5%84/"/>
     
@@ -497,9 +497,9 @@
     
     <category term="学习" scheme="https://blog.ayeez.cn/tags/%E5%AD%A6%E4%B9%A0/"/>
     
-    <category term="数据结构与算法" scheme="https://blog.ayeez.cn/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
-    
     <category term="java" scheme="https://blog.ayeez.cn/tags/java/"/>
+    
+    <category term="数据结构与算法" scheme="https://blog.ayeez.cn/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
     
   </entry>
   
