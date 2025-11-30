@@ -1,0 +1,24 @@
+/* 解密按钮样式 */
+#custom-decrypt-btn {
+  display: block;
+  margin: 15px auto;
+  padding: 8px 20px;
+  background: var(--btn-bg);
+  color: var(--btn-color);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.3s;
+}
+
+#custom-decrypt-btn:hover {
+  background: var(--btn-hover-bg);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* 确保按钮在加密内容区域可见 */
+#hexo-blog-encrypt {
+  position: relative;
+}

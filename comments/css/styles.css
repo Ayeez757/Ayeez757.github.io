@@ -1,0 +1,15 @@
+/* 修复Utterances评论框不显示的问题 */
+#post-comment .comment-head {
+    margin-bottom: 0 !important;
+}
+#post-comment .utterances {
+    min-height: 100px;
+    width: 100% !important;
+}
+#post-comment iframe.utterances-frame {
+    width: 100% !important;
+    height: 100% !important;
+    min-height: 300px;
+    border: none;
+    display: block;
+}

@@ -1,0 +1,206 @@
+#readmore.at_button,
+.at_button {
+    background: linear-gradient(45deg,rgba(109,208,242,0.75) 15%,rgba(245,154,190,0.75) 85%) !important;
+    color: rgba(255, 255, 255, 1) !important;
+    border: none !important;
+    border-radius: 8px !important;
+    font-weight: 600 !important;
+    cursor: pointer !important;
+    transition: all 0.3s ease !important;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2) !important;
+    display: inline-block !important;
+    text-align: center !important;
+    min-width: 120px !important;
+    padding: 12px 24px !important;
+    font-size: 16px !important;
+}
+
+.at_button {
+    border-radius: 6px !important;
+    padding: 8px 16px !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15) !important;
+    margin-left: 8px !important;
+    min-width: 60px !important;
+}
+
+#readmore.at_button:hover,
+.at_button:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3) !important;
+    background: linear-gradient(45deg,rgba(109,208,242,0.75) 15%,rgba(245,154,190,0.75) 85%) !important;
+}
+
+#readmore.at_button:active,
+.at_button:active {
+    transform: translateY(0) !important;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2) !important;
+}
+#atSave::after{
+    content:"评论";
+}
+
+#atSave::after{
+    content:"说说";
+}
+
+/* 解密按钮样式 */
+#custom-decrypt-btn {
+  display: block;
+  margin: 15px auto;
+  padding: 8px 20px;
+  background: var(--btn-bg);
+  color: var(--btn-color);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.3s;
+}
+
+/* 亚克力模糊 */
+:root {
+  --trans-light: rgba(255, 255, 255, 0.93);
+  --trans-dark: rgba(25, 25, 25, 0.93);
+  --border-style: 1px solid rgb(169, 169, 169);
+  --backdrop-filter: blur(5px) saturate(150%);
+}
+
+/* 首页文章卡片 */
+#recent-posts > .recent-post-item {
+  background: var(--trans-light);
+  backdrop-filter: var(--backdrop-filter);
+  border-radius: 25px;
+  border: var(--border-style);
+}
+
+/* 首页侧栏卡片 */
+#aside-content .card-widget {
+  background: var(--trans-light);
+  backdrop-filter: var(--backdrop-filter);
+  border-radius: 18px;
+  border: var(--border-style);
+}
+
+/* 文章页、归档页、普通页面 */
+div#post,
+div#page,
+div#archive {
+  background: var(--trans-light);
+  backdrop-filter: var(--backdrop-filter);
+  border: var(--border-style);
+  border-radius: 20px;
+}
+
+/* 导航栏 */
+#page-header.nav-fixed #nav {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: var(--backdrop-filter);
+}
+
+[data-theme="dark"] #page-header.nav-fixed #nav {
+  background: rgba(0, 0, 0, 0.7) !important;
+}
+
+/* 夜间模式遮罩 */
+[data-theme="dark"] #recent-posts > .recent-post-item,
+[data-theme="dark"] #aside-content .card-widget,
+[data-theme="dark"] div#post,
+[data-theme="dark"] div#archive,
+[data-theme="dark"] div#page {
+  background: var(--trans-dark);
+}
+
+
+/* 夜间模式页脚页头遮罩透明 */
+[data-theme="dark"] #footer::before {
+  background: transparent !important;
+}
+[data-theme="dark"] #page-header::before {
+  background: transparent !important;
+}
+
+/* 阅读模式 */
+.read-mode #aside-content .card-widget {
+  background: rgba(158, 204, 171, 0.5) !important;
+}
+.read-mode div#post {
+  background: rgba(158, 204, 171, 0.5) !important;
+}
+
+/* 夜间模式下的阅读模式 */
+[data-theme="dark"] .read-mode #aside-content .card-widget {
+  background: rgba(25, 25, 25, 0.9) !important;
+  color: #ffffff;
+}
+[data-theme="dark"] .read-mode div#post {
+  background: rgba(25, 25, 25, 0.9) !important;
+  color: #ffffff;
+}
+
+ .tech-stack {
+    position: relative;
+    width: auto; /* 原 500rem */
+    padding: 0.5vw; /* 原 20rem */
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(0.7vw); /* 相对单位 */
+    border-radius: 0.8vw; /* 原 20rem */
+    z-index: 1;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    overflow: hidden;
+}
+
+.tech-icons {
+    display: inline-flex;
+    gap: 2.1vw; /* 原 15px */
+    padding: 0.5vw; /* 原 15px */
+    animation: slide 30s infinite linear;
+}
+
+.tech-icons2 {
+    display: inline-flex;
+    gap: 2.1vw; /* 原 15px */
+    padding: 0.5vw; /* 原 15px */
+    animation: slide2 30s infinite linear;
+}
+
+
+/* 页脚与头图透明 */
+#footer {
+  background: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+#page-header {
+  background: transparent !important;
+}
+
+/* 白天模式遮罩透明 */
+#footer::before {
+  background: transparent !important;
+}
+
+
+/* 夜间模式遮罩透明 */
+[data-theme="dark"] #footer::before {
+  background: transparent !important;
+}
+[data-theme="dark"] #page-header::before {
+  background: transparent !important;
+}
+
+/* 消除默认间距 */
+#footer-wrap .footer-separator {
+  display: none;
+}
+
+/* 时间显示样式 */
+#realtime_duration {
+  font-size: 0.9em;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+  white-space: nowrap; /* 防止换行 */
+}
+

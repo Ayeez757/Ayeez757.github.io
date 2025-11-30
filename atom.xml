@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>欢迎来到阿叶Ayeez的博客</title>
+  <icon>https://blog.ayeez.cn/icon.png</icon>
+  <subtitle>欢迎来到我的个人主页</subtitle>
+  <link href="https://blog.ayeez.cn/atom.xml" rel="self"/>
+  
+  <link href="https://blog.ayeez.cn/"/>
+  <updated>2025-11-30T10:42:00.000Z</updated>
+  <id>https://blog.ayeez.cn/</id>
+  
+  <author>
+    <name>阿叶Ayeez</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>大一软工第十三周学习总结</title>
+    <link href="https://blog.ayeez.cn/posts/3bd9188/"/>
+    <id>https://blog.ayeez.cn/posts/3bd9188/</id>
+    <published>2025-11-30T10:42:00.000Z</published>
+    <updated>2025-11-30T10:42:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="学习" scheme="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="计算机学习历程" scheme="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E4%B9%A0%E5%8E%86%E7%A8%8B/"/>
+    
+    
+    <category term="学习" scheme="https://blog.ayeez.cn/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="计算机学习历程" scheme="https://blog.ayeez.cn/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E4%B9%A0%E5%8E%86%E7%A8%8B/"/>
+    
+    <category term="博客" scheme="https://blog.ayeez.cn/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>大一软工第十二周学习总结（番外与日常）</title>
+    <link href="https://blog.ayeez.cn/posts/5550e0cb/"/>
+    <id>https://blog.ayeez.cn/posts/5550e0cb/</id>
+    <published>2025-11-26T12:36:00.000Z</published>
+    <updated>2025-11-26T12:36:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="学习" scheme="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="计算机学习历程" scheme="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E4%B9%A0%E5%8E%86%E7%A8%8B/"/>
+    
+    
+    <category term="学习" scheme="https://blog.ayeez.cn/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="计算机学习历程" scheme="https://blog.ayeez.cn/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E4%B9%A0%E5%8E%86%E7%A8%8B/"/>
+    
+    <category term="博客" scheme="https://blog.ayeez.cn/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="日常" scheme="https://blog.ayeez.cn/tags/%E6%97%A5%E5%B8%B8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java之File详解（含几个综合练习）</title>
+    <link href="https://blog.ayeez.cn/posts/702bcdd6/"/>
+    <id>https://blog.ayeez.cn/posts/702bcdd6/</id>
+    <published>2025-11-22T08:38:00.000Z</published>
+    <updated>2025-11-22T08:38:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="学习" scheme="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="java" scheme="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/java/"/>
+    
+    <category term="笔记" scheme="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/java/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="笔记" scheme="https://blog.ayeez.cn/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="学习" scheme="https://blog.ayeez.cn/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="java" scheme="https://blog.ayeez.cn/tags/java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Git使用指南:从入门到团队协作规范</title>
+    <link href="https://blog.ayeez.cn/posts/6af1f79/"/>
+    <id>https://blog.ayeez.cn/posts/6af1f79/</id>
+    <published>2025-11-18T18:09:00.000Z</published>
+    <updated>2025-11-18T18:09:00.000Z</updated>
+    
+    
+    <summary type="html">更新知识同时给我们小团队写一个使用指南,详细程度介于快速入门和超详细git文档之间。并包含团队开发建议与规范。</summary>
+    
+    
+    
+    <category term="学习" scheme="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="Git" scheme="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/Git/"/>
+    
+    <category term="笔记" scheme="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/Git/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="笔记" scheme="https://blog.ayeez.cn/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="学习" scheme="https://blog.ayeez.cn/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="Git" scheme="https://blog.ayeez.cn/tags/Git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java之Stream流</title>
+    <link href="https://blog.ayeez.cn/posts/febc618f/"/>
+    <id>https://blog.ayeez.cn/posts/febc618f/</id>
+    <published>2025-11-17T14:06:00.000Z</published>
+    <updated>2025-11-18T01:22:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="学习" scheme="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="java" scheme="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/java/"/>
+    
+    <category term="笔记" scheme="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/java/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="笔记" scheme="https://blog.ayeez.cn/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="学习" scheme="https://blog.ayeez.cn/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="java" scheme="https://blog.ayeez.cn/tags/java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>大一软工第十一周学习总结</title>
+    <link href="https://blog.ayeez.cn/posts/dec69f56/"/>
+    <id>https://blog.ayeez.cn/posts/dec69f56/</id>
+    <published>2025-11-17T02:05:00.000Z</published>
+    <updated>2025-11-17T02:05:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="学习" scheme="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="计算机学习历程" scheme="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E4%B9%A0%E5%8E%86%E7%A8%8B/"/>
+    
+    
+    <category term="学习" scheme="https://blog.ayeez.cn/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="计算机学习历程" scheme="https://blog.ayeez.cn/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E4%B9%A0%E5%8E%86%E7%A8%8B/"/>
+    
+    <category term="博客" scheme="https://blog.ayeez.cn/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java集合之Map（常用方法及遍历方式）</title>
+    <link href="https://blog.ayeez.cn/posts/b32f5289/"/>
+    <id>https://blog.ayeez.cn/posts/b32f5289/</id>
+    <published>2025-11-10T11:40:00.000Z</published>
+    <updated>2025-11-10T11:40:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="学习" scheme="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="java" scheme="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/java/"/>
+    
+    <category term="笔记" scheme="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/java/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="笔记" scheme="https://blog.ayeez.cn/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="学习" scheme="https://blog.ayeez.cn/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="java" scheme="https://blog.ayeez.cn/tags/java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>大一软工第十周学习总结</title>
+    <link href="https://blog.ayeez.cn/posts/ad84763/"/>
+    <id>https://blog.ayeez.cn/posts/ad84763/</id>
+    <published>2025-11-10T03:28:00.000Z</published>
+    <updated>2025-11-10T03:28:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="学习" scheme="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="计算机学习历程" scheme="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E4%B9%A0%E5%8E%86%E7%A8%8B/"/>
+    
+    
+    <category term="学习" scheme="https://blog.ayeez.cn/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="计算机学习历程" scheme="https://blog.ayeez.cn/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E4%B9%A0%E5%8E%86%E7%A8%8B/"/>
+    
+    <category term="博客" scheme="https://blog.ayeez.cn/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>广金跑步协会破冰活动！</title>
+    <link href="https://blog.ayeez.cn/posts/7571fc47/"/>
+    <id>https://blog.ayeez.cn/posts/7571fc47/</id>
+    <published>2025-11-07T15:59:59.000Z</published>
+    <updated>2025-11-07T15:59:59.000Z</updated>
+    
+    
+    <summary type="html">我宣布！这是我遇到过最好玩的团建！跑协！是我最喜欢的集体！</summary>
+    
+    
+    
+    <category term="文章" scheme="https://blog.ayeez.cn/categories/%E6%96%87%E7%AB%A0/"/>
+    
+    <category term="跑步" scheme="https://blog.ayeez.cn/categories/%E6%96%87%E7%AB%A0/%E8%B7%91%E6%AD%A5/"/>
+    
+    <category term="跑步协会" scheme="https://blog.ayeez.cn/categories/%E6%96%87%E7%AB%A0/%E8%B7%91%E6%AD%A5/%E8%B7%91%E6%AD%A5%E5%8D%8F%E4%BC%9A/"/>
+    
+    
+    <category term="博客" scheme="https://blog.ayeez.cn/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="随记" scheme="https://blog.ayeez.cn/tags/%E9%9A%8F%E8%AE%B0/"/>
+    
+    <category term="团建" scheme="https://blog.ayeez.cn/tags/%E5%9B%A2%E5%BB%BA/"/>
+    
+    <category term="跑步" scheme="https://blog.ayeez.cn/tags/%E8%B7%91%E6%AD%A5/"/>
+    
+    <category term="文章" scheme="https://blog.ayeez.cn/tags/%E6%96%87%E7%AB%A0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java集合之Set、HashSet、LinkHashSet</title>
+    <link href="https://blog.ayeez.cn/posts/9d29ac89/"/>
+    <id>https://blog.ayeez.cn/posts/9d29ac89/</id>
+    <published>2025-11-03T09:44:00.000Z</published>
+    <updated>2025-11-03T09:44:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="学习" scheme="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="java" scheme="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/java/"/>
+    
+    <category term="笔记" scheme="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/java/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="笔记" scheme="https://blog.ayeez.cn/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="学习" scheme="https://blog.ayeez.cn/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="数据结构与算法" scheme="https://blog.ayeez.cn/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
+    
+    <category term="java" scheme="https://blog.ayeez.cn/tags/java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>大一软工第九周学习总结</title>
+    <link href="https://blog.ayeez.cn/posts/ee75909c/"/>
+    <id>https://blog.ayeez.cn/posts/ee75909c/</id>
+    <published>2025-11-02T06:46:47.000Z</published>
+    <updated>2025-11-02T06:46:47.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="学习" scheme="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="计算机学习历程" scheme="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E4%B9%A0%E5%8E%86%E7%A8%8B/"/>
+    
+    
+    <category term="学习" scheme="https://blog.ayeez.cn/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="计算机学习历程" scheme="https://blog.ayeez.cn/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E4%B9%A0%E5%8E%86%E7%A8%8B/"/>
+    
+    <category term="博客" scheme="https://blog.ayeez.cn/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java泛型详解</title>
+    <link href="https://blog.ayeez.cn/posts/fd43fd4e/"/>
+    <id>https://blog.ayeez.cn/posts/fd43fd4e/</id>
+    <published>2025-11-01T12:29:00.000Z</published>
+    <updated>2025-11-01T12:29:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="学习" scheme="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="java" scheme="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/java/"/>
+    
+    <category term="笔记" scheme="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/java/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="笔记" scheme="https://blog.ayeez.cn/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="学习" scheme="https://blog.ayeez.cn/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="java" scheme="https://blog.ayeez.cn/tags/java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java集合之List（常用方法及五种遍历方式）</title>
+    <link href="https://blog.ayeez.cn/posts/5b10bf4b/"/>
+    <id>https://blog.ayeez.cn/posts/5b10bf4b/</id>
+    <published>2025-10-30T03:29:00.000Z</published>
+    <updated>2025-10-30T03:29:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="学习" scheme="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="java" scheme="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/java/"/>
+    
+    <category term="笔记" scheme="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/java/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="笔记" scheme="https://blog.ayeez.cn/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="学习" scheme="https://blog.ayeez.cn/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="java" scheme="https://blog.ayeez.cn/tags/java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>利用图形分析公司投资价值以及图表的制作教程</title>
+    <link href="https://blog.ayeez.cn/posts/1a4791e9/"/>
+    <id>https://blog.ayeez.cn/posts/1a4791e9/</id>
+    <published>2025-10-29T16:00:00.000Z</published>
+    <updated>2025-10-31T09:55:53.559Z</updated>
+    
+    
+    <summary type="html">这扇门被关上了，有钥匙再来吧~</summary>
+    
+    
+    
+    <category term="学习" scheme="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="投资" scheme="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/%E6%8A%95%E8%B5%84/"/>
+    
+    
+    <category term="笔记" scheme="https://blog.ayeez.cn/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="股票投资学习" scheme="https://blog.ayeez.cn/tags/%E8%82%A1%E7%A5%A8%E6%8A%95%E8%B5%84%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="投资" scheme="https://blog.ayeez.cn/tags/%E6%8A%95%E8%B5%84/"/>
+    
+    <category term="炒股" scheme="https://blog.ayeez.cn/tags/%E7%82%92%E8%82%A1/"/>
+    
+    <category term="价值投资" scheme="https://blog.ayeez.cn/tags/%E4%BB%B7%E5%80%BC%E6%8A%95%E8%B5%84/"/>
+    
+    <category term="excel" scheme="https://blog.ayeez.cn/tags/excel/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java集合之Collection</title>
+    <link href="https://blog.ayeez.cn/posts/3241cf21/"/>
+    <id>https://blog.ayeez.cn/posts/3241cf21/</id>
+    <published>2025-10-29T13:50:00.000Z</published>
+    <updated>2025-10-29T13:50:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="学习" scheme="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="java" scheme="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/java/"/>
+    
+    <category term="笔记" scheme="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/java/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="笔记" scheme="https://blog.ayeez.cn/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="学习" scheme="https://blog.ayeez.cn/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="java" scheme="https://blog.ayeez.cn/tags/java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java常用api————Arrays</title>
+    <link href="https://blog.ayeez.cn/posts/0/"/>
+    <id>https://blog.ayeez.cn/posts/0/</id>
+    <published>2025-10-27T13:37:00.000Z</published>
+    <updated>2025-10-27T13:37:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="学习" scheme="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="java" scheme="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/java/"/>
+    
+    <category term="笔记" scheme="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/java/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="笔记" scheme="https://blog.ayeez.cn/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="学习" scheme="https://blog.ayeez.cn/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="java" scheme="https://blog.ayeez.cn/tags/java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>射击体系CAR（Center Axis Relock）硬核教学（莉可丽丝千束同款）</title>
+    <link href="https://blog.ayeez.cn/posts/45e3e8be/"/>
+    <id>https://blog.ayeez.cn/posts/45e3e8be/</id>
+    <published>2025-10-26T15:16:00.000Z</published>
+    <updated>2025-10-26T15:16:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="射击" scheme="https://blog.ayeez.cn/categories/%E5%B0%84%E5%87%BB/"/>
+    
+    <category term="射击体系" scheme="https://blog.ayeez.cn/categories/%E5%B0%84%E5%87%BB/%E5%B0%84%E5%87%BB%E4%BD%93%E7%B3%BB/"/>
+    
+    
+    <category term="笔记" scheme="https://blog.ayeez.cn/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="射击" scheme="https://blog.ayeez.cn/tags/%E5%B0%84%E5%87%BB/"/>
+    
+    <category term="莉可丽丝" scheme="https://blog.ayeez.cn/tags/%E8%8E%89%E5%8F%AF%E4%B8%BD%E4%B8%9D/"/>
+    
+    <category term="射击体系" scheme="https://blog.ayeez.cn/tags/%E5%B0%84%E5%87%BB%E4%BD%93%E7%B3%BB/"/>
+    
+    <category term="千束" scheme="https://blog.ayeez.cn/tags/%E5%8D%83%E6%9D%9F/"/>
+    
+    <category term="CAR" scheme="https://blog.ayeez.cn/tags/CAR/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>快速排序</title>
+    <link href="https://blog.ayeez.cn/posts/ff8068c0/"/>
+    <id>https://blog.ayeez.cn/posts/ff8068c0/</id>
+    <published>2025-10-26T07:26:00.000Z</published>
+    <updated>2025-10-26T07:26:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="学习" scheme="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="数据结构与算法" scheme="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
+    
+    <category term="笔记与题解" scheme="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E7%AC%94%E8%AE%B0%E4%B8%8E%E9%A2%98%E8%A7%A3/"/>
+    
+    
+    <category term="笔记" scheme="https://blog.ayeez.cn/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="学习" scheme="https://blog.ayeez.cn/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="数据结构与算法" scheme="https://blog.ayeez.cn/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
+    
+    <category term="java" scheme="https://blog.ayeez.cn/tags/java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>六种常见查找(c++实现)</title>
+    <link href="https://blog.ayeez.cn/posts/9a547b27/"/>
+    <id>https://blog.ayeez.cn/posts/9a547b27/</id>
+    <published>2025-10-26T06:13:00.000Z</published>
+    <updated>2025-10-26T06:13:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="学习" scheme="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="数据结构与算法" scheme="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
+    
+    <category term="笔记与题解" scheme="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E7%AC%94%E8%AE%B0%E4%B8%8E%E9%A2%98%E8%A7%A3/"/>
+    
+    
+    <category term="笔记" scheme="https://blog.ayeez.cn/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="学习" scheme="https://blog.ayeez.cn/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="数据结构与算法" scheme="https://blog.ayeez.cn/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
+    
+    <category term="cpp" scheme="https://blog.ayeez.cn/tags/cpp/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>大一软工第八周学习总结</title>
+    <link href="https://blog.ayeez.cn/posts/f44c9ac/"/>
+    <id>https://blog.ayeez.cn/posts/f44c9ac/</id>
+    <published>2025-10-25T12:10:00.000Z</published>
+    <updated>2025-10-25T12:10:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="学习" scheme="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="计算机学习历程" scheme="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E4%B9%A0%E5%8E%86%E7%A8%8B/"/>
+    
+    
+    <category term="学习" scheme="https://blog.ayeez.cn/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="计算机学习历程" scheme="https://blog.ayeez.cn/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E4%B9%A0%E5%8E%86%E7%A8%8B/"/>
+    
+    <category term="博客" scheme="https://blog.ayeez.cn/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+</feed>

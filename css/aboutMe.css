@@ -1,0 +1,482 @@
+
+
+@keyframes slide {
+    0% {
+        transform: translateX(-50%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+@keyframes slide2 {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(-50%);
+            }
+        }
+.tech-icon {
+    width: 6.9vw; /* 原 50px */
+    height: 6.9vw; /* 原 50px */
+    border-radius: 1.4vw; /* 原 10px */
+    background: rgba(255, 255, 255, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0.28vw 0.7vw rgba(0, 0, 0, 0.1); /* 相对单位 */
+    transition: transform 0.3s ease;
+    flex-shrink: 0;
+}
+.tech-icon:hover {
+    transform: scale(1.1);
+}
+.tech-icon img {
+    width: 4.2vw; /* 原 30px */
+    height: 4.2vw; /* 原 30px */
+    margin: 0px;
+    object-fit: contain;
+}
+
+@media (max-width: 768px) { 
+    .tech-icon {
+        margin: 0.5vw;
+        height: 11vw;
+        width: 11vw;
+    }
+    .tech-icon img {
+        width: 7vw;
+        height: 7vw;
+    }
+}
+
+#about-avatar {
+    position: relative;
+    margin-left: 0;
+    margin-right: auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin-bottom: 1.5rem;
+    animation:
+        rollAcrossScreen 2s ease,
+        rotate 2s ease;
+}
+
+@keyframes rollAcrossScreen {
+    from {
+        right: -700%;
+    }
+    to {
+        right: 0;
+    }
+}
+
+/* 自身旋转动画 */
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-720deg);
+    }
+}
+
+.about-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.tags-container {
+    display: flex;
+    flex-direction: row; /* 改为行布局 */
+    flex-wrap: wrap; /* 允许换行 */
+    gap: 10px;
+    max-width: 500px; /* 限制最大宽度防止溢出 */
+}
+.about-tag {
+    background: linear-gradient(45deg, rgba(109,208,242,0.75), rgba(245,154,190,0.75));
+    color: white;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-weight: bold;
+    opacity: 0;
+    transform: translateX(-20px);
+    text-shadow: 0 1px 2px rgba(0,0,0,0.3); /* 添加文字阴影增强可读性 */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* 添加轻微阴影 */
+}
+
+
+/* 为每个标签设置不同的延迟 */
+.about-tag:nth-child(1) {
+    animation: fadeInRight 0.6s 2s forwards;
+}
+
+.about-tag:nth-child(2) {
+    animation: fadeInRight 0.6s 2.3s forwards;
+}
+
+.about-tag:nth-child(3) {
+    animation: fadeInRight 0.6s 2.6s forwards;
+}
+
+.about-tag:nth-child(4) {
+    animation: fadeInRight 0.6s 2.9s forwards;
+}
+
+.about-tag:nth-child(5) {
+    animation: fadeInRight 0.6s 3.2s forwards;
+}
+.about-tag:nth-child(6) {
+    animation: fadeInRight 0.6s 3.5s forwards;
+}
+.about-tag:nth-child(7) {
+    animation: fadeInRight 0.6s 3.8s forwards;
+}
+.about-tag:nth-child(8) {
+    animation: fadeInRight 0.6s 4.1s forwards;
+}
+
+@keyframes fadeInRight {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* 移动端适配 */
+@media screen and (max-width: 768px) {
+    .about-section {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+    
+    .tags-container {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    /* 移动端标签动画调整 */
+    .about-tag {
+        transform: translateY(20px);
+    }
+    
+    .about-tag:nth-child(1) {
+        animation: fadeInUp 0.6s 2s forwards;
+    }
+    
+    .about-tag:nth-child(2) {
+        animation: fadeInUp 0.6s 2.3s forwards;
+    }
+    
+    .about-tag:nth-child(3) {
+        animation: fadeInUp 0.6s 2.6s forwards;
+    }
+    .about-tag:nth-child(4) {
+        animation: fadeInUp 0.6s 2.9s forwards;
+    }
+    .about-tag:nth-child(5) {
+        animation: fadeInUp 0.6s 3.2s forwards;
+    }
+    .about-tag:nth-child(6) {
+        animation: fadeInUp 0.6s 3.5s forwards;
+    }
+    .about-tag:nth-child(7) {
+        animation: fadeInUp 0.6s 3.8s forwards;
+    }
+    .about-tag:nth-child(8) {
+        animation: fadeInUp 0.6s 4.1s forwards;
+    }
+    
+    @keyframes fadeInUp {
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+}
+
+/* 手写风格标题 - 逐字出现动画 */
+.name-section {
+    text-align: start;
+    margin: 30px 0;
+    padding: 20px;
+}
+
+.handwriting-title {
+    font-family: 'Segoe Script', 'Lucida Handwriting', 'Comic Sans MS', cursive, sans-serif;
+    font-size: 3rem;
+    font-weight: normal;
+    color: #000;
+    margin: 0;
+    line-height: 0;
+    min-height: 0;
+}
+
+
+
+/* 逐字动画容器 */
+.char-container {
+    display: inline-block;
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+/* 为每个字符设置不同的动画延迟 */
+.char-container:nth-child(1) { animation: charFadeIn 0.5s forwards; animation-delay: 0.2s; }
+.char-container:nth-child(2) { animation: charFadeIn 0.5s forwards; animation-delay: 0.4s; }
+.char-container:nth-child(3) { animation: charFadeIn 0.5s forwards; animation-delay: 0.6s; }
+.char-container:nth-child(4) { animation: charFadeIn 0.5s forwards; animation-delay: 0.8s; }
+.char-container:nth-child(5) { animation: charFadeIn 0.5s forwards; animation-delay: 1.0s; }
+.char-container:nth-child(6) { animation: charFadeIn 0.5s forwards; animation-delay: 1.2s; }
+.char-container:nth-child(7) { animation: charFadeIn 0.5s forwards; animation-delay: 1.4s; }
+.char-container:nth-child(8) { animation: charFadeIn 0.5s forwards; animation-delay: 1.6s; }
+.char-container:nth-child(9) { animation: charFadeIn 0.5s forwards; animation-delay: 1.8s; }
+.char-container:nth-child(10) { animation: charFadeIn 0.5s forwards; animation-delay: 2.0s; }
+.char-container:nth-child(11) { animation: charFadeIn 0.5s forwards; animation-delay: 2.2s; }
+.char-container:nth-child(12) { animation: charFadeIn 0.5s forwards; animation-delay: 2.4s; }
+.char-container:nth-child(13) { animation: charFadeIn 0.5s forwards; animation-delay: 2.6s; }
+.char-container:nth-child(14) { animation: charFadeIn 0.5s forwards; animation-delay: 2.8s; }
+.char-container:nth-child(15) { animation: charFadeIn 0.5s forwards; animation-delay: 3.0s; }
+.char-container:nth-child(16) { animation: charFadeIn 0.5s forwards; animation-delay: 3.2s; }
+.char-container:nth-child(17) { animation: charFadeIn 0.5s forwards; animation-delay: 3.4s; }
+.char-container:nth-child(18) { animation: charFadeIn 0.5s forwards; animation-delay: 3.6s; }
+.char-container:nth-child(19) { animation: charFadeIn 0.5s forwards; animation-delay: 3.8s; }
+
+
+
+@keyframes charFadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* 移动端适配 */
+@media screen and (max-width: 768px) {
+    .handwriting-title {
+        font-size: 2.8rem;
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .handwriting-title {
+        font-size: 2.3rem;
+        padding: 10px;
+    }
+    
+    .char-container:nth-child(1) { animation-delay: 0.1s; }
+    .char-container:nth-child(2) { animation-delay: 0.2s; }
+    .char-container:nth-child(3) { animation-delay: 0.3s; }
+    .char-container:nth-child(4) { animation-delay: 0.4s; }
+    .char-container:nth-child(5) { animation-delay: 0.5s; }
+    .char-container:nth-child(6) { animation-delay: 0.6s; }
+    .char-container:nth-child(7) { animation-delay: 0.7s; }
+    .char-container:nth-child(8) { animation-delay: 0.8s; }
+    .char-container:nth-child(9) { animation-delay: 0.9s; }
+}
+
+/* 副标题样式 */
+.subtitle {
+    font-family: 'Segoe Script', 'Lucida Handwriting', 'Comic Sans MS', cursive, sans-serif;
+    font-size: 2rem;
+    font-weight: normal;
+    color: #333;
+    margin: 25px 0 0 0;
+    line-height: 1.2;
+    min-height: 50px;
+}
+
+/* 副标题字符样式 */
+.subtitle-char {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+/* 副标题字符动画延迟 */
+.subtitle .subtitle-char:nth-child(1) { animation-delay: 1.0s; }
+.subtitle .subtitle-char:nth-child(2) { animation-delay: 1.2s; }
+.subtitle .subtitle-char:nth-child(3) { animation-delay: 1.4s; }
+.subtitle .subtitle-char:nth-child(4) { animation-delay: 1.6s; }
+.subtitle .subtitle-char:nth-child(5) { animation-delay: 1.8s; }
+.subtitle .subtitle-char:nth-child(6) { animation-delay: 2.0s; }
+.subtitle .subtitle-char:nth-child(7) { animation-delay: 2.2s; }
+.subtitle .subtitle-char:nth-child(8) { animation-delay: 2.4s; }
+.subtitle .subtitle-char:nth-child(9) { animation-delay: 2.6s; }
+.subtitle .subtitle-char:nth-child(10) { animation-delay: 2.8s; }
+.subtitle .subtitle-char:nth-child(11) { animation-delay: 3.0s; }
+.subtitle .subtitle-char:nth-child(12) { animation-delay: 3.2s; }
+.subtitle .subtitle-char:nth-child(13) { animation-delay: 3.4s; }
+.subtitle .subtitle-char:nth-child(14) { animation-delay: 3.6s; }
+.subtitle .subtitle-char:nth-child(15) { animation-delay: 3.8s; }
+.subtitle .subtitle-char:nth-child(16) { animation-delay: 4.0s; }
+.subtitle .subtitle-char:nth-child(17) { animation-delay: 4.2s; }
+.subtitle .subtitle-char:nth-child(18) { animation-delay: 4.4s; }
+.subtitle .subtitle-char:nth-child(19) { animation-delay: 4.6s; }    
+
+
+/* 移动端适配 */
+@media screen and (max-width: 768px) {
+    .handwriting-title {
+        font-size: 2.8rem;
+        padding: 15px;
+    }
+    
+    .subtitle {
+        font-size: 1.5rem;
+    }
+    
+    .subtitle-char {
+        font-size: 1.5rem;
+    }
+    
+    .subtitle .subtitle-char:nth-child(1) { animation-delay: 0.9s; }
+    .subtitle .subtitle-char:nth-child(2) { animation-delay: 1.0s; }
+    .subtitle .subtitle-char:nth-child(3) { animation-delay: 1.1s; }
+    .subtitle .subtitle-char:nth-child(4) { animation-delay: 1.2s; }
+    .subtitle .subtitle-char:nth-child(5) { animation-delay: 1.3s; }
+    .subtitle .subtitle-char:nth-child(6) { animation-delay: 1.4s; }
+    .subtitle .subtitle-char:nth-child(7) { animation-delay: 1.5s; }
+    .subtitle .subtitle-char:nth-child(8) { animation-delay: 1.6s; }
+    .subtitle .subtitle-char:nth-child(9) { animation-delay: 1.7s; }
+    .subtitle .subtitle-char:nth-child(10) { animation-delay: 1.8s; }
+    .subtitle .subtitle-char:nth-child(11) { animation-delay: 1.9s; }
+    .subtitle .subtitle-char:nth-child(12) { animation-delay: 2.0s; }
+    .subtitle .subtitle-char:nth-child(13) { animation-delay: 2.1s; }
+    .subtitle .subtitle-char:nth-child(14) { animation-delay: 2.2s; }
+    .subtitle .subtitle-char:nth-child(15) { animation-delay: 2.3s; }
+    .subtitle .subtitle-char:nth-child(16) { animation-delay: 2.4s; }
+    .subtitle .subtitle-char:nth-child(17) { animation-delay: 2.5s; }
+    .subtitle .subtitle-char:nth-child(18) { animation-delay: 2.6s; }
+    .subtitle .subtitle-char:nth-child(19) { animation-delay: 2.7s; }
+
+}
+
+@media screen and (max-width: 480px) {
+    .handwriting-title {
+        font-size: 2.3rem;
+        padding: 10px;
+    }
+    
+    .subtitle {
+        font-size: 1.3rem;
+    }
+    
+    .subtitle-char {
+        font-size: 1.3rem;
+    }
+    
+    .subtitle .subtitle-char:nth-child(1) { animation-delay: 0.8s; }
+    .subtitle .subtitle-char:nth-child(2) { animation-delay: 0.9s; }
+    .subtitle .subtitle-char:nth-child(3) { animation-delay: 1.0s; }
+    .subtitle .subtitle-char:nth-child(4) { animation-delay: 1.1s; }
+    .subtitle .subtitle-char:nth-child(5) { animation-delay: 1.2s; }
+    .subtitle .subtitle-char:nth-child(6) { animation-delay: 1.3s; }
+    .subtitle .subtitle-char:nth-child(7) { animation-delay: 1.4s; }
+    .subtitle .subtitle-char:nth-child(8) { animation-delay: 1.5s; }
+    .subtitle .subtitle-char:nth-child(9) { animation-delay: 1.6s; }
+    .subtitle .subtitle-char:nth-child(10) { animation-delay: 1.7s; }
+    .subtitle .subtitle-char:nth-child(11) { animation-delay: 1.8s; }
+    .subtitle .subtitle-char:nth-child(12) { animation-delay: 1.9s; }
+    .subtitle .subtitle-char:nth-child(13) { animation-delay: 2.0s; }
+    .subtitle .subtitle-char:nth-child(14) { animation-delay: 2.1s; }
+    .subtitle .subtitle-char:nth-child(15) { animation-delay: 2.2s; }
+    .subtitle .subtitle-char:nth-child(16) { animation-delay: 2.3s; }
+    .subtitle .subtitle-char:nth-child(17) { animation-delay: 2.4s; }
+    .subtitle .subtitle-char:nth-child(18) { animation-delay: 2.5s; }
+    .subtitle .subtitle-char:nth-child(19) { animation-delay: 2.6s; }
+
+}
+
+.box-father{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    background-color: #efefef6c;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.box{
+    position: relative;
+    display: flex;
+}
+.box .box-item{
+    position: absolute;
+    top:calc(50% - 150px);
+    left:calc(50% - 100px);
+    background-color: transparent;
+    width:200px;
+    height: fit-content;
+    transition: 0.25s;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+    user-select: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5em;
+    font-family: consolas;
+    font-weight: 800;
+    opacity: 0;
+}
+/* 为图片添加样式以消除白边 */
+.box .box-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* 保持图片比例并填充容器 */
+    display: block; /* 消除图片下方的空白 */
+    border-radius: inherit;
+}
+
+.box .box-item:nth-child(1){
+    transform: translate3d(-250px,0,0)  scale(0.8);
+    opacity: 1;
+    z-index: 1;
+    background-color: #d8d8d800;
+}
+.box .box-item:nth-child(2){
+    transform: translate3d(-250px,0,0)  scale(0.8);
+    opacity: 1;
+    z-index: 2;
+    background-color: #d8d8d800;
+}
+.box .box-item:nth-child(3){
+    transform: translate3d(-150px,0,0)  scale(0.9);
+    opacity: 1;
+    z-index: 3;
+    background-color: #d8d8d800;
+    font-size: 6em;
+}
+.box .box-item:nth-child(4){
+    transform: translate3d(0px,0,0)  scale(1);
+    opacity: 1;
+    z-index: 4;
+    background-color: #d8d8d800;
+    font-size: 8em;
+}
+.box .box-item:nth-child(5){
+    transform: translate3d(150px,0,0)  scale(0.9);
+    opacity: 1;
+    z-index: 3;
+    background-color:   #d8d8d800;
+    font-size: 6em;
+}
+.box .box-item:nth-child(6){
+    transform: translate3d(250px,0,0)  scale(0.8);
+    opacity: 1;
+    z-index: 2;
+    background-color:   #d8d8d800;
+}
+.box .box-item:nth-child(7){
+    transform: translate3d(250px,0,0)  scale(0.8);
+    opacity: 1;
+    z-index: 1;
+    background-color: #d8d8d800;
+}
+

@@ -1,0 +1,54 @@
+>> 作者在开始捣鼓这个个人网站的时候才大一刚开学第二周，并没有学习前端，web等知识，在网上苦苦寻找教程，依葫芦画瓢地折腾着，导致网站并不完善，这也加重了作者急切想要学习的心情
+>> 等后续作者学习了相关知识，会好好地整理这个网站。 -2025.9.15 13:24
+>
+>> 好吧，说是等后续学习了相关知识再修理我的网站，但是还是非常心急，
+>> 学习学累了就来我的网站修修补补，没学过的就去查一下，搞不定的就ai,
+>> 过程虽然挺头疼的，但是每次实现一个新功能就会感觉非常开心 -2025.9.30 23:29
+>
+>> 太好了兄弟们，我今天为了解决某些插件可能由于与nodejs版本不兼容的问题，安装了nvm来管理不同版本，结果没有删干净原来的版本，造成了版本冲突......
+>> hexo一下就没了 ，重删重装了好几次，搞了好久，才把node,npm,hexo都搞回来，结果发现utterance的评论莫名其妙跑不起来，这时候真的太崩溃了，又搞了一段时间，决定放弃utterance，
+>> 现在用的是twikoo，更好用，原来一定要有GitHub账号才能评论，对我的亲朋好友极其的不友好，现在不需要了，只需要拿你qq邮箱，还自动关联你头像。
+>> 等我搞个图床，还能发表情包和图片，耶！！！受伤的心灵一下就好了，嘻嘻... -2025.10.07
+
+这是公告淘汰的内容
+      <font color=green>想持续关注网站内容的人可以关注我的公众号哦！！！<br>我会在公众号公告我的网站更新内容<br>↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓</font>
+      <img src="https://blog.ayeez.cn/imgs/infoOfMe/gongzhonghao.jpg" title="关注我的公众号！持续公告网站更新内容！" width="200" height="200">
+
+
+
+      @keyframes rollAcrossScreen {
+          from {
+            right: -100%;
+          }
+          to {
+            right: 20vw;
+          }
+        }
+
+        # butterfly主页动画
+wowjs:
+  enable: true #控制动画开关。true是打开，false是关闭
+  priority: 10 #过滤器优先级
+  mobile: true #移动端是否启用，默认移动端禁用
+  animateitem:
+    - class: recent-post-item #必填项，需要添加动画的元素的class
+      style: animate__zoomIn #必填项，需要添加的动画
+      duration: 1500ms #选填项，动画持续时间，单位可以是ms也可以是s。例如3s，700ms。
+      delay: 0ms #选填项，动画开始的延迟时间，单位可以是ms也可以是s。例如3s，700ms。
+      offset: 0 #选填项，开始动画的距离（相对浏览器底部）
+      iteration: 1 #选填项，动画重复的次数
+    - class: card-widget
+      style: animate__zoomIn
+      duration: 1500ms #选填项，动画持续时间，单位可以是ms也可以是s。例如3s，700ms。
+      delay: 0ms #选填项，动画开始的延迟时间，单位可以是ms也可以是s。例如3s，700ms。
+      offset: 0 #选填项，开始动画的距离（相对浏览器底部）
+      iteration: 1 #选填项，动画重复的次数
+    - class: container
+      style: animate__zoomIn
+      duration: 1500ms #选填项，动画持续时间，单位可以是ms也可以是s。例如3s，700ms。
+      delay: 0ms #选填项，动画开始的延迟时间，单位可以是ms也可以是s。例如3s，700ms。
+      offset: 0 #选填项，开始动画的距离（相对浏览器底部）
+      iteration: 1 #选填项，动画重复的次数
+  animate_css: https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/animate.min.css
+  wow_js: https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/wow.min.js
+  wow_init_js: https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/wow_init.js
