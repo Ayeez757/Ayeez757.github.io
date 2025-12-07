@@ -15,8 +15,41 @@
     <atom:link href="https://blog.ayeez.cn/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Sun, 30 Nov 2025 10:42:00 GMT</pubDate>
+    <pubDate>Sun, 07 Dec 2025 13:45:00 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>大一软工第十四周学习总结</title>
+      <link>https://blog.ayeez.cn/posts/f05155ea/</link>
+      <guid>https://blog.ayeez.cn/posts/f05155ea/</guid>
+      <pubDate>Sun, 07 Dec 2025 13:45:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot;</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/">学习</category>
+      
+      <category domain="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E4%B9%A0%E5%8E%86%E7%A8%8B/">计算机学习历程</category>
+      
+      
+      <category domain="https://blog.ayeez.cn/tags/%E5%AD%A6%E4%B9%A0/">学习</category>
+      
+      <category domain="https://blog.ayeez.cn/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E4%B9%A0%E5%8E%86%E7%A8%8B/">计算机学习历程</category>
+      
+      <category domain="https://blog.ayeez.cn/tags/%E5%8D%9A%E5%AE%A2/">博客</category>
+      
+      
+      <comments>https://blog.ayeez.cn/posts/f05155ea/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>大一软工第十三周学习总结</title>
@@ -672,39 +705,6 @@
       
       
       <comments>https://blog.ayeez.cn/posts/9a547b27/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>大一软工第八周学习总结</title>
-      <link>https://blog.ayeez.cn/posts/f44c9ac/</link>
-      <guid>https://blog.ayeez.cn/posts/f44c9ac/</guid>
-      <pubDate>Sat, 25 Oct 2025 12:10:00 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot;</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/">学习</category>
-      
-      <category domain="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E4%B9%A0%E5%8E%86%E7%A8%8B/">计算机学习历程</category>
-      
-      
-      <category domain="https://blog.ayeez.cn/tags/%E5%AD%A6%E4%B9%A0/">学习</category>
-      
-      <category domain="https://blog.ayeez.cn/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E4%B9%A0%E5%8E%86%E7%A8%8B/">计算机学习历程</category>
-      
-      <category domain="https://blog.ayeez.cn/tags/%E5%8D%9A%E5%AE%A2/">博客</category>
-      
-      
-      <comments>https://blog.ayeez.cn/posts/f44c9ac/#disqus_thread</comments>
       
     </item>
     
