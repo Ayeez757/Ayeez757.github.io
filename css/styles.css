@@ -204,3 +204,32 @@ div#archive {
   white-space: nowrap; /* 防止换行 */
 }
 
+.footer-custom-text .footer-beian {
+  text-align: center;
+  margin-top: 10px;
+  
+}
+
+.footer-beian a {
+  color: var(--font-color);
+  text-decoration: none;
+}
+
+.footer-beian a:hover {
+  text-decoration: underline;
+}
+
+#footer a{
+    z-index: 9999999;
+}
+
+.footer-beian {
+  position: relative;
+  z-index: 9999;
+  pointer-events: auto !important;
+}
+
+.footer-beian a {
+  pointer-events: auto !important;
+  display: inline-block;
+}
