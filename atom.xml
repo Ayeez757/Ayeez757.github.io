@@ -6,7 +6,7 @@
   <link href="https://blog.ayeez.cn/atom.xml" rel="self"/>
   
   <link href="https://blog.ayeez.cn/"/>
-  <updated>2026-01-01T14:54:37.221Z</updated>
+  <updated>2026-01-01T14:58:00.000Z</updated>
   <id>https://blog.ayeez.cn/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
-    <link href="https://blog.ayeez.cn/posts/0/"/>
-    <id>https://blog.ayeez.cn/posts/0/</id>
-    <published>2025-12-31T16:00:00.000Z</published>
-    <updated>2026-01-01T14:54:37.221Z</updated>
+    <title>软工大一上学期总结以及后续规划！！！</title>
+    <link href="https://blog.ayeez.cn/posts/fca60ea0/"/>
+    <id>https://blog.ayeez.cn/posts/fca60ea0/</id>
+    <published>2026-01-01T14:58:00.000Z</published>
+    <updated>2026-01-01T14:58:00.000Z</updated>
     
     
       
@@ -34,6 +34,12 @@
     
     
     
+    <category term="学习" scheme="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="计算机学习历程" scheme="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E4%B9%A0%E5%8E%86%E7%A8%8B/"/>
+    
+    
+    <category term="学习" scheme="https://blog.ayeez.cn/tags/%E5%AD%A6%E4%B9%A0/"/>
     
     <category term="计算机学习历程" scheme="https://blog.ayeez.cn/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E4%B9%A0%E5%8E%86%E7%A8%8B/"/>
     
@@ -506,11 +512,11 @@
     
     <category term="笔记" scheme="https://blog.ayeez.cn/tags/%E7%AC%94%E8%AE%B0/"/>
     
-    <category term="炒股" scheme="https://blog.ayeez.cn/tags/%E7%82%92%E8%82%A1/"/>
+    <category term="股票投资学习" scheme="https://blog.ayeez.cn/tags/%E8%82%A1%E7%A5%A8%E6%8A%95%E8%B5%84%E5%AD%A6%E4%B9%A0/"/>
     
     <category term="投资" scheme="https://blog.ayeez.cn/tags/%E6%8A%95%E8%B5%84/"/>
     
-    <category term="股票投资学习" scheme="https://blog.ayeez.cn/tags/%E8%82%A1%E7%A5%A8%E6%8A%95%E8%B5%84%E5%AD%A6%E4%B9%A0/"/>
+    <category term="炒股" scheme="https://blog.ayeez.cn/tags/%E7%82%92%E8%82%A1/"/>
     
     <category term="价值投资" scheme="https://blog.ayeez.cn/tags/%E4%BB%B7%E5%80%BC%E6%8A%95%E8%B5%84/"/>
     
