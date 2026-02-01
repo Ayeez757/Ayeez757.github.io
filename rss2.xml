@@ -15,8 +15,41 @@
     <atom:link href="https://blog.ayeez.cn/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Thu, 01 Jan 2026 14:58:00 GMT</pubDate>
+    <pubDate>Sun, 01 Feb 2026 06:28:00 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Linux命令笔记</title>
+      <link>https://blog.ayeez.cn/posts/f8586b35/</link>
+      <guid>https://blog.ayeez.cn/posts/f8586b35/</guid>
+      <pubDate>Sun, 01 Feb 2026 06:28:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot;</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/">学习</category>
+      
+      <category domain="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/Linux/">Linux</category>
+      
+      
+      <category domain="https://blog.ayeez.cn/tags/%E7%AC%94%E8%AE%B0/">笔记</category>
+      
+      <category domain="https://blog.ayeez.cn/tags/%E5%AD%A6%E4%B9%A0/">学习</category>
+      
+      <category domain="https://blog.ayeez.cn/tags/Linux/">Linux</category>
+      
+      
+      <comments>https://blog.ayeez.cn/posts/f8586b35/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>软工大一上学期总结以及后续规划！！！</title>
@@ -374,11 +407,11 @@
       
       <category domain="https://blog.ayeez.cn/tags/%E9%9A%8F%E8%AE%B0/">随记</category>
       
+      <category domain="https://blog.ayeez.cn/tags/%E6%96%87%E7%AB%A0/">文章</category>
+      
       <category domain="https://blog.ayeez.cn/tags/%E5%9B%A2%E5%BB%BA/">团建</category>
       
       <category domain="https://blog.ayeez.cn/tags/%E8%B7%91%E6%AD%A5/">跑步</category>
-      
-      <category domain="https://blog.ayeez.cn/tags/%E6%96%87%E7%AB%A0/">文章</category>
       
       
       <comments>https://blog.ayeez.cn/posts/7571fc47/#disqus_thread</comments>
@@ -413,9 +446,9 @@
       
       <category domain="https://blog.ayeez.cn/tags/%E5%AD%A6%E4%B9%A0/">学习</category>
       
-      <category domain="https://blog.ayeez.cn/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/">数据结构与算法</category>
-      
       <category domain="https://blog.ayeez.cn/tags/java/">java</category>
+      
+      <category domain="https://blog.ayeez.cn/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/">数据结构与算法</category>
       
       
       <comments>https://blog.ayeez.cn/posts/9d29ac89/#disqus_thread</comments>
@@ -664,43 +697,6 @@
       
       
       <comments>https://blog.ayeez.cn/posts/45e3e8be/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>快速排序</title>
-      <link>https://blog.ayeez.cn/posts/ff8068c0/</link>
-      <guid>https://blog.ayeez.cn/posts/ff8068c0/</guid>
-      <pubDate>Sun, 26 Oct 2025 07:26:00 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot;</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/">学习</category>
-      
-      <category domain="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/">数据结构与算法</category>
-      
-      <category domain="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E7%AC%94%E8%AE%B0%E4%B8%8E%E9%A2%98%E8%A7%A3/">笔记与题解</category>
-      
-      
-      <category domain="https://blog.ayeez.cn/tags/%E7%AC%94%E8%AE%B0/">笔记</category>
-      
-      <category domain="https://blog.ayeez.cn/tags/%E5%AD%A6%E4%B9%A0/">学习</category>
-      
-      <category domain="https://blog.ayeez.cn/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/">数据结构与算法</category>
-      
-      <category domain="https://blog.ayeez.cn/tags/java/">java</category>
-      
-      
-      <comments>https://blog.ayeez.cn/posts/ff8068c0/#disqus_thread</comments>
       
     </item>
     

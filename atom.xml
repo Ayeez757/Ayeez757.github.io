@@ -6,7 +6,7 @@
   <link href="https://blog.ayeez.cn/atom.xml" rel="self"/>
   
   <link href="https://blog.ayeez.cn/"/>
-  <updated>2026-01-01T14:58:00.000Z</updated>
+  <updated>2026-02-01T06:28:00.000Z</updated>
   <id>https://blog.ayeez.cn/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Linux命令笔记</title>
+    <link href="https://blog.ayeez.cn/posts/f8586b35/"/>
+    <id>https://blog.ayeez.cn/posts/f8586b35/</id>
+    <published>2026-02-01T06:28:00.000Z</published>
+    <updated>2026-02-01T06:28:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="学习" scheme="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="Linux" scheme="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/Linux/"/>
+    
+    
+    <category term="笔记" scheme="https://blog.ayeez.cn/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="学习" scheme="https://blog.ayeez.cn/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="Linux" scheme="https://blog.ayeez.cn/tags/Linux/"/>
+    
+  </entry>
   
   <entry>
     <title>软工大一上学期总结以及后续规划！！！</title>
@@ -353,11 +384,11 @@
     
     <category term="随记" scheme="https://blog.ayeez.cn/tags/%E9%9A%8F%E8%AE%B0/"/>
     
+    <category term="文章" scheme="https://blog.ayeez.cn/tags/%E6%96%87%E7%AB%A0/"/>
+    
     <category term="团建" scheme="https://blog.ayeez.cn/tags/%E5%9B%A2%E5%BB%BA/"/>
     
     <category term="跑步" scheme="https://blog.ayeez.cn/tags/%E8%B7%91%E6%AD%A5/"/>
-    
-    <category term="文章" scheme="https://blog.ayeez.cn/tags/%E6%96%87%E7%AB%A0/"/>
     
   </entry>
   
@@ -390,9 +421,9 @@
     
     <category term="学习" scheme="https://blog.ayeez.cn/tags/%E5%AD%A6%E4%B9%A0/"/>
     
-    <category term="数据结构与算法" scheme="https://blog.ayeez.cn/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
-    
     <category term="java" scheme="https://blog.ayeez.cn/tags/java/"/>
+    
+    <category term="数据结构与算法" scheme="https://blog.ayeez.cn/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
     
   </entry>
   
@@ -624,41 +655,6 @@
     <category term="千束" scheme="https://blog.ayeez.cn/tags/%E5%8D%83%E6%9D%9F/"/>
     
     <category term="CAR" scheme="https://blog.ayeez.cn/tags/CAR/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>快速排序</title>
-    <link href="https://blog.ayeez.cn/posts/ff8068c0/"/>
-    <id>https://blog.ayeez.cn/posts/ff8068c0/</id>
-    <published>2025-10-26T07:26:00.000Z</published>
-    <updated>2025-10-26T07:26:00.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="学习" scheme="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/"/>
-    
-    <category term="数据结构与算法" scheme="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
-    
-    <category term="笔记与题解" scheme="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E7%AC%94%E8%AE%B0%E4%B8%8E%E9%A2%98%E8%A7%A3/"/>
-    
-    
-    <category term="笔记" scheme="https://blog.ayeez.cn/tags/%E7%AC%94%E8%AE%B0/"/>
-    
-    <category term="学习" scheme="https://blog.ayeez.cn/tags/%E5%AD%A6%E4%B9%A0/"/>
-    
-    <category term="数据结构与算法" scheme="https://blog.ayeez.cn/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
-    
-    <category term="java" scheme="https://blog.ayeez.cn/tags/java/"/>
     
   </entry>
   
