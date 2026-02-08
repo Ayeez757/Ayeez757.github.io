@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.ayeez.cn/link/index.html</loc>
+    
+    <lastmod>2026-02-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.ayeez.cn/friend.json</loc>
     
     <lastmod>2026-02-08</lastmod>
@@ -129,15 +138,6 @@
   
   <url>
     <loc>https://blog.ayeez.cn/posts/b32f5289/</loc>
-    
-    <lastmod>2025-11-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ayeez.cn/link/index.html</loc>
     
     <lastmod>2025-11-10</lastmod>
     
@@ -470,7 +470,7 @@
   </url>
   
   <url>
-    <loc>https://blog.ayeez.cn/commentss/index.html</loc>
+    <loc>https://blog.ayeez.cn/comments/index.html</loc>
     
     <lastmod>2025-10-07</lastmod>
     
@@ -479,7 +479,7 @@
   </url>
   
   <url>
-    <loc>https://blog.ayeez.cn/comments/index.html</loc>
+    <loc>https://blog.ayeez.cn/commentss/index.html</loc>
     
     <lastmod>2025-10-07</lastmod>
     
@@ -635,14 +635,14 @@
   </url>
   
   <url>
-    <loc>https://blog.ayeez.cn/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/</loc>
+    <loc>https://blog.ayeez.cn/tags/%E9%A2%98%E8%A7%A3/</loc>
     <lastmod>2026-02-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.ayeez.cn/tags/%E9%A2%98%E8%A7%A3/</loc>
+    <loc>https://blog.ayeez.cn/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/</loc>
     <lastmod>2026-02-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -698,13 +698,6 @@
   </url>
   
   <url>
-    <loc>https://blog.ayeez.cn/tags/%E6%96%87%E7%AB%A0/</loc>
-    <lastmod>2026-02-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.ayeez.cn/tags/%E5%9B%A2%E5%BB%BA/</loc>
     <lastmod>2026-02-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -719,7 +712,7 @@
   </url>
   
   <url>
-    <loc>https://blog.ayeez.cn/tags/%E6%97%A5%E5%B8%B8/</loc>
+    <loc>https://blog.ayeez.cn/tags/%E6%96%87%E7%AB%A0/</loc>
     <lastmod>2026-02-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -727,6 +720,13 @@
   
   <url>
     <loc>https://blog.ayeez.cn/tags/cpp/</loc>
+    <lastmod>2026-02-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ayeez.cn/tags/%E6%97%A5%E5%B8%B8/</loc>
     <lastmod>2026-02-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -768,28 +768,7 @@
   </url>
   
   <url>
-    <loc>https://blog.ayeez.cn/tags/Linux/</loc>
-    <lastmod>2026-02-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.ayeez.cn/tags/Git/</loc>
-    <lastmod>2026-02-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ayeez.cn/tags/%E5%9F%BA%E7%A1%80%E4%BB%A3%E7%A0%81%E5%AD%A6%E4%B9%A0/</loc>
-    <lastmod>2026-02-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ayeez.cn/tags/python/</loc>
     <lastmod>2026-02-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -830,6 +809,27 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://blog.ayeez.cn/tags/Linux/</loc>
+    <lastmod>2026-02-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ayeez.cn/tags/%E5%9F%BA%E7%A1%80%E4%BB%A3%E7%A0%81%E5%AD%A6%E4%B9%A0/</loc>
+    <lastmod>2026-02-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ayeez.cn/tags/python/</loc>
+    <lastmod>2026-02-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
@@ -861,14 +861,14 @@
   </url>
   
   <url>
-    <loc>https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E7%AC%94%E8%AE%B0%E4%B8%8E%E9%A2%98%E8%A7%A3/</loc>
+    <loc>https://blog.ayeez.cn/categories/%E7%94%BB%E7%94%BB/</loc>
     <lastmod>2026-02-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.ayeez.cn/categories/%E7%94%BB%E7%94%BB/</loc>
+    <loc>https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E7%AC%94%E8%AE%B0%E4%B8%8E%E9%A2%98%E8%A7%A3/</loc>
     <lastmod>2026-02-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -903,21 +903,7 @@
   </url>
   
   <url>
-    <loc>https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/Linux/</loc>
-    <lastmod>2026-02-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/Git/</loc>
-    <lastmod>2026-02-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/python/</loc>
     <lastmod>2026-02-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -931,14 +917,14 @@
   </url>
   
   <url>
-    <loc>https://blog.ayeez.cn/categories/%E6%96%87%E7%AB%A0/%E9%9A%8F%E8%AE%B0/</loc>
+    <loc>https://blog.ayeez.cn/categories/%E6%96%87%E7%AB%A0/%E8%B7%91%E6%AD%A5/</loc>
     <lastmod>2026-02-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.ayeez.cn/categories/%E6%96%87%E7%AB%A0/%E8%B7%91%E6%AD%A5/</loc>
+    <loc>https://blog.ayeez.cn/categories/%E6%96%87%E7%AB%A0/%E9%9A%8F%E8%AE%B0/</loc>
     <lastmod>2026-02-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -960,6 +946,20 @@
   
   <url>
     <loc>https://blog.ayeez.cn/categories/%E6%96%87%E7%AB%A0/%E8%B7%91%E6%AD%A5/%E8%B7%91%E6%AD%A5%E5%8D%8F%E4%BC%9A/</loc>
+    <lastmod>2026-02-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/Linux/</loc>
+    <lastmod>2026-02-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/python/</loc>
     <lastmod>2026-02-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
