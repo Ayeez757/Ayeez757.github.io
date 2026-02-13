@@ -17,7 +17,7 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
+    <title>Obsidian+七牛云+PicGo配置教程，实现图片自动上传，分享笔记不再丢图</title>
     <link href="https://blog.ayeez.cn/posts/0/"/>
     <id>https://blog.ayeez.cn/posts/0/</id>
     <published>2026-02-13T07:56:00.000Z</published>
@@ -446,11 +446,11 @@
     
     <category term="随记" scheme="https://blog.ayeez.cn/tags/%E9%9A%8F%E8%AE%B0/"/>
     
-    <category term="文章" scheme="https://blog.ayeez.cn/tags/%E6%96%87%E7%AB%A0/"/>
-    
     <category term="团建" scheme="https://blog.ayeez.cn/tags/%E5%9B%A2%E5%BB%BA/"/>
     
     <category term="跑步" scheme="https://blog.ayeez.cn/tags/%E8%B7%91%E6%AD%A5/"/>
+    
+    <category term="文章" scheme="https://blog.ayeez.cn/tags/%E6%96%87%E7%AB%A0/"/>
     
   </entry>
   
@@ -483,9 +483,9 @@
     
     <category term="学习" scheme="https://blog.ayeez.cn/tags/%E5%AD%A6%E4%B9%A0/"/>
     
-    <category term="数据结构与算法" scheme="https://blog.ayeez.cn/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
-    
     <category term="java" scheme="https://blog.ayeez.cn/tags/java/"/>
+    
+    <category term="数据结构与算法" scheme="https://blog.ayeez.cn/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
     
   </entry>
   
@@ -605,11 +605,11 @@
     
     <category term="笔记" scheme="https://blog.ayeez.cn/tags/%E7%AC%94%E8%AE%B0/"/>
     
-    <category term="股票投资学习" scheme="https://blog.ayeez.cn/tags/%E8%82%A1%E7%A5%A8%E6%8A%95%E8%B5%84%E5%AD%A6%E4%B9%A0/"/>
+    <category term="炒股" scheme="https://blog.ayeez.cn/tags/%E7%82%92%E8%82%A1/"/>
     
     <category term="投资" scheme="https://blog.ayeez.cn/tags/%E6%8A%95%E8%B5%84/"/>
     
-    <category term="炒股" scheme="https://blog.ayeez.cn/tags/%E7%82%92%E8%82%A1/"/>
+    <category term="股票投资学习" scheme="https://blog.ayeez.cn/tags/%E8%82%A1%E7%A5%A8%E6%8A%95%E8%B5%84%E5%AD%A6%E4%B9%A0/"/>
     
     <category term="价值投资" scheme="https://blog.ayeez.cn/tags/%E4%BB%B7%E5%80%BC%E6%8A%95%E8%B5%84/"/>
     
