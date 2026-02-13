@@ -18,8 +18,8 @@
   
   <entry>
     <title>Obsidian+七牛云+PicGo配置教程，实现图片自动上传，分享笔记不再丢图</title>
-    <link href="https://blog.ayeez.cn/posts/0/"/>
-    <id>https://blog.ayeez.cn/posts/0/</id>
+    <link href="https://blog.ayeez.cn/posts/f50487ff/"/>
+    <id>https://blog.ayeez.cn/posts/f50487ff/</id>
     <published>2026-02-13T07:56:00.000Z</published>
     <updated>2026-02-13T07:56:00.000Z</updated>
     
@@ -446,11 +446,11 @@
     
     <category term="随记" scheme="https://blog.ayeez.cn/tags/%E9%9A%8F%E8%AE%B0/"/>
     
-    <category term="文章" scheme="https://blog.ayeez.cn/tags/%E6%96%87%E7%AB%A0/"/>
-    
     <category term="团建" scheme="https://blog.ayeez.cn/tags/%E5%9B%A2%E5%BB%BA/"/>
     
     <category term="跑步" scheme="https://blog.ayeez.cn/tags/%E8%B7%91%E6%AD%A5/"/>
+    
+    <category term="文章" scheme="https://blog.ayeez.cn/tags/%E6%96%87%E7%AB%A0/"/>
     
   </entry>
   
