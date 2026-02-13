@@ -15,8 +15,37 @@
     <atom:link href="https://blog.ayeez.cn/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Thu, 12 Feb 2026 10:48:00 GMT</pubDate>
+    <pubDate>Fri, 13 Feb 2026 07:56:00 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title></title>
+      <link>https://blog.ayeez.cn/posts/0/</link>
+      <guid>https://blog.ayeez.cn/posts/0/</guid>
+      <pubDate>Fri, 13 Feb 2026 07:56:00 GMT</pubDate>
+      
+      <description>Obsidian分享笔记图片全裂？七牛云+PicGo+Image Auto Upload，搭建个人图床，粘贴即上传，图片自动转在线链接，发博客、发文件永不丢图。</description>
+      
+      
+      
+      
+      <category domain="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/">学习</category>
+      
+      <category domain="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/%E5%8D%9A%E5%AE%A2/">博客</category>
+      
+      
+      <category domain="https://blog.ayeez.cn/tags/%E7%AC%94%E8%AE%B0/">笔记</category>
+      
+      <category domain="https://blog.ayeez.cn/tags/%E5%8D%9A%E5%AE%A2/">博客</category>
+      
+      <category domain="https://blog.ayeez.cn/tags/%E5%9B%BE%E5%BA%8A/">图床</category>
+      
+      <category domain="https://blog.ayeez.cn/tags/%E4%B8%83%E7%89%9B%E4%BA%91/">七牛云</category>
+      
+      
+      <comments>https://blog.ayeez.cn/posts/0/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>Redis基础笔记</title>
@@ -613,11 +642,11 @@
       
       <category domain="https://blog.ayeez.cn/tags/%E7%AC%94%E8%AE%B0/">笔记</category>
       
-      <category domain="https://blog.ayeez.cn/tags/%E7%82%92%E8%82%A1/">炒股</category>
+      <category domain="https://blog.ayeez.cn/tags/%E8%82%A1%E7%A5%A8%E6%8A%95%E8%B5%84%E5%AD%A6%E4%B9%A0/">股票投资学习</category>
       
       <category domain="https://blog.ayeez.cn/tags/%E6%8A%95%E8%B5%84/">投资</category>
       
-      <category domain="https://blog.ayeez.cn/tags/%E8%82%A1%E7%A5%A8%E6%8A%95%E8%B5%84%E5%AD%A6%E4%B9%A0/">股票投资学习</category>
+      <category domain="https://blog.ayeez.cn/tags/%E7%82%92%E8%82%A1/">炒股</category>
       
       <category domain="https://blog.ayeez.cn/tags/%E4%BB%B7%E5%80%BC%E6%8A%95%E8%B5%84/">价值投资</category>
       
@@ -660,41 +689,6 @@
       
       
       <comments>https://blog.ayeez.cn/posts/3241cf21/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>Java常用api————Arrays</title>
-      <link>https://blog.ayeez.cn/posts/0/</link>
-      <guid>https://blog.ayeez.cn/posts/0/</guid>
-      <pubDate>Mon, 27 Oct 2025 13:37:00 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot;</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/">学习</category>
-      
-      <category domain="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/java/">java</category>
-      
-      <category domain="https://blog.ayeez.cn/categories/%E5%AD%A6%E4%B9%A0/java/%E7%AC%94%E8%AE%B0/">笔记</category>
-      
-      
-      <category domain="https://blog.ayeez.cn/tags/%E7%AC%94%E8%AE%B0/">笔记</category>
-      
-      <category domain="https://blog.ayeez.cn/tags/%E5%AD%A6%E4%B9%A0/">学习</category>
-      
-      <category domain="https://blog.ayeez.cn/tags/java/">java</category>
-      
-      
-      <comments>https://blog.ayeez.cn/posts/0/#disqus_thread</comments>
       
     </item>
     
